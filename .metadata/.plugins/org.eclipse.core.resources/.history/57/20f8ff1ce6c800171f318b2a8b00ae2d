@@ -1,0 +1,20 @@
+/*
+ * Smalltalk_Brit.cpp
+ *
+ *  Created on: Nov 9, 2017
+ *      Author: waida
+ */
+#include "includes/Smalltalk_Brit.h"
+#include "includes/constants.h"
+	Smalltalk_Brit::Smalltalk_Brit(int iPerson):Smalltalk::Smalltalk(BRIT,iPerson){
+
+	}
+	Smalltalk_Brit::~Smalltalk_Brit(void){
+		if(pWatch)
+			delete pWatch;
+	}
+	void Smalltalk_Brit::populatePhrases(){
+		mySmallTalk.push_back("BRIT "+ saySomething());
+	}
+
+

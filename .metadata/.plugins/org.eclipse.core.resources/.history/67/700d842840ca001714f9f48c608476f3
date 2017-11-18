@@ -1,0 +1,42 @@
+// smalltalk_VirtualAbstractVector.cpp : Defines the entry point for the console application.
+//
+#include <iostream>
+#include <vector>
+#include <memory>
+#include "../../327_Proj4_Lib/includes/Smalltalk.h"
+#include "../../327_Proj4_Lib/includes/Functions.h"
+
+using namespace std;
+
+void demo(){
+	int numEachGroup = 2;
+		int numwatches = 2;
+
+		std::vector<std::unique_ptr<Smalltalk> > myv1 = getPeople(numEachGroup,
+				numEachGroup, numEachGroup, numwatches);
+		int cntr = 0;
+		for (int i = 0; i < myv1.size(); i++) {
+			std::cout << myv1[i]->saySomething() << endl;
+			std::cout << myv1[i]->getTime() << endl;
+		}
+}
+int main() {
+	demo();
+
+//the above call produces the following console output
+	
+//	BRIT 0:Im a bit knackered mate
+//	BRIT 0:The time is: 27 minutes after1
+//	BRIT 1:Im a bit knackered mate
+//	BRIT 1:The time is: 27 minutes after1
+//	AMERICAN 0:Why yes, I would like to supersize that
+//	AMERICAN 0:I do not have a watch
+//	AMERICAN 1:Why yes, I would like to supersize that
+//	AMERICAN 1:I do not have a watch
+//	AMERICAN_DONUT_ENTHUSIEST 0:Dunkin Donuts is a horrendous, disappointing compromise
+//	AMERICAN_DONUT_ENTHUSIEST 0:I do not have a watch
+//	AMERICAN_DONUT_ENTHUSIEST 1:Dunkin Donuts is a horrendous, disappointing compromise
+//	AMERICAN_DONUT_ENTHUSIEST 1:I do not have a watch
+
+	
+}

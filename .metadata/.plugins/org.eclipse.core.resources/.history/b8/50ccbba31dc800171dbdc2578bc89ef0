@@ -1,0 +1,18 @@
+/*
+ * ST_American_DonutEnthusiest.cpp
+ *
+ *  Created on: Nov 9, 2017
+ *      Author: waida
+ */
+#include "includes/ST_American_DonutEnthusiest.h"
+
+	ST_American_DonutEnthusiest::ST_American_DonutEnthusiest(int iPerson):Smalltalk_American::Smalltalk_American(ST_American_DonutEnthusiest,iPerson){
+
+	}
+	ST_American_DonutEnthusiest:: ~ST_American_DonutEnthusiest(void){
+
+	}
+	void ST_American_DonutEnthusiest:: populatePhrases(){
+
+	}
+
