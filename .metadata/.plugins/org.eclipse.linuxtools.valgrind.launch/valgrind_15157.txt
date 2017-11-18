@@ -1,0 +1,13 @@
+==15157== Use of uninitialised value of size 8
+==15157==    at 0x4F5A860: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15157==    by 0x405DDE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (/usr/include/c++/5/bits/basic_string.h:4850)
+==15157==    by 0x404D6F: Smalltalk::saySomething[abi:cxx11]() (/home/waida/workspace/327_Proj4_Lib/Debug/../Smalltalk.cpp:28)
+==15157==    by 0x401B6A: demo() (/home/waida/workspace/327_Proj4/Debug/../src/327_Proj4.cpp:25)
+==15157==    by 0x401CC8: main (/home/waida/workspace/327_Proj4/Debug/../src/327_Proj4.cpp:33)
+==15157== 
+==15157== 16 bytes in 2 blocks are definitely lost in loss record 1 of 2
+==15157==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15157==    by 0x402308: getPeople(int, int, int, int) (/home/waida/workspace/327_Proj4_Lib/Debug/../Functions.cpp:44)
+==15157==    by 0x401B0B: demo() (/home/waida/workspace/327_Proj4/Debug/../src/327_Proj4.cpp:23)
+==15157==    by 0x401CC8: main (/home/waida/workspace/327_Proj4/Debug/../src/327_Proj4.cpp:33)
+==15157== 

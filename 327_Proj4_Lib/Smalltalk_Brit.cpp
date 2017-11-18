@@ -7,7 +7,7 @@
 #include "includes/Smalltalk_Brit.h"
 #include "includes/constants.h"
 	Smalltalk_Brit::Smalltalk_Brit(int iPerson):Smalltalk::Smalltalk(BRIT,iPerson){
-
+		Smalltalk_Brit::populatePhrases();
 	}
 	Smalltalk_Brit::~Smalltalk_Brit(void){
 		if(pWatch)

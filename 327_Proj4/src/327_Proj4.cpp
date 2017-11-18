@@ -2,11 +2,9 @@
 //
 #include <iostream>
 #include <vector>
-#include <memory>
 #include "../../327_Proj4_Lib/includes/Smalltalk.h"
 #include "../../327_Proj4_Lib/includes/Functions.h"
 
-using namespace std;
 //TODO make sure you have the right number of watches
 
 //TODO make sure you consider the case where you have more watches than people
@@ -23,10 +21,12 @@ void demo(){
 
 		std::vector<std::unique_ptr<Smalltalk> > myv1 = getPeople(numEachGroup,
 				numEachGroup, numEachGroup, numwatches);
-		int cntr = 0;
 		for (int i = 0; i < myv1.size(); i++) {
-			std::cout << myv1[i]->saySomething() << endl;
-			std::cout << myv1[i]->getTime() << endl;
+			std::cout << myv1[i]->saySomething() << std::endl;
+			std::cout << myv1[i]->getTime() << std::endl;
+		}
+		for(int i = 0; i< myv1.size();i++){
+			myv1[i]->takeWatch();
 		}
 }
 int main() {

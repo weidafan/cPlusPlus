@@ -41,13 +41,13 @@ endif
 all: 327_Proj4
 
 dependents:
-	-cd /home/waida/workspace/c++/327_Proj4_Lib/Debug && $(MAKE) all
+	-cd /home/waida/workspace/327_Proj4_Lib/Debug && $(MAKE) all
 
 # Tool invocations
-327_Proj4: $(OBJS) $(USER_OBJS) /home/waida/workspace/c++/327_Proj4_Lib/Debug/lib327_Proj4_Lib.a
+327_Proj4: $(OBJS) $(USER_OBJS) /home/waida/workspace/327_Proj4_Lib/Debug/lib327_Proj4_Lib.a
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++ -L"/home/waida/workspace/c++/327_Proj4_Lib/Debug" -o "327_Proj4" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -58,6 +58,6 @@ clean:
 
 .PHONY: all clean dependents
 .SECONDARY:
-/home/waida/workspace/c++/327_Proj4_Lib/Debug/lib327_Proj4_Lib.a:
+/home/waida/workspace/327_Proj4_Lib/Debug/lib327_Proj4_Lib.a:
 
 -include ../makefile.targets

@@ -9,10 +9,10 @@
 
 ST_American_DonutEnthusiest::ST_American_DonutEnthusiest(int iPerson) :
 		Smalltalk_American::Smalltalk_American(AMERICAN_DE, iPerson) {
-
+	ST_American_DonutEnthusiest::populatePhrases();
 }
 ST_American_DonutEnthusiest::~ST_American_DonutEnthusiest(void) {
-	if(pWatch)
+	if (pWatch)
 		delete pWatch;
 }
 void ST_American_DonutEnthusiest::populatePhrases() {

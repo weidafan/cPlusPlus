@@ -3577,3 +3577,1980 @@ make: Nothing to be done for 'all'.
 11:24:05 **** Incremental Build of configuration Debug for project 327_Proj4 ****
 make all 
 make: Nothing to be done for 'all'.
+19:35:24 **** Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:24 **** Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:24 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:25 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:25 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:25 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:41 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:41 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:20 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+19:37:21 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+19:37:22 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:22 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:23 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:23 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:35 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:36 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:36 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:36 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:36 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:37 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:06:30 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+20:06:32 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+20:06:33 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+20:10:41 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+20:10:45 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+20:10:46 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+20:13:54 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+20:13:56 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+20:13:57 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:13:57 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:13:57 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:13:58 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:04 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+20:14:05 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+20:14:05 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:05 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:06 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:06 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:43 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:43 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:44 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:44 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:44 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:44 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:53 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:53 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:54 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:54 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:55 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:55 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:37:00 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+20:37:01 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+20:37:02 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:37:02 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:37:03 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:37:03 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:08 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:08 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building file: ../src/327_Proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
+../src/327_Proj4.cpp: In function ‘void demo()’:
+../src/327_Proj4.cpp:27:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < myv1.size(); i++) {
+                     ^
+../src/327_Proj4.cpp:31:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i< myv1.size();i++){
+                   ^
+../src/327_Proj4.cpp:26:7: warning: unused variable ‘cntr’ [-Wunused-variable]
+   int cntr = 0;
+       ^
+Finished building: ../src/327_Proj4.cpp
+ 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+20:43:09 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:09 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:10 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:10 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:49 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:27:26: error: expected ‘;’ before ‘iPerson’
+  return nationality +" " iPerson + ":"+ mySmallTalk[current_phrase];
+                          ^
+make: *** [Smalltalk.o] Error 1
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+20:43:49 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:50 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:50 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:50 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:51 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:12 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:27:32: error: expected ‘;’ before ‘iPerson’
+  return this->nationality +" " iPerson + ":"+ mySmallTalk[current_phrase];
+                                ^
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+make: *** [Smalltalk.o] Error 1
+20:44:13 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:13 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:13 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:13 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:14 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:08 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:27:26: error: expected ‘;’ before ‘to_string’
+  return nationality +" " to_string(iPerson)  + ":"+ mySmallTalk[current_phrase];
+                          ^
+make: *** [Smalltalk.o] Error 1
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+20:48:09 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:10 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:10 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:10 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:10 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:48 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+20:48:49 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+20:48:50 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:50 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:50 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:50 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:12 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:27:5: error: expected primary-expression before ‘)’ token
+  if()
+     ^
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::getTime()’:
+../Smalltalk.cpp:34:22: error: no match for ‘operator+’ (operand types are ‘const string {aka const std::__cxx11::basic_string<char>}’ and ‘int’)
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                      ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/string:40,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/stl_iterator.h:334:5: note: candidate: template<class _Iterator> std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)
+     operator+(typename reverse_iterator<_Iterator>::difference_type __n,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:334:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   mismatched types ‘const std::reverse_iterator<_Iterator>’ and ‘int’
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/string:40,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/stl_iterator.h:1152:5: note: candidate: template<class _Iterator> std::move_iterator<_Iterator> std::operator+(typename std::move_iterator<_Iterator>::difference_type, const std::move_iterator<_Iterator>&)
+     operator+(typename move_iterator<_Iterator>::difference_type __n,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:1152:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   mismatched types ‘const std::move_iterator<_Iterator>’ and ‘int’
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4783:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4783:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/string:53:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.tcc:1151:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(const _CharT* __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.tcc:1151:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   mismatched types ‘const _CharT*’ and ‘std::__cxx11::basic_string<char>’
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/string:53:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.tcc:1167:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+     ^
+/usr/include/c++/5/bits/basic_string.tcc:1167:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4820:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4820:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   mismatched types ‘const _CharT*’ and ‘int’
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4836:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+     ^
+/usr/include/c++/5/bits/basic_string.h:4836:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   deduced conflicting types for parameter ‘_CharT’ (‘char’ and ‘int’)
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4848:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4848:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘const string {aka const std::__cxx11::basic_string<char>}’ have incompatible cv-qualifiers
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4854:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+/usr/include/c++/5/bits/basic_string.h:4854:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4860:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4860:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘const string {aka const std::__cxx11::basic_string<char>}’ have incompatible cv-qualifiers
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4872:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(const _CharT* __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4872:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   mismatched types ‘const _CharT*’ and ‘std::__cxx11::basic_string<char>’
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4878:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(_CharT __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4878:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4884:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _CharT*)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4884:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘const string {aka const std::__cxx11::basic_string<char>}’ have incompatible cv-qualifiers
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4890:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, _CharT)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4890:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘const string {aka const std::__cxx11::basic_string<char>}’ have incompatible cv-qualifiers
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+In file included from /usr/include/c++/5/vector:65:0,
+                 from ../includes/Smalltalk.h:3,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/stl_bvector.h:297:3: note: candidate: std::_Bit_iterator std::operator+(std::ptrdiff_t, const std::_Bit_iterator&)
+   operator+(ptrdiff_t __n, const _Bit_iterator& __x)
+   ^
+/usr/include/c++/5/bits/stl_bvector.h:297:3: note:   no known conversion for argument 1 from ‘const string {aka const std::__cxx11::basic_string<char>}’ to ‘std::ptrdiff_t {aka long int}’
+/usr/include/c++/5/bits/stl_bvector.h:387:3: note: candidate: std::_Bit_const_iterator std::operator+(std::ptrdiff_t, const std::_Bit_const_iterator&)
+   operator+(ptrdiff_t __n, const _Bit_const_iterator& __x)
+   ^
+/usr/include/c++/5/bits/stl_bvector.h:387:3: note:   no known conversion for argument 1 from ‘const string {aka const std::__cxx11::basic_string<char>}’ to ‘std::ptrdiff_t {aka long int}’
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/string:40,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/stl_iterator.h:930:5: note: candidate: template<class _Iterator, class _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::operator+(typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator+(typename __normal_iterator<_Iterator, _Container>::difference_type
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:930:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:34:24: note:   mismatched types ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’ and ‘int’
+   return nationality + iPerson + I_DO_NOT_HAVE_A_WATCH;
+                        ^
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Smalltalk.o] Error 1
+20:50:12 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:13 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:13 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:13 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:14 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:47 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:27:5: error: expected primary-expression before ‘)’ token
+  if()
+     ^
+../Smalltalk.cpp:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Smalltalk.o] Error 1
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+20:50:48 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:48 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:48 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:48 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:49 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:51:46 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:27:5: error: expected primary-expression before ‘)’ token
+  if()
+     ^
+../Smalltalk.cpp: In member function ‘Watch* Smalltalk::takeWatch()’:
+../Smalltalk.cpp:44:51: error: no match for ‘operator+’ (operand types are ‘std::__cxx11::basic_string<char>’ and ‘Watch*’)
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                   ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/string:40,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/stl_iterator.h:334:5: note: candidate: template<class _Iterator> std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)
+     operator+(typename reverse_iterator<_Iterator>::difference_type __n,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:334:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   mismatched types ‘const std::reverse_iterator<_Iterator>’ and ‘Watch*’
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/string:40,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/stl_iterator.h:1152:5: note: candidate: template<class _Iterator> std::move_iterator<_Iterator> std::operator+(typename std::move_iterator<_Iterator>::difference_type, const std::move_iterator<_Iterator>&)
+     operator+(typename move_iterator<_Iterator>::difference_type __n,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:1152:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   mismatched types ‘const std::move_iterator<_Iterator>’ and ‘Watch*’
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4783:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4783:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘Watch*’
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/string:53:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.tcc:1151:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(const _CharT* __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.tcc:1151:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   mismatched types ‘const _CharT*’ and ‘std::__cxx11::basic_string<char>’
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/string:53:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.tcc:1167:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+     ^
+/usr/include/c++/5/bits/basic_string.tcc:1167:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘Watch*’
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4820:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4820:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   deduced conflicting types for parameter ‘const _CharT’ (‘char’ and ‘Watch’)
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4836:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+     ^
+/usr/include/c++/5/bits/basic_string.h:4836:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   deduced conflicting types for parameter ‘_CharT’ (‘char’ and ‘Watch*’)
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4848:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4848:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘Watch*’
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4854:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4854:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘Watch*’
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4860:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4860:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘Watch*’
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4872:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(const _CharT* __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4872:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   mismatched types ‘const _CharT*’ and ‘std::__cxx11::basic_string<char>’
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4878:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(_CharT __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4878:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘Watch*’
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4884:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _CharT*)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4884:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   deduced conflicting types for parameter ‘const _CharT’ (‘char’ and ‘Watch’)
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:4890:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, _CharT)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4890:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   deduced conflicting types for parameter ‘_CharT’ (‘char’ and ‘Watch*’)
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+In file included from /usr/include/c++/5/vector:65:0,
+                 from ../includes/Smalltalk.h:3,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/stl_bvector.h:297:3: note: candidate: std::_Bit_iterator std::operator+(std::ptrdiff_t, const std::_Bit_iterator&)
+   operator+(ptrdiff_t __n, const _Bit_iterator& __x)
+   ^
+/usr/include/c++/5/bits/stl_bvector.h:297:3: note:   no known conversion for argument 1 from ‘std::__cxx11::basic_string<char>’ to ‘std::ptrdiff_t {aka long int}’
+/usr/include/c++/5/bits/stl_bvector.h:387:3: note: candidate: std::_Bit_const_iterator std::operator+(std::ptrdiff_t, const std::_Bit_const_iterator&)
+   operator+(ptrdiff_t __n, const _Bit_const_iterator& __x)
+   ^
+/usr/include/c++/5/bits/stl_bvector.h:387:3: note:   no known conversion for argument 1 from ‘std::__cxx11::basic_string<char>’ to ‘std::ptrdiff_t {aka long int}’
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/string:40,
+                 from ../includes/Smalltalk.h:2,
+                 from ../Smalltalk.cpp:7:
+/usr/include/c++/5/bits/stl_iterator.h:930:5: note: candidate: template<class _Iterator, class _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::operator+(typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator+(typename __normal_iterator<_Iterator, _Container>::difference_type
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:930:5: note:   template argument deduction/substitution failed:
+../Smalltalk.cpp:44:53: note:   mismatched types ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’ and ‘Watch*’
+  return nationality +" "+ to_string(iPerson) +":" + pWatch;
+                                                     ^
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Smalltalk.o] Error 1
+20:51:47 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:51:47 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:51:47 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:51:48 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:51:48 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:59:22 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:27:5: error: expected primary-expression before ‘)’ token
+  if()
+     ^
+../Smalltalk.cpp:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+make: *** [Smalltalk.o] Error 1
+20:59:23 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:59:23 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:59:23 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:59:23 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:59:24 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:59:45 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:27:5: error: expected primary-expression before ‘)’ token
+  if()
+     ^
+../Smalltalk.cpp:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Smalltalk.o] Error 1
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+20:59:45 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:59:45 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:59:46 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:59:46 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:59:46 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:22 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:00:23 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:00:23 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:23 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:23 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:24 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:32 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:32 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:55 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:01:56 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:01:56 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:56 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:57 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:57 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:02:44 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:02:45 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:02:46 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:02:46 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:02:46 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:02:46 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:02:50 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:02:50 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:12 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:13 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:13 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:13 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:14 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:14 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:16 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:17 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:11:03 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:11:03 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:27:33 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In constructor ‘Smalltalk::Smalltalk(std::__cxx11::string, int)’:
+../Smalltalk.cpp:16:18: warning: pure virtual ‘virtual void Smalltalk::populatePhrases()’ called from constructor
+  populatePhrases();
+                  ^
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:27:35 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+/home/waida/workspace/327_Proj4_Lib/Debug/lib327_Proj4_Lib.a(Smalltalk.o): In function `Smalltalk::Smalltalk(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)':
+/home/waida/workspace/327_Proj4_Lib/Debug/../Smalltalk.cpp:16: undefined reference to `Smalltalk::populatePhrases()'
+collect2: error: ld returned 1 exit status
+makefile:48: recipe for target '327_Proj4' failed
+make: *** [327_Proj4] Error 1
+21:27:35 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:27:35 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:27:36 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:27:36 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:27:51 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:27:52 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+/home/waida/workspace/327_Proj4_Lib/Debug/lib327_Proj4_Lib.a(Smalltalk.o): In function `Smalltalk::Smalltalk(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)':
+/home/waida/workspace/327_Proj4_Lib/Debug/../Smalltalk.cpp:16: undefined reference to `Smalltalk::populatePhrases()'
+collect2: error: ld returned 1 exit status
+make: *** [327_Proj4] Error 1
+makefile:48: recipe for target '327_Proj4' failed
+21:27:53 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:27:53 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:27:53 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:27:54 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:28 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp:60:1: error: expected declaration before ‘}’ token
+ }
+ ^
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+make: *** [Smalltalk.o] Error 1
+21:29:28 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+/usr/bin/ld: cannot find -l327_Proj4_Lib
+collect2: error: ld returned 1 exit status
+make: *** [327_Proj4] Error 1
+makefile:48: recipe for target '327_Proj4' failed
+21:29:29 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:29 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:29 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:30 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:50 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:29:51 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:29:51 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:51 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:52 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:52 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:57 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:57 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:04 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:04 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:20 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:20 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:20 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:20 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:21 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:21 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:25 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:25 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:31:53 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:31:53 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:32:19 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:32:20 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:34:16 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In constructor ‘Smalltalk::Smalltalk(std::__cxx11::string, int)’:
+../Smalltalk.cpp:16:18: warning: pure virtual ‘virtual void Smalltalk::populatePhrases()’ called from constructor
+  populatePhrases();
+                  ^
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:34:17 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:34:17 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:34:18 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:34:18 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:34:18 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:39:45 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../ST_American_DonutEnthusiest.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ST_American_DonutEnthusiest.d" -MT"ST_American_DonutEnthusiest.o" -o "ST_American_DonutEnthusiest.o" "../ST_American_DonutEnthusiest.cpp"
+Finished building: ../ST_American_DonutEnthusiest.cpp
+ 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building file: ../Smalltalk_American.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk_American.d" -MT"Smalltalk_American.o" -o "Smalltalk_American.o" "../Smalltalk_American.cpp"
+Finished building: ../Smalltalk_American.cpp
+ 
+Building file: ../Smalltalk_Brit.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk_Brit.d" -MT"Smalltalk_Brit.o" -o "Smalltalk_Brit.o" "../Smalltalk_Brit.cpp"
+Finished building: ../Smalltalk_Brit.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:39:46 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:39:46 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:39:47 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:39:47 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:39:47 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:39:53 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:39:53 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:41:06 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:41:06 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building file: ../src/327_Proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
+../src/327_Proj4.cpp: In function ‘void demo()’:
+../src/327_Proj4.cpp:27:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < myv1.size(); i++) {
+                     ^
+../src/327_Proj4.cpp:31:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i< myv1.size();i++){
+                   ^
+../src/327_Proj4.cpp:26:7: warning: unused variable ‘cntr’ [-Wunused-variable]
+   int cntr = 0;
+       ^
+Finished building: ../src/327_Proj4.cpp
+ 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:42:19 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:19 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building file: ../src/327_Proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
+../src/327_Proj4.cpp: In function ‘void demo()’:
+../src/327_Proj4.cpp:27:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < myv1.size(); i++) {
+                     ^
+../src/327_Proj4.cpp:31:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i< myv1.size();i++){
+                   ^
+../src/327_Proj4.cpp:26:7: warning: unused variable ‘cntr’ [-Wunused-variable]
+   int cntr = 0;
+       ^
+Finished building: ../src/327_Proj4.cpp
+ 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:42:20 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:20 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:20 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:20 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:55 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:55 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:38 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:44:38 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:44:39 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:39 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:39 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:40 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:56 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:57 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:45:33 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:45:34 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building file: ../src/327_Proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
+../src/327_Proj4.cpp: In function ‘void demo()’:
+../src/327_Proj4.cpp:27:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < myv1.size(); i++) {
+                     ^
+../src/327_Proj4.cpp:31:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i< myv1.size();i++){
+                   ^
+../src/327_Proj4.cpp:26:7: warning: unused variable ‘cntr’ [-Wunused-variable]
+   int cntr = 0;
+       ^
+Finished building: ../src/327_Proj4.cpp
+ 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:45:35 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:45:35 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:45:35 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:45:35 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:50:10 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:50:10 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:50:29 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:50:30 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:50:52 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:50:52 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:50:52 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:53:37 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:53:38 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building file: ../src/327_Proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
+../src/327_Proj4.cpp: In function ‘void demo()’:
+../src/327_Proj4.cpp:26:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < myv1.size(); i++) {
+                     ^
+../src/327_Proj4.cpp:30:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i< myv1.size();i++){
+                   ^
+../src/327_Proj4.cpp:25:7: warning: unused variable ‘cntr’ [-Wunused-variable]
+   int cntr = 0;
+       ^
+Finished building: ../src/327_Proj4.cpp
+ 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:53:39 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:53:39 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:53:39 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:53:40 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:54:25 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:54:26 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building file: ../src/327_Proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
+../src/327_Proj4.cpp: In function ‘void demo()’:
+../src/327_Proj4.cpp:25:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < myv1.size(); i++) {
+                     ^
+../src/327_Proj4.cpp:26:44: error: ‘endl’ was not declared in this scope
+    std::cout << myv1[i]->saySomething() << endl;
+                                            ^
+../src/327_Proj4.cpp:26:44: note: suggested alternative:
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../src/327_Proj4.cpp:3:
+/usr/include/c++/5/ostream:590:5: note:   ‘std::endl’
+     endl(basic_ostream<_CharT, _Traits>& __os)
+     ^
+../src/327_Proj4.cpp:29:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i< myv1.size();i++){
+                   ^
+../src/327_Proj4.cpp:24:7: warning: unused variable ‘cntr’ [-Wunused-variable]
+   int cntr = 0;
+       ^
+make: *** [src/327_Proj4.o] Error 1
+src/subdir.mk:18: recipe for target 'src/327_Proj4.o' failed
+21:54:26 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:54:26 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:54:27 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:54:27 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:54:47 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:54:47 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building file: ../src/327_Proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
+../src/327_Proj4.cpp: In function ‘void demo()’:
+../src/327_Proj4.cpp:26:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < myv1.size(); i++) {
+                     ^
+../src/327_Proj4.cpp:30:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i< myv1.size();i++){
+                   ^
+../src/327_Proj4.cpp:25:7: warning: unused variable ‘cntr’ [-Wunused-variable]
+   int cntr = 0;
+       ^
+Finished building: ../src/327_Proj4.cpp
+ 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:54:48 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:54:48 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:54:49 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:54:49 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:31 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:32 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building file: ../src/327_Proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
+../src/327_Proj4.cpp: In function ‘void demo()’:
+../src/327_Proj4.cpp:26:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < myv1.size(); i++) {
+                     ^
+../src/327_Proj4.cpp:30:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i< myv1.size();i++){
+                   ^
+../src/327_Proj4.cpp:25:7: warning: unused variable ‘cntr’ [-Wunused-variable]
+   int cntr = 0;
+       ^
+Finished building: ../src/327_Proj4.cpp
+ 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:55:33 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:33 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:33 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:33 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:45 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:46 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building file: ../src/327_Proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
+../src/327_Proj4.cpp: In function ‘void demo()’:
+../src/327_Proj4.cpp:25:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < myv1.size(); i++) {
+                     ^
+../src/327_Proj4.cpp:29:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i< myv1.size();i++){
+                   ^
+Finished building: ../src/327_Proj4.cpp
+ 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:55:47 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:47 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:47 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:47 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:56:42 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:56:43 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:56:43 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:56:43 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:56:44 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:56:44 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:57:22 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:57:23 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:57:23 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:57:23 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:57:23 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:57:24 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+21:57:43 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:57:43 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+21:57:43 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:58:46 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:58:47 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:58:48 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:59:21 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
+Finished building: ../Functions.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+21:59:22 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+21:59:22 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:59:22 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:59:23 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:59:23 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+22:00:29 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+22:00:30 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+22:00:30 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+22:00:30 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+22:00:30 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+22:00:31 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+22:00:58 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+22:00:58 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+22:00:59 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+22:01:38 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+22:01:38 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building file: ../src/327_Proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
+../src/327_Proj4.cpp: In function ‘void demo()’:
+../src/327_Proj4.cpp:24:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < myv1.size(); i++) {
+                     ^
+../src/327_Proj4.cpp:28:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i< myv1.size();i++){
+                   ^
+Finished building: ../src/327_Proj4.cpp
+ 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+22:01:39 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+22:01:39 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+22:01:40 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+22:01:40 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+22:02:08 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+22:02:08 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+22:02:08 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+22:03:46 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+22:03:47 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+22:03:47 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+22:03:47 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+22:03:48 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+22:03:48 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+22:10:51 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+22:10:51 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+22:10:51 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+22:10:51 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+22:10:52 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+22:10:52 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.

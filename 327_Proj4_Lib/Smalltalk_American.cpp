@@ -8,7 +8,7 @@
 #include "includes/constants.h"
 	//use base class call to set Nationality (See constants for Nationality strings)
 	Smalltalk_American::Smalltalk_American(int iPerson):Smalltalk::Smalltalk(AMERICAN,iPerson){
-
+		Smalltalk_American::populatePhrases();
 	}
 	Smalltalk_American::Smalltalk_American(std::string myNationality,int iPerson):Smalltalk::Smalltalk(myNationality,iPerson){
 

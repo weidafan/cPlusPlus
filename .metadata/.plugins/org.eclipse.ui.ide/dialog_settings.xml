@@ -12,6 +12,10 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/waida/workspace/327_Proj4_Lib"/>
+			<item value="/home/waida/workspace/327_Proj4"/>
+			<item value="/home/waida/workspace/c++/327_Proj4_Lib"/>
+			<item value="/home/waida/workspace/c++/327_Proj4"/>
 			<item value="/home/waida/c++/327_Proj4_Lib"/>
 			<item value="/home/waida/c++/327_Proj4"/>
 			<item value="/home/waida/workspace/pointers_new_objects"/>
@@ -22,5 +26,13 @@
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
 		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="306" key="DIALOG_X_ORIGIN"/>
+		<item value="174" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
