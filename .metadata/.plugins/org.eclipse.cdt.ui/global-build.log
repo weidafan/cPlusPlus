@@ -5554,3 +5554,504 @@ make: Nothing to be done for 'all'.
 22:10:52 **** Incremental Build of configuration Debug for project pointers_new_objects ****
 make all 
 make: Nothing to be done for 'all'.
+19:23:01 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+19:23:05 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+19:23:06 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+19:23:07 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+19:23:07 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+19:23:08 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+19:23:14 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+19:23:14 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:37 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:28:19: error: ‘swith’ was not declared in this scope
+  swith(nationality)
+                   ^
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+make: *** [Smalltalk.o] Error 1
+19:33:38 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:38 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:39 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:39 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:39 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:43 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:28:19: error: ‘swith’ was not declared in this scope
+  swith(nationality)
+                   ^
+make: *** [Smalltalk.o] Error 1
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+19:33:44 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:44 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:44 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:44 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:45 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:56 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:28:19: error: ‘swith’ was not declared in this scope
+  swith(nationality)
+                   ^
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+make: *** [Smalltalk.o] Error 1
+19:33:57 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:57 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:57 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:57 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:58 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:59 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:28:20: error: switch quantity not an integer
+  switch(nationality)
+                    ^
+../Smalltalk.cpp:30:8: error: the value of ‘BRIT’ is not usable in a constant expression
+   case BRIT:
+        ^
+In file included from ../Smalltalk.cpp:10:0:
+../includes/constants.h:16:19: note: ‘BRIT’ was not declared ‘constexpr’
+ const std::string BRIT = "BRIT";
+                   ^
+../Smalltalk.cpp:30:8: error: could not convert ‘BRIT’ from ‘const string {aka const std::__cxx11::basic_string<char>}’ to ‘<type error>’
+   case BRIT:
+        ^
+../Smalltalk.cpp:34:8: error: ‘AEMRICAN’ was not declared in this scope
+   case AEMRICAN:
+        ^
+../Smalltalk.cpp:38:8: error: the value of ‘AMERICAN_DE’ is not usable in a constant expression
+   case AMERICAN_DE:
+        ^
+In file included from ../Smalltalk.cpp:10:0:
+../includes/constants.h:15:19: note: ‘AMERICAN_DE’ was not declared ‘constexpr’
+ const std::string AMERICAN_DE = "AMERICAN_DONUT_ENTHUSIEST";
+                   ^
+../Smalltalk.cpp:38:8: error: could not convert ‘AMERICAN_DE’ from ‘const string {aka const std::__cxx11::basic_string<char>}’ to ‘<type error>’
+   case AMERICAN_DE:
+        ^
+make: *** [Smalltalk.o] Error 1
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+19:35:59 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+19:36:00 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+19:36:00 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+19:36:00 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+19:36:00 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+19:41:59 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:28:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(iPerson > mySmallTalk.size())
+             ^
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+19:42:00 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+19:42:00 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:01 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:01 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:01 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:11 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:11 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:58 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:59 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building file: ../src/327_Proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
+../src/327_Proj4.cpp: In function ‘void demo()’:
+../src/327_Proj4.cpp:24:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < myv1.size(); i++) {
+                     ^
+../src/327_Proj4.cpp:28:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i< myv1.size();i++){
+                   ^
+Finished building: ../src/327_Proj4.cpp
+ 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+19:44:30 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+19:44:30 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building file: ../src/327_Proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
+../src/327_Proj4.cpp: In function ‘void demo()’:
+../src/327_Proj4.cpp:24:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < myv1.size(); i++) {
+                     ^
+../src/327_Proj4.cpp:28:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i< myv1.size();i++){
+                   ^
+Finished building: ../src/327_Proj4.cpp
+ 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+19:52:25 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:25 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:38 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:39 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:06:41 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:28:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(iPerson > mySmallTalk.size())
+             ^
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+20:06:42 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+20:12:50 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:28:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(iPerson > mySmallTalk.size())
+             ^
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+20:12:51 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+20:28:19 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+20:28:19 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+20:28:20 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:28:20 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:28:20 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:28:21 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:28:36 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+20:28:36 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:28:57 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+20:28:58 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:01 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:01 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:03 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:04 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:04 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:04 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:05 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:05 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:09 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:09 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:31:39 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+20:31:40 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+20:33:30 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:31:31: error: ‘class std::vector<std::__cxx11::basic_string<char> >’ has no member named ‘seze’
+     + mySmallTalk[mySmallTalk.seze()];
+                               ^
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+make: *** [Smalltalk.o] Error 1
+20:33:30 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:10 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+../Smalltalk.cpp: In member function ‘std::__cxx11::string Smalltalk::saySomething()’:
+../Smalltalk.cpp:31:31: error: ‘class std::vector<std::__cxx11::basic_string<char> >’ has no member named ‘seze’
+     + mySmallTalk[mySmallTalk.seze()-1];
+                               ^
+make: *** [Smalltalk.o] Error 1
+subdir.mk:33: recipe for target 'Smalltalk.o' failed
+20:34:10 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:10 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:11 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:11 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:11 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:20 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+Building file: ../Smalltalk.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
+Finished building: ../Smalltalk.cpp
+ 
+Building target: lib327_Proj4_Lib.a
+Invoking: GCC Archiver
+ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
+ar: creating lib327_Proj4_Lib.a
+Finished building target: lib327_Proj4_Lib.a
+ 
+20:34:21 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+Building target: 327_Proj4
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
+Finished building target: 327_Proj4
+ 
+20:34:21 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:22 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:22 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:22 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:26 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:26 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:35 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:36 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:36 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:36 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:36 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:37 **** Incremental Build of configuration Debug for project pointers_new_objects ****
+make all 
+make: Nothing to be done for 'all'.

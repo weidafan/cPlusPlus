@@ -16,8 +16,8 @@
 
 
 void demo(){
-	int numEachGroup = 2;
-		int numwatches = 2;
+	int numEachGroup = 10;
+		int numwatches = 3;
 
 		std::vector<std::unique_ptr<Smalltalk> > myv1 = getPeople(numEachGroup,
 				numEachGroup, numEachGroup, numwatches);

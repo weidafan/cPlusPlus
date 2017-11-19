@@ -11,29 +11,36 @@
 using namespace std;
 //derived class will set Nationality, iPerson. iPerson is just a counter used to distinguish objects of the same type
 Smalltalk::Smalltalk(std::string myNationality, int iPerson) :
-	nationality(myNationality),iPerson(iPerson),pWatch(0) {
-	current_phrase++;
+		nationality(myNationality), iPerson(iPerson), pWatch(0) {
+	current_phrase = iPerson;
 	Smalltalk::populatePhrases();
 }
 //if pWatch !=0 then be sure to delete the pointer
 Smalltalk::~Smalltalk(void) {
 	if (pWatch)
-		delete [] pWatch;
+		delete[] pWatch;
 }
 //cycles through and returns phrases created in populatePhrases
 //takes the form Nationality iPerson: phrase
 //for instance the following string comes from an American instance, the 10th iPerson and it is printing AMERICAN_PHRASE_2
 //AMERICAN 10:Why yes, I would like to supersize that
 std::string Smalltalk::saySomething() {
-	return nationality +" "+ to_string(iPerson-1)	 + ":"+ mySmallTalk[current_phrase];
+	current_phrase = iPerson % mySmallTalk.size();
+	if (current_phrase == 0)
+		return nationality + " " + to_string(iPerson - 1) + ":"
+				+ mySmallTalk[mySmallTalk.size()-1];
+	return nationality + " " + to_string(iPerson - 1) + ":"
+			+ mySmallTalk[current_phrase - 1];
 
 }
 //returns the time or I_DO_NOT_HAVE_A_WATCH string
 std::string Smalltalk::getTime() {
 	if (!pWatch) {
-		return nationality +" "+ to_string(iPerson-1) +":" + I_DO_NOT_HAVE_A_WATCH;
+		return nationality + " " + to_string(iPerson - 1) + ":"
+				+ I_DO_NOT_HAVE_A_WATCH;
 	} else {
-		return nationality +" "+ to_string(iPerson-1) +":" + pWatch->getTime();
+		return nationality + " " + to_string(iPerson - 1) + ":"
+				+ pWatch->getTime();
 	}
 }
 //if this object has a watch it is taken away,
@@ -53,8 +60,7 @@ bool Smalltalk::giveWatch(Watch *pWatch) {
 		return true;
 	}
 }
-void Smalltalk::populatePhrases(){
+void Smalltalk::populatePhrases() {
 
 }
-
 
