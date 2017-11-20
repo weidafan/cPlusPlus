@@ -8,6 +8,8 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="// smalltalk_VirtualAbstractVector.cpp : Defines the entry point for the console application."/>
+			<item value="/*"/>
 			<item value="TS_FIRST_NONCE"/>
 			<item value="3"/>
 		</list>

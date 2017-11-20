@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="188" key="DIALOG_X_ORIGIN"/>
-		<item value="10" key="DIALOG_Y_ORIGIN"/>
+		<item value="387" key="DIALOG_X_ORIGIN"/>
+		<item value="17" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="244" key="dialogHeight"/>
-		<item value="344" key="dialogWidth"/>
+		<item value="220" key="dialogHeight"/>
+		<item value="320" key="dialogWidth"/>
 		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.cdt.dsf.gdb.ui.preferences"/>
+			<item value="preferences"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.actions"/>
 		</list>
 		<list key="textArray">
+			<item value="gdb"/>
+			<item value="preference"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">

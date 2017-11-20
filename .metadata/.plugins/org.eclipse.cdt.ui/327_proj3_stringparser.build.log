@@ -1,6 +1,6 @@
-20:44:36 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+22:28:55 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
 make all 
 make: Nothing to be done for 'all'.
 
-20:44:36 Build Finished (took 172ms)
+22:28:55 Build Finished (took 166ms)
 
