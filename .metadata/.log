@@ -1072,3 +1072,28 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.core.jobs 2 2 2017-11-19 23:37:46.203
 !MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2017-11-20 14:51:47.172 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-11-20 15:01:07.410
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-11-20 15:01:07.461
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2017-11-20 15:01:07.473
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-11-20 15:01:07.565
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-11-20 15:01:07.565
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-11-20 15:01:07.566
+!MESSAGE Resource '/pointers_new_objects' is not open.
