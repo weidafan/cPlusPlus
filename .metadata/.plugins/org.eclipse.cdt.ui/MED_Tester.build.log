@@ -1,6 +1,6 @@
-17:53:49 **** Incremental Build of configuration Debug for project MED_Tester ****
+01:26:56 **** Incremental Build of configuration Debug for project MED_Tester ****
 make all 
 make: Nothing to be done for 'all'.
 
-17:53:49 Build Finished (took 246ms)
+01:26:56 Build Finished (took 227ms)
 

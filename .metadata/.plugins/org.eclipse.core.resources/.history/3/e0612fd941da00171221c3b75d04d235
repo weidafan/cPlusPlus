@@ -1,0 +1,45 @@
+#include "../includes/string_database.h"
+
+	String_Database::String_Database(void){
+
+	}
+	String_Database::~String_Database(void){
+
+	}
+	//if not seen yet then add myString to myStrings
+	//otherwise increment the count for myString
+	void String_Database::add(std::string &myString){
+		bool find = false;
+		for(String_Data s: myStrings){
+			if(s.data == myString){
+				s.useCount++;
+				find = true;
+				break;
+			}
+		}
+		if(!find)
+	}
+
+	//get number of times myString has been seen (or added with add)
+	int String_Database::getCount(std::string &myString){
+		return 0;
+	}
+
+	//clear the myStrings vector
+	void String_Database::clear(){
+
+	}
+
+	//load from datastore, returns
+	//false if myDataStore = 0
+	//otherwise returns myDataStore->load results
+	bool String_Database::load(DataStore  *myDataStore){
+		return false;
+	}
+
+	//save to datastore,returns
+	//false if myDataStore = 0
+	//otherwise returns myDataStore->save results
+	bool String_Database::save(DataStore *myDataStore){
+		return false;
+	}
