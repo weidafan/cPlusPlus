@@ -1,0 +1,17 @@
+/*
+ * testconstru.h
+ *
+ *  Created on: Dec 5, 2017
+ *      Author: waida
+ */
+
+#ifndef TESTCONSTRU_H_
+#define TESTCONSTRU_H_
+
+class test_constru {
+public:
+	test_constru();
+	virtual ~test_constru();
+};
+
+#endif /* TESTCONSTRU_H_ */

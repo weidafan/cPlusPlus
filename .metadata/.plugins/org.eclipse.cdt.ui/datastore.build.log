@@ -1,0 +1,18 @@
+17:53:48 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+Building file: ../src/data_store.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/final_project/crypto" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/data_store.d" -MT"src/data_store.o" -o "src/data_store.o" "../src/data_store.cpp"
+../src/data_store.cpp: In member function ‘bool DataStore::decrypt(std::__cxx11::string&)’:
+../src/data_store.cpp:21:25: error: void value not ignored as it ought to be
+   return myString.clear();
+                         ^
+../src/data_store.cpp: In member function ‘bool DataStore::encrypt(std::__cxx11::string&)’:
+../src/data_store.cpp:27:25: error: void value not ignored as it ought to be
+   return myString.clear();
+                         ^
+src/subdir.mk:24: recipe for target 'src/data_store.o' failed
+make: *** [src/data_store.o] Error 1
+
+17:53:49 Build Finished (took 477ms)
+

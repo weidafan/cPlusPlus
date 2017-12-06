@@ -1,0 +1,16 @@
+#include "../includes/data_store_file.h"
+	//pass in a crypto object and it will be used to en/decrypt data
+	//don't, and data stored in clear
+	DataStore_File::DataStore_File(std::string fileName, Crypto* crypto):DataStore::DataStore(crypto){
+
+	}
+
+	DataStore_File::~DataStore_File(void){
+
+	}
+
+	//force derived classes to implement load and store as appropriate
+	bool data_store_file::load(std::vector<String_Data> &myVector){
+
+	}
+	bool save(std::vector<String_Data> &myVector)=0;

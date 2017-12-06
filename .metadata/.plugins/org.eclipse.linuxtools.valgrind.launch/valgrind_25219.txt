@@ -1,0 +1,6 @@
+==25219== 24 bytes in 3 blocks are definitely lost in loss record 1 of 2
+==25219==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==25219==    by 0x4022FA: getPeople(int, int, int, int) (/home/waida/workspace/327_Proj4_Lib/Debug/../Functions.cpp:46)
+==25219==    by 0x401B0B: demo() (/home/waida/workspace/327_Proj4/Debug/../src/327_Proj4.cpp:44)
+==25219==    by 0x401CB9: main (/home/waida/workspace/327_Proj4/Debug/../src/327_Proj4.cpp:54)
+==25219== 

@@ -1,938 +1,132 @@
-22:29:45 **** Clean-only build of configuration Debug for project 327_Proj4_Lib ****
-make clean 
-rm -rf  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o  ./Functions.d ./ST_American_DonutEnthusiest.d ./Smalltalk.d ./Smalltalk_American.d ./Smalltalk_Brit.d ./Watch.d  lib327_Proj4_Lib.a
- 
-22:29:46 **** Clean-only build of configuration Debug for project 327_Proj4 ****
-make clean 
-rm -rf  ./src/327_Proj4.o  ./src/327_Proj4.d  327_Proj4
- 
-22:29:52 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+17:28:10 **** Incremental Build of configuration Debug for project Project2_Starter ****
 make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building file: ../ST_American_DonutEnthusiest.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ST_American_DonutEnthusiest.d" -MT"ST_American_DonutEnthusiest.o" -o "ST_American_DonutEnthusiest.o" "../ST_American_DonutEnthusiest.cpp"
-Finished building: ../ST_American_DonutEnthusiest.cpp
- 
-Building file: ../Smalltalk.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
-Finished building: ../Smalltalk.cpp
- 
-Building file: ../Smalltalk_American.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk_American.d" -MT"Smalltalk_American.o" -o "Smalltalk_American.o" "../Smalltalk_American.cpp"
-Finished building: ../Smalltalk_American.cpp
- 
-Building file: ../Smalltalk_Brit.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk_Brit.d" -MT"Smalltalk_Brit.o" -o "Smalltalk_Brit.o" "../Smalltalk_Brit.cpp"
-Finished building: ../Smalltalk_Brit.cpp
- 
-Building file: ../Watch.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Watch.d" -MT"Watch.o" -o "Watch.o" "../Watch.cpp"
-Finished building: ../Watch.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-22:29:54 **** Build of configuration Debug for project 327_Proj4 ****
+make: Nothing to be done for 'all'.
+17:30:15 **** Incremental Build of configuration Debug for project Project2_Starter ****
 make all 
-Building file: ../src/327_Proj4.cpp
+make: Nothing to be done for 'all'.
+17:30:16 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+17:30:16 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+make: Nothing to be done for 'all'.
+17:30:17 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+Building file: ../src/data_store.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-Finished building: ../src/327_Proj4.cpp
+g++ -std=c++0x -pthread -I"/home/waida/workspace/final_project/crypto" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/data_store.d" -MT"src/data_store.o" -o "src/data_store.o" "../src/data_store.cpp"
+../src/data_store.cpp: In member function ‘bool DataStore::decrypt(std::__cxx11::string&)’:
+../src/data_store.cpp:21:25: error: void value not ignored as it ought to be
+   return myString.clear();
+                         ^
+../src/data_store.cpp: In member function ‘bool DataStore::encrypt(std::__cxx11::string&)’:
+../src/data_store.cpp:27:25: error: void value not ignored as it ought to be
+   return myString.clear();
+                         ^
+make: *** [src/data_store.o] Error 1
+src/subdir.mk:24: recipe for target 'src/data_store.o' failed
+17:30:17 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+17:30:18 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+17:44:05 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+Building file: ../src/array_functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_functions.d" -MT"src/array_functions.o" -o "src/array_functions.o" "../src/array_functions.cpp"
+Finished building: ../src/array_functions.cpp
  
-Building target: 327_Proj4
+Building target: Project2_Starter.exe
 Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
+g++  -o "Project2_Starter.exe"  ./src/Project2.o ./src/array_functions.o ./src/utilities.o   
+Finished building target: Project2_Starter.exe
  
-22:31:08 **** Build of configuration Debug for project 327_Proj4_Lib ****
+17:44:07 **** Incremental Build of configuration Debug for project crypto ****
 make all 
 make: Nothing to be done for 'all'.
-22:31:08 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+17:44:07 **** Incremental Build of configuration Debug for project crypto_test ****
 make all 
 make: Nothing to be done for 'all'.
-22:31:20 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+17:44:08 **** Incremental Build of configuration Debug for project datastore ****
 make all 
-make: Nothing to be done for 'all'.
-22:31:21 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:31:36 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:31:36 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
+Building file: ../src/data_store.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-22:31:40 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+g++ -std=c++0x -pthread -I"/home/waida/workspace/final_project/crypto" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/data_store.d" -MT"src/data_store.o" -o "src/data_store.o" "../src/data_store.cpp"
+../src/data_store.cpp: In member function ‘bool DataStore::decrypt(std::__cxx11::string&)’:
+../src/data_store.cpp:21:25: error: void value not ignored as it ought to be
+   return myString.clear();
+                         ^
+../src/data_store.cpp: In member function ‘bool DataStore::encrypt(std::__cxx11::string&)’:
+../src/data_store.cpp:27:25: error: void value not ignored as it ought to be
+   return myString.clear();
+                         ^
+make: *** [src/data_store.o] Error 1
+src/subdir.mk:24: recipe for target 'src/data_store.o' failed
+17:44:08 **** Incremental Build of configuration Debug for project stringdatabase ****
 make all 
 make: Nothing to be done for 'all'.
-22:31:40 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+17:44:08 **** Incremental Build of configuration Debug for project MED_Tester ****
 make all 
 make: Nothing to be done for 'all'.
-22:32:01 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+17:48:29 **** Incremental Build of configuration Debug for project Project2_Starter ****
 make all 
 make: Nothing to be done for 'all'.
-22:32:02 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+17:48:29 **** Incremental Build of configuration Debug for project crypto ****
 make all 
-Building file: ../src/327_Proj4.cpp
+make: Nothing to be done for 'all'.
+17:48:30 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+make: Nothing to be done for 'all'.
+17:48:30 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+Building file: ../src/data_store.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-22:32:34 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
+g++ -std=c++0x -pthread -I"/home/waida/workspace/final_project/crypto" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/data_store.d" -MT"src/data_store.o" -o "src/data_store.o" "../src/data_store.cpp"
+../src/data_store.cpp: In member function ‘bool DataStore::decrypt(std::__cxx11::string&)’:
+../src/data_store.cpp:21:25: error: void value not ignored as it ought to be
+   return myString.clear();
+                         ^
+../src/data_store.cpp: In member function ‘bool DataStore::encrypt(std::__cxx11::string&)’:
+../src/data_store.cpp:27:25: error: void value not ignored as it ought to be
+   return myString.clear();
+                         ^
+src/subdir.mk:24: recipe for target 'src/data_store.o' failed
+make: *** [src/data_store.o] Error 1
+17:48:30 **** Incremental Build of configuration Debug for project stringdatabase ****
 make all 
 make: Nothing to be done for 'all'.
-22:32:34 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+17:48:31 **** Incremental Build of configuration Debug for project MED_Tester ****
 make all 
-Building file: ../src/327_Proj4.cpp
+make: Nothing to be done for 'all'.
+17:53:48 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+17:53:48 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+17:53:48 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+make: Nothing to be done for 'all'.
+17:53:48 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+Building file: ../src/data_store.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-22:32:49 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:32:49 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-../src/327_Proj4.cpp: In function ‘int main()’:
-../src/327_Proj4.cpp:55:6: warning: variable ‘real’ set but not used [-Wunused-but-set-variable]
-  int real = num_watch(2,3,3,4);
-      ^
-../src/327_Proj4.cpp:56:6: warning: variable ‘expect’ set but not used [-Wunused-but-set-variable]
-  int expect = 4;
-      ^
-../src/327_Proj4.cpp:63:10: warning: unused variable ‘watch’ [-Wunused-variable]
-  Watch * watch = new Watch();
-          ^
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-22:33:00 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:33:01 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:33:12 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:33:12 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:33:16 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:33:16 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:34:24 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:34:25 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-../src/327_Proj4.cpp: In function ‘int main()’:
-../src/327_Proj4.cpp:55:6: warning: variable ‘real’ set but not used [-Wunused-but-set-variable]
-  int real = num_watch(2,3,3,4);
-      ^
-../src/327_Proj4.cpp:56:6: warning: variable ‘expect’ set but not used [-Wunused-but-set-variable]
-  int expect = 4;
-      ^
-../src/327_Proj4.cpp:63:10: warning: unused variable ‘watch’ [-Wunused-variable]
-  Watch * watch = new Watch();
-          ^
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-22:34:28 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:34:28 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:34:31 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:34:31 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:34:45 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:34:45 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-22:34:48 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:34:48 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:34:53 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:34:53 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:35:39 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:35:39 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-22:35:52 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:35:53 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-22:35:58 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:35:58 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:36:07 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:36:07 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:36:51 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:36:51 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-../src/327_Proj4.cpp: In function ‘int main()’:
-../src/327_Proj4.cpp:55:6: warning: variable ‘real’ set but not used [-Wunused-but-set-variable]
-  int real = num_watch(2,3,3,4);
-      ^
-../src/327_Proj4.cpp:56:6: warning: variable ‘expect’ set but not used [-Wunused-but-set-variable]
-  int expect = 4;
-      ^
-../src/327_Proj4.cpp:63:10: warning: unused variable ‘watch’ [-Wunused-variable]
-  Watch * watch = new Watch();
-          ^
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-22:36:52 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:36:52 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:38:01 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:38:01 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-../src/327_Proj4.cpp: In function ‘int main()’:
-../src/327_Proj4.cpp:66:10: warning: unused variable ‘watch’ [-Wunused-variable]
-  Watch * watch = new Watch();
-          ^
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-22:38:21 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:38:21 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-../src/327_Proj4.cpp: In function ‘int main()’:
-../src/327_Proj4.cpp:66:10: warning: unused variable ‘watch’ [-Wunused-variable]
-  Watch * watch = new Watch();
-          ^
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-22:38:42 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:38:43 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:38:55 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:38:55 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:39:16 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:39:17 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:39:21 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:39:22 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:45:01 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:45:01 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-../src/327_Proj4.cpp: In function ‘int num_watch(int, int, int, int)’:
-../src/327_Proj4.cpp:18:12: error: expected primary-expression before ‘=’ token
-   watch =  = new Watch();
-            ^
-../src/327_Proj4.cpp: In function ‘int main()’:
-../src/327_Proj4.cpp:67:10: warning: unused variable ‘watch’ [-Wunused-variable]
-  Watch * watch = new Watch();
-          ^
-src/subdir.mk:18: recipe for target 'src/327_Proj4.o' failed
-make: *** [src/327_Proj4.o] Error 1
-22:45:10 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:45:11 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-../src/327_Proj4.cpp: In function ‘int main()’:
-../src/327_Proj4.cpp:67:10: warning: unused variable ‘watch’ [-Wunused-variable]
-  Watch * watch = new Watch();
-          ^
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-22:45:22 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:45:22 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:45:37 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:45:37 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:45:45 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:45:45 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:47:27 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:47:27 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:57:19 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:57:20 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-22:57:58 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-22:57:58 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-23:02:22 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:02:23 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:02:52 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:02:53 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-23:12:18 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:12:19 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-23:12:49 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:12:50 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-../src/327_Proj4.cpp: In function ‘int main()’:
-../src/327_Proj4.cpp:66:10: warning: unused variable ‘watch’ [-Wunused-variable]
-  Watch * watch = new Watch();
-          ^
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:13:50 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Smalltalk.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
-Finished building: ../Smalltalk.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:13:50 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:14:14 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:14:14 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-23:16:30 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:16:30 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-23:16:35 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:16:35 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-../src/327_Proj4.cpp: In function ‘int main()’:
-../src/327_Proj4.cpp:55:6: warning: variable ‘real’ set but not used [-Wunused-but-set-variable]
-  int real = num_watch(2,3,3,4);
-      ^
-../src/327_Proj4.cpp:56:6: warning: variable ‘expect’ set but not used [-Wunused-but-set-variable]
-  int expect = 4;
-      ^
-../src/327_Proj4.cpp:63:10: warning: unused variable ‘watch’ [-Wunused-variable]
-  Watch * watch = new Watch();
-          ^
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:17:11 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:17:12 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:17:12 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-23:18:16 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Smalltalk.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
-Finished building: ../Smalltalk.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:18:16 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Smalltalk.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
-Finished building: ../Smalltalk.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:18:17 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:21:15 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building file: ../Smalltalk.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
-Finished building: ../Smalltalk.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:21:16 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building file: ../Smalltalk.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
-Finished building: ../Smalltalk.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:21:17 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:22:32 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building file: ../Smalltalk.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
-Finished building: ../Smalltalk.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:22:33 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-../src/327_Proj4.cpp: In function ‘int main()’:
-../src/327_Proj4.cpp:55:30: error: ‘num_watch’ was not declared in this scope
-  int real = num_watch(2,3,3,4);
-                              ^
-../src/327_Proj4.cpp:63:10: warning: unused variable ‘watch’ [-Wunused-variable]
-  Watch * watch = new Watch();
-          ^
-make: *** [src/327_Proj4.o] Error 1
-src/subdir.mk:18: recipe for target 'src/327_Proj4.o' failed
-23:23:33 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:23:33 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:23:59 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:23:59 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building file: ../src/327_Proj4.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -I"/home/waida/workspace/327_Proj4_Lib" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/327_Proj4.d" -MT"src/327_Proj4.o" -o "src/327_Proj4.o" "../src/327_Proj4.cpp"
-Finished building: ../src/327_Proj4.cpp
- 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:24:07 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:24:07 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-23:24:50 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Smalltalk.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
-Finished building: ../Smalltalk.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:24:51 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:25:03 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:25:03 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-23:25:58 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building file: ../Smalltalk.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
-Finished building: ../Smalltalk.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:25:59 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:26:12 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:26:13 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:26:44 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building file: ../Smalltalk.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Smalltalk.d" -MT"Smalltalk.o" -o "Smalltalk.o" "../Smalltalk.cpp"
-Finished building: ../Smalltalk.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:26:45 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:26:51 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:26:51 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-23:27:07 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:27:08 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:27:08 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-23:29:22 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:29:23 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:29:36 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:29:36 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:29:53 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:29:53 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:29:54 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:30:07 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-Building file: ../Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functions.d" -MT"Functions.o" -o "Functions.o" "../Functions.cpp"
-Finished building: ../Functions.cpp
- 
-Building target: lib327_Proj4_Lib.a
-Invoking: GCC Archiver
-ar -r  "lib327_Proj4_Lib.a"  ./Functions.o ./ST_American_DonutEnthusiest.o ./Smalltalk.o ./Smalltalk_American.o ./Smalltalk_Brit.o ./Watch.o   
-ar: creating lib327_Proj4_Lib.a
-Finished building target: lib327_Proj4_Lib.a
- 
-23:30:07 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-Building target: 327_Proj4
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/327_Proj4_Lib/Debug" -o "327_Proj4"  ./src/327_Proj4.o   -l327_Proj4_Lib
-Finished building target: 327_Proj4
- 
-23:30:11 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:30:11 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-23:31:42 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-23:31:43 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-14:54:28 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-14:54:28 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-14:54:29 **** Incremental Build of configuration Debug for project 327_Proj4 ****
-make all 
-make: Nothing to be done for 'all'.
-15:01:07 **** Incremental Build of configuration Debug for project 327_Proj4_Lib ****
-make all 
-make: Nothing to be done for 'all'.
-15:01:07 **** Incremental Build of configuration Debug for project 327_Proj4 ****
+g++ -std=c++0x -pthread -I"/home/waida/workspace/final_project/crypto" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/data_store.d" -MT"src/data_store.o" -o "src/data_store.o" "../src/data_store.cpp"
+../src/data_store.cpp: In member function ‘bool DataStore::decrypt(std::__cxx11::string&)’:
+../src/data_store.cpp:21:25: error: void value not ignored as it ought to be
+   return myString.clear();
+                         ^
+../src/data_store.cpp: In member function ‘bool DataStore::encrypt(std::__cxx11::string&)’:
+../src/data_store.cpp:27:25: error: void value not ignored as it ought to be
+   return myString.clear();
+                         ^
+src/subdir.mk:24: recipe for target 'src/data_store.o' failed
+make: *** [src/data_store.o] Error 1
+17:53:49 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+17:53:49 **** Incremental Build of configuration Debug for project MED_Tester ****
 make all 
 make: Nothing to be done for 'all'.

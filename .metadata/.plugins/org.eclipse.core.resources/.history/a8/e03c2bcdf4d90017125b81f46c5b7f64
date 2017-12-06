@@ -1,0 +1,10 @@
+#include "../includes/data_store_file.h"
+
+	DataStore_File::DataStore_File(std::string fileName, Crypto* crypto = 0);
+	DataStore_File::~DataStore_File(void);
+
+	//force derived classes to implement load and store as appropriate
+	bool data_store_file::load(std::vector<String_Data> &myVector){
+
+	}
+	bool save(std::vector<String_Data> &myVector)=0;

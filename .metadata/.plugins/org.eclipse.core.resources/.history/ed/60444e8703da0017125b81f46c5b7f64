@@ -1,0 +1,10 @@
+#include "../includes/data_store.h"
+
+	//pass in a crypto object and it will be used to encrypt
+	//data that is loaded or saved, otherwise data is stored in the clear
+	DataStore::DataStore(Crypto *pCrypt){
+		myCrypto = pCrypt;
+	}
+	DataStore:: ~DataStore(void){
+
+	}

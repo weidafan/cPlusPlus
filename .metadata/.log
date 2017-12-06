@@ -1097,3 +1097,108 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.core.resources 4 372 2017-11-20 15:01:07.566
 !MESSAGE Resource '/pointers_new_objects' is not open.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-12-05 10:27:21.627
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@60de6fdc): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2017-12-05 10:27:21.627
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-12-05 10:27:23.309
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2017-12-05 10:47:36.841 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-12-05 10:52:50.360
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-12-05 10:52:50.379
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-05 10:52:50.395
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-05 10:52:50.453
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-05 10:52:50.454
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-05 10:52:50.455
+!MESSAGE Resource '/pointers_new_objects' is not open.
+!SESSION 2017-12-05 13:44:13.973 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-12-05 14:08:58.656
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-12-05 14:08:58.681
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-05 14:08:58.689
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-05 14:08:58.725
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-05 14:08:58.726
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-05 14:08:58.726
+!MESSAGE Resource '/pointers_new_objects' is not open.
+!SESSION 2017-12-05 14:20:41.036 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-12-05 14:25:26.833
+!MESSAGE Indexed 'MED_Tester' (1 sources, 108 headers) in 5.77 sec: 8,718 declarations; 15,055 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-12-05 14:25:30.069
+!MESSAGE Indexed 'crypto_test' (1 sources, 109 headers) in 3.23 sec: 8,928 declarations; 14,918 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-12-05 14:25:33.419
+!MESSAGE Indexed 'datastore' (1 sources, 116 headers) in 3.35 sec: 9,822 declarations; 17,484 references; 0 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.0037%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-12-05 14:25:36.257
+!MESSAGE Indexed 'stringdatabase' (0 sources, 117 headers) in 2.82 sec: 9,612 declarations; 16,863 references; 0 unresolved inclusions; 1 syntax errors; 1 unresolved names (0.0038%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-12-05 14:25:38.177
+!MESSAGE Indexed 'crypto' (4 sources, 105 headers) in 1.92 sec: 7,281 declarations; 13,024 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-12-05 15:02:29.768
+!MESSAGE Indexed 'datastore' (3 sources, 159 headers) in 7.58 sec: 14,280 declarations; 23,341 references; 0 unresolved inclusions; 0 syntax errors; 185 unresolved names (0.49%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-12-05 15:10:49.394
+!MESSAGE Indexed 'MED_Tester' (1 sources, 177 headers) in 5.58 sec: 19,092 declarations; 29,022 references; 0 unresolved inclusions; 0 syntax errors; 8 unresolved names (0.017%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-12-05 15:11:34.918
+!MESSAGE Indexed 'stringdatabase' (1 sources, 171 headers) in 6.63 sec: 18,013 declarations; 27,973 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.013%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-12-05 17:27:24.624
+!MESSAGE Indexed 'Project2_Starter' (3 sources, 145 headers) in 5.12 sec: 12,797 declarations; 21,544 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-12-05 17:30:21.760
+!MESSAGE Indexed 'Project2_Starter' (3 sources, 253 headers) in 10.2 sec: 37,698 declarations; 78,201 references; 0 unresolved inclusions; 0 syntax errors; 45 unresolved names (0.039%)
+!SESSION 2017-12-05 21:21:43.003 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-12-05 21:22:08.359
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
