@@ -12,6 +12,8 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/waida/workspace/12_Make_Me_Threadsafe"/>
+			<item value="/home/waida/workspace/finalProject"/>
 			<item value="/home/waida/workspace/327_Proj4_Lib"/>
 			<item value="/home/waida/workspace/327_Proj4"/>
 			<item value="/home/waida/workspace/c++/327_Proj4_Lib"/>

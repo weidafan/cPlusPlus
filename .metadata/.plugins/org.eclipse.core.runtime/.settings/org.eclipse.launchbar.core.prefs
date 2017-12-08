@@ -1,11 +1,15 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:327_proj3_test,org.eclipse.launchbar.core.descriptorType.default\:pointers_new_objects,org.eclipse.launchbar.core.descriptorType.default\:327_Proj4 [Memcheck],org.eclipse.launchbar.core.descriptorType.default\:327_Proj4 (1),org.eclipse.launchbar.core.descriptorType.default\:327_Proj4
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:327_proj3_test,org.eclipse.launchbar.core.descriptorType.default\:pointers_new_objects,org.eclipse.launchbar.core.descriptorType.default\:327_Proj4 [Memcheck],org.eclipse.launchbar.core.descriptorType.default\:327_Proj4 (1),org.eclipse.launchbar.core.descriptorType.default\:327_Proj4,org.eclipse.launchbar.core.descriptorType.default\:12_Make_Me_Threadsafe,org.eclipse.launchbar.core.descriptorType.default\:thread_simple,org.eclipse.launchbar.core.descriptorType.default\:crypto_test,org.eclipse.launchbar.core.descriptorType.default\:MED_Tester (1),org.eclipse.launchbar.core.descriptorType.default\:MED_Tester
 eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:12_Make_Me_Threadsafe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:327_Proj4\ (1)/activeLaunchMode=linuxtools
 org.eclipse.launchbar.core.descriptorType.default\:327_Proj4\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:327_Proj4\ [Memcheck]/activeLaunchMode=linuxtools
 org.eclipse.launchbar.core.descriptorType.default\:327_Proj4/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:327_proj3_test/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:327_proj3_test/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:MED_Tester\ (1)/activeLaunchMode=linuxtools
+org.eclipse.launchbar.core.descriptorType.default\:MED_Tester/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:crypto_test/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:pointers_new_objects/activeLaunchMode=debug

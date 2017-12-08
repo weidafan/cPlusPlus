@@ -50,9 +50,10 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/datastore/Debug}&quot;"/>
 								</option>
 								<option id="gnu.cpp.link.option.libs.1950192389" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="datastore"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="crypto"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="stringdatabase"/>
+									<listOptionValue builtIn="false" value="datastore"/>
+									<listOptionValue builtIn="false" value="pthread"/>
+									<listOptionValue builtIn="false" value="crypto"/>
+									<listOptionValue builtIn="false" value="stringdatabase"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.386323174" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -69,11 +70,6 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1469364632.1368274171" name="MED_Tester.cpp" rcbsApplicability="disable" resourcePath="src/MED_Tester.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2133031305.1669631145">
-						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2133031305.1669631145" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2133031305">
-							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1868906240" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
-						</tool>
-					</fileInfo>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
@@ -171,7 +167,14 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/MED_Tester"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/MED_Tester"/>
+		</configuration>
+	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>

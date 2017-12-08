@@ -1,6 +1,15 @@
-01:26:56 **** Incremental Build of configuration Debug for project MED_Tester ****
+23:45:56 **** Incremental Build of configuration Debug for project MED_Tester ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/MED_Tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/datastore" -I"/home/waida/workspace/finalProject/crypto" -I"/home/waida/workspace/finalProject/stringdatabase" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MED_Tester.d" -MT"src/MED_Tester.o" -o "src/MED_Tester.o" "../src/MED_Tester.cpp"
+Finished building: ../src/MED_Tester.cpp
+ 
+Building target: MED_Tester
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/workspace/finalProject/crypto/Debug" -L"/home/waida/workspace/finalProject/datastore/Debug" -o "MED_Tester"  ./src/MED_Tester.o   -ldatastore -lpthread -lcrypto -lstringdatabase
+Finished building target: MED_Tester
+ 
 
-01:26:56 Build Finished (took 227ms)
+23:46:00 Build Finished (took 3s.840ms)
 
