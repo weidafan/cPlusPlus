@@ -70,9 +70,7 @@ int main() {
 //	//then with
 	Crypto_AES myCrypto("I Like Rollos   ");
 	testSerialization("ENCRYPT_FILE1", "ENCRYPT_FILE2", &myCrypto);
-
-	//Test with different amount of animals.
-//		myGlobalCache.clear();
+		myGlobalCache.clear();
 		string str1 = "pig";
 		string str2 = "pig";
 		string str3 = "dog";

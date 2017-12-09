@@ -1,6 +1,6 @@
-22:18:02 **** Incremental Build of configuration Debug for project crypto_test ****
+22:43:35 **** Incremental Build of configuration Debug for project crypto_test ****
 make all 
 make: Nothing to be done for 'all'.
 
-22:18:03 Build Finished (took 122ms)
+22:43:35 Build Finished (took 158ms)
 

@@ -9149,3 +9149,635 @@ make: Nothing to be done for 'all'.
 22:18:13 **** Incremental Build of configuration Debug for project MED_Tester ****
 make all 
 make: Nothing to be done for 'all'.
+22:22:13 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:13 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:13 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:13 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:14 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+Building file: ../src/MED_Tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/datastore" -I"/home/waida/workspace/finalProject/crypto" -I"/home/waida/workspace/finalProject/stringdatabase" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MED_Tester.d" -MT"src/MED_Tester.o" -o "src/MED_Tester.o" "../src/MED_Tester.cpp"
+Finished building: ../src/MED_Tester.cpp
+ 
+Building target: MED_Tester
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/workspace/finalProject/crypto/Debug" -L"/home/waida/workspace/finalProject/datastore/Debug" -o "MED_Tester"  ./src/MED_Tester.o   -ldatastore -lpthread -lcrypto -lstringdatabase
+Finished building target: MED_Tester
+ 
+22:22:19 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:19 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:19 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:19 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:24:01 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:24:01 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+make: Nothing to be done for 'all'.
+22:24:02 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:24:02 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:24:02 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+Building file: ../src/MED_Tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/datastore" -I"/home/waida/workspace/finalProject/crypto" -I"/home/waida/workspace/finalProject/stringdatabase" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MED_Tester.d" -MT"src/MED_Tester.o" -o "src/MED_Tester.o" "../src/MED_Tester.cpp"
+../src/MED_Tester.cpp: In function ‘int main()’:
+../src/MED_Tester.cpp:71:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Crypto_AES myCrypto("I Like Rollos   ");
+                                        ^
+Finished building: ../src/MED_Tester.cpp
+ 
+Building target: MED_Tester
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/workspace/finalProject/crypto/Debug" -L"/home/waida/workspace/finalProject/datastore/Debug" -o "MED_Tester"  ./src/MED_Tester.o   -ldatastore -lpthread -lcrypto -lstringdatabase
+Finished building target: MED_Tester
+ 
+22:24:12 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:24:12 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:24:12 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:24:12 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:27:21 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:27:21 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:27:22 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:27:22 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:27:22 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:27:22 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:27:23 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:27:23 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:27:23 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:27:23 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+Building file: ../src/MED_Tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/datastore" -I"/home/waida/workspace/finalProject/crypto" -I"/home/waida/workspace/finalProject/stringdatabase" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MED_Tester.d" -MT"src/MED_Tester.o" -o "src/MED_Tester.o" "../src/MED_Tester.cpp"
+../src/MED_Tester.cpp: In function ‘int main()’:
+../src/MED_Tester.cpp:71:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Crypto_AES myCrypto("I Like Rollos   ");
+                                        ^
+Finished building: ../src/MED_Tester.cpp
+ 
+Building target: MED_Tester
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/workspace/finalProject/crypto/Debug" -L"/home/waida/workspace/finalProject/datastore/Debug" -o "MED_Tester"  ./src/MED_Tester.o   -ldatastore -lpthread -lcrypto -lstringdatabase
+Finished building target: MED_Tester
+ 
+22:28:14 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:14 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:14 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:14 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:15 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+Building file: ../src/MED_Tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/datastore" -I"/home/waida/workspace/finalProject/crypto" -I"/home/waida/workspace/finalProject/stringdatabase" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MED_Tester.d" -MT"src/MED_Tester.o" -o "src/MED_Tester.o" "../src/MED_Tester.cpp"
+../src/MED_Tester.cpp: In function ‘int main()’:
+../src/MED_Tester.cpp:51:33: error: ‘i’ was not declared in this scope
+   string s = "bear" + to_string(i);
+                                 ^
+../src/MED_Tester.cpp:71:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Crypto_AES myCrypto("I Like Rollos   ");
+                                        ^
+src/subdir.mk:18: recipe for target 'src/MED_Tester.o' failed
+make: *** [src/MED_Tester.o] Error 1
+22:28:29 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:29 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:29 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:29 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:30 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+Building file: ../src/MED_Tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/datastore" -I"/home/waida/workspace/finalProject/crypto" -I"/home/waida/workspace/finalProject/stringdatabase" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MED_Tester.d" -MT"src/MED_Tester.o" -o "src/MED_Tester.o" "../src/MED_Tester.cpp"
+../src/MED_Tester.cpp: In function ‘int main()’:
+../src/MED_Tester.cpp:71:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Crypto_AES myCrypto("I Like Rollos   ");
+                                        ^
+Finished building: ../src/MED_Tester.cpp
+ 
+Building target: MED_Tester
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/workspace/finalProject/crypto/Debug" -L"/home/waida/workspace/finalProject/datastore/Debug" -o "MED_Tester"  ./src/MED_Tester.o   -ldatastore -lpthread -lcrypto -lstringdatabase
+Finished building target: MED_Tester
+ 
+22:28:35 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:35 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:35 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:35 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:39 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:39 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:39 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:39 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:54 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:54 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:54 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:28:54 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:29:41 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:29:42 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:29:42 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:29:42 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:30:03 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:30:03 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:30:04 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:30:04 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:33:02 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:33:03 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+Building file: ../src/string_database.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/datastore" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_database.d" -MT"src/string_database.o" -o "src/string_database.o" "../src/string_database.cpp"
+Finished building: ../src/string_database.cpp
+ 
+Building target: libstringdatabase.a
+Invoking: GCC Archiver
+ar -r  "libstringdatabase.a"  ./src/string_database.o   
+ar: creating libstringdatabase.a
+Finished building target: libstringdatabase.a
+ 
+22:33:03 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:33:03 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+Building target: MED_Tester
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/workspace/finalProject/crypto/Debug" -L"/home/waida/workspace/finalProject/datastore/Debug" -o "MED_Tester"  ./src/MED_Tester.o   -ldatastore -lpthread -lcrypto -lstringdatabase
+Finished building target: MED_Tester
+ 
+22:33:22 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:33:23 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:33:23 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:33:23 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:34:02 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:34:02 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+make: Nothing to be done for 'all'.
+22:34:03 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:34:03 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+Building file: ../src/string_database.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/datastore" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_database.d" -MT"src/string_database.o" -o "src/string_database.o" "../src/string_database.cpp"
+Finished building: ../src/string_database.cpp
+ 
+Building target: libstringdatabase.a
+Invoking: GCC Archiver
+ar -r  "libstringdatabase.a"  ./src/string_database.o   
+ar: creating libstringdatabase.a
+Finished building target: libstringdatabase.a
+ 
+22:34:04 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+Building target: MED_Tester
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/workspace/finalProject/crypto/Debug" -L"/home/waida/workspace/finalProject/datastore/Debug" -o "MED_Tester"  ./src/MED_Tester.o   -ldatastore -lpthread -lcrypto -lstringdatabase
+Finished building target: MED_Tester
+ 
+22:34:07 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:34:08 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:34:08 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:34:08 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:34:19 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:34:19 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+make: Nothing to be done for 'all'.
+22:34:19 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:34:19 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+Building file: ../src/string_database.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/datastore" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_database.d" -MT"src/string_database.o" -o "src/string_database.o" "../src/string_database.cpp"
+Finished building: ../src/string_database.cpp
+ 
+Building target: libstringdatabase.a
+Invoking: GCC Archiver
+ar -r  "libstringdatabase.a"  ./src/string_database.o   
+ar: creating libstringdatabase.a
+Finished building target: libstringdatabase.a
+ 
+22:34:20 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+Building target: MED_Tester
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/workspace/finalProject/crypto/Debug" -L"/home/waida/workspace/finalProject/datastore/Debug" -o "MED_Tester"  ./src/MED_Tester.o   -ldatastore -lpthread -lcrypto -lstringdatabase
+Finished building target: MED_Tester
+ 
+22:35:13 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:13 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:13 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:13 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:13 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+Building file: ../src/MED_Tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/datastore" -I"/home/waida/workspace/finalProject/crypto" -I"/home/waida/workspace/finalProject/stringdatabase" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MED_Tester.d" -MT"src/MED_Tester.o" -o "src/MED_Tester.o" "../src/MED_Tester.cpp"
+../src/MED_Tester.cpp: In function ‘int main()’:
+../src/MED_Tester.cpp:71:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Crypto_AES myCrypto("I Like Rollos   ");
+                                        ^
+Finished building: ../src/MED_Tester.cpp
+ 
+Building target: MED_Tester
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/workspace/finalProject/crypto/Debug" -L"/home/waida/workspace/finalProject/datastore/Debug" -o "MED_Tester"  ./src/MED_Tester.o   -ldatastore -lpthread -lcrypto -lstringdatabase
+Finished building target: MED_Tester
+ 
+22:35:17 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:18 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:18 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:18 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:56 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:56 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:56 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:57 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:57 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:57 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:57 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:57 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:58 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:35:58 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:37:01 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:37:01 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:37:02 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:37:02 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+Building file: ../src/MED_Tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/datastore" -I"/home/waida/workspace/finalProject/crypto" -I"/home/waida/workspace/finalProject/stringdatabase" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MED_Tester.d" -MT"src/MED_Tester.o" -o "src/MED_Tester.o" "../src/MED_Tester.cpp"
+../src/MED_Tester.cpp: In function ‘int main()’:
+../src/MED_Tester.cpp:71:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Crypto_AES myCrypto("I Like Rollos   ");
+                                        ^
+Finished building: ../src/MED_Tester.cpp
+ 
+Building target: MED_Tester
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/workspace/finalProject/crypto/Debug" -L"/home/waida/workspace/finalProject/datastore/Debug" -o "MED_Tester"  ./src/MED_Tester.o   -ldatastore -lpthread -lcrypto -lstringdatabase
+Finished building target: MED_Tester
+ 
+22:37:25 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:37:25 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:37:26 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:37:26 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:37:26 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:37:26 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:37:26 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:37:27 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:37:27 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:37:27 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:40:00 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:40:01 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:40:01 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:40:01 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+Building file: ../src/MED_Tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/datastore" -I"/home/waida/workspace/finalProject/crypto" -I"/home/waida/workspace/finalProject/stringdatabase" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MED_Tester.d" -MT"src/MED_Tester.o" -o "src/MED_Tester.o" "../src/MED_Tester.cpp"
+../src/MED_Tester.cpp: In function ‘int main()’:
+../src/MED_Tester.cpp:71:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Crypto_AES myCrypto("I Like Rollos   ");
+                                        ^
+Finished building: ../src/MED_Tester.cpp
+ 
+Building target: MED_Tester
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/workspace/finalProject/crypto/Debug" -L"/home/waida/workspace/finalProject/datastore/Debug" -o "MED_Tester"  ./src/MED_Tester.o   -ldatastore -lpthread -lcrypto -lstringdatabase
+Finished building target: MED_Tester
+ 
+22:41:12 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:41:12 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:41:13 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:41:13 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:41:42 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:41:42 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:41:43 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:41:43 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:41:45 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:41:45 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:41:46 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:41:46 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:24 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:24 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:24 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:24 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:26 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:27 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:27 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:27 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:44 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:44 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:44 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:44 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:04 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:04 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:05 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:05 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:11 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:11 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:11 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:11 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:34 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:35 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:35 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:35 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:35 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:50 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:51 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:51 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:51 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:51 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:51 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:52 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:52 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:52 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:52 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.

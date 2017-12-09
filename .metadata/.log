@@ -1968,3 +1968,46 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.core.resources 4 372 2017-12-08 22:04:54.474
 !MESSAGE Resource '/thread_simple' is not open.
+!SESSION 2017-12-09 02:11:15.512 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-12-08 22:22:19.067
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-12-08 22:22:19.074
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-08 22:22:19.078
+!MESSAGE Resource '/12_Make_Me_Threadsafe' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-08 22:22:19.078
+!MESSAGE Resource '/327_Proj4' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-08 22:22:19.078
+!MESSAGE Resource '/327_Proj4_Lib' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-08 22:22:19.079
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-08 22:22:19.079
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-08 22:22:19.079
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-08 22:22:19.080
+!MESSAGE Resource '/Project2_Starter' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-12-08 22:22:19.080
+!MESSAGE Resource '/thread_simple' is not open.
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2017-12-08 22:32:04.219
+!MESSAGE Unable to locate file: /build/glibc-bfm8X4/glibc-2.23/nptl/../sysdeps/unix/sysv/linux/x86_64/lowlevellock.S
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2017-12-08 22:32:18.747
+!MESSAGE Unable to locate file: /build/glibc-bfm8X4/glibc-2.23/nptl/../nptl/pthread_mutex_lock.c

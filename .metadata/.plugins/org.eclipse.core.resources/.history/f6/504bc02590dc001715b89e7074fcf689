@@ -47,7 +47,7 @@ bool testSerialization(const std::string &MYFILE1, const std::string &MYFILE2,
 
 int main() {
 	std::vector<thread> mythreads;
-//	I created and ran a bunch(20) of threads that added different strings to a string_database instance
+	//I created and ran a bunch(20) of threads that added different strings to a string_database instance
 	for (int i = 0; i < 50; i++) {
 		string s = "bear" + to_string(i);
 		mythreads.push_back(
@@ -63,46 +63,46 @@ int main() {
 	string bear = "bear1";
 	std::cout << myGlobalCache.getCount(bear) << endl;
 
-//	//then I tested  serialization
-//	//first without encryption,
+	//then I tested  serialization
+	//first without encryption,
 	testSerialization("NO_ENCRYPT_FILE1", "NO_ENCRYPT_FILE2", 0);
 
-//	//then with
+	//then with
 	Crypto_AES myCrypto("I Like Rollos   ");
 	testSerialization("ENCRYPT_FILE1", "ENCRYPT_FILE2", &myCrypto);
-
-	//Test with different amount of animals.
-//		myGlobalCache.clear();
-		string str1 = "pig";
-		string str2 = "pig";
-		string str3 = "dog";
-		string str4 = "cat";
-		string str5 = "dog";
-		string str6 = "cat";
-		string str7 = "fish";
-		string str8 = "dog";
-
-		thread t1(&String_Database::add,&myGlobalCache,ref(str1));
-		thread t2(&String_Database::add,&myGlobalCache,ref(str2));
-		thread t3(&String_Database::add,&myGlobalCache,ref(str3));
-		thread t4(&String_Database::add,&myGlobalCache,ref(str4));
-		thread t5(&String_Database::add,&myGlobalCache,ref(str5));
-		thread t6(&String_Database::add,&myGlobalCache,ref(str6));
-		thread t7(&String_Database::add,&myGlobalCache,ref(str7));
-		thread t8(&String_Database::add,&myGlobalCache,ref(str8));
-
-
-		t1.join();
-		t2.join();
-		t3.join();
-		t4.join();
-		t5.join();
-		t6.join();
-		t7.join();
-		t8.join();
-
-		testSerialization("NO_ENCRYPT_FILE1", "NO_ENCRYPT_FILE2", 0);
-		testSerialization("ENCRYPT_FILE1", "ENCRYPT_FILE2", &myCrypto);
+	//	myGlobalCache.clear();
+	//	string str1 = "pig";
+	//	string str2 = "pig";
+	//	string str3 = "dog";
+	//	string str4 = "cat";
+	//	string str5 = "dog";
+	//	string str6 = "cat";
+	//	string str7 = "fish";
+	//	string str8 = "dog";
+	//
+	//	thread t1(&String_Database::add,&myGlobalCache,ref(str1));
+	//	thread t2(&String_Database::add,&myGlobalCache,ref(str2));
+	//	thread t3(&String_Database::add,&myGlobalCache,ref(str3));
+	//	thread t4(&String_Database::add,&myGlobalCache,ref(str4));
+	//	thread t5(&String_Database::add,&myGlobalCache,ref(str5));
+	//	thread t6(&String_Database::add,&myGlobalCache,ref(str6));
+	//	thread t7(&String_Database::add,&myGlobalCache,ref(str7));
+	//	thread t8(&String_Database::add,&myGlobalCache,ref(str8));
+	//
+	//
+	//	t1.join();
+	//	t.join();
+	//	t1.join();
+	//	t1.join();
+	//	t1.join();
+	//	t1.join();
+	//	t1.join();
+	//
+	//
+	//	t1.join();
+	//
+	//	//	testSerialization("NO_ENCRYPT_FILE1", "NO_ENCRYPT_FILE2", 0);
+	//	//	testSerialization("ENCRYPT_FILE1", "ENCRYPT_FILE2", &myCrypto);
 
 }
 
