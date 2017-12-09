@@ -10,6 +10,6 @@ org.eclipse.launchbar.core.descriptorType.default\:327_Proj4/activeLaunchMode=ru
 org.eclipse.launchbar.core.descriptorType.default\:327_proj3_test/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:327_proj3_test/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:MED_Tester\ (1)/activeLaunchMode=linuxtools
-org.eclipse.launchbar.core.descriptorType.default\:MED_Tester/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:MED_Tester/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:crypto_test/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:pointers_new_objects/activeLaunchMode=debug

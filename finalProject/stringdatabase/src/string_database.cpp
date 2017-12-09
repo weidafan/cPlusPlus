@@ -1,4 +1,5 @@
 #include "../includes/string_database.h"
+using namespace std;
 
 String_Database::String_Database(void) {
 
@@ -9,19 +10,22 @@ String_Database::~String_Database(void) {
 //if not seen yet then add myString to myStrings
 //otherwise increment the count for myString
 void String_Database::add(std::string &myString) {
-	for (String_Data s : myStrings) {
-		if (s.operator ==(myString)) {
-			s.increment();
+		lock_guard<std::mutex> m(mutex);
+	for(myStringsIter = myStrings.begin(); myStringsIter != myStrings.end();myStringsIter++){
+		if (*myStringsIter == myString) {
+			myStringsIter->increment();
 			return;
 		}
 	}
-		myStrings.push_back(myString);
-		return;
+	myStrings.push_back(myString);
+	return;
 }
 
 //get number of times myString has been seen (or added with add)
 int String_Database::getCount(std::string &myString) {
+	lock_guard<std::mutex> m(mutex);
 	for (String_Data s : myStrings) {
+		lock_guard<std::mutex> m(mutex);
 		if (s.operator ==(myString)) {
 			return s.getCount();
 		}
@@ -31,6 +35,7 @@ int String_Database::getCount(std::string &myString) {
 
 //clear the myStrings vector
 void String_Database::clear() {
+	lock_guard<std::mutex> m(mutex);
 	myStrings.clear();
 
 }
@@ -40,8 +45,9 @@ void String_Database::clear() {
 //otherwise returns myDataStore->load results
 bool String_Database::load(DataStore *myDataStore) {
 	if(!myDataStore){
-	return false;
+		return false;
 	}
+//	lock_guard<std::mutex> m(mutex);
 	return myDataStore->load(myStrings);
 }
 
@@ -50,7 +56,8 @@ bool String_Database::load(DataStore *myDataStore) {
 //otherwise returns myDataStore->save results
 bool String_Database::save(DataStore *myDataStore) {
 	if(!myDataStore){
-	return false;
+		return false;
 	}
+//	lock_guard<std::mutex> m(mutex);
 	return myDataStore->save(myStrings);
 }

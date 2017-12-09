@@ -5,10 +5,10 @@
 		myCrypto = pCrypt;
 	}
 	DataStore:: ~DataStore(void){
-		if(myCrypto){
-			delete myCrypto;
-			myCrypto = 0;
-		}
+//		if(myCrypto){
+//			delete myCrypto;
+//			myCrypto = 0;
+//		}
 	}
 	//ensures data is encrypted when stored
 	//will encrypt/decrypt if myCrypto is not null

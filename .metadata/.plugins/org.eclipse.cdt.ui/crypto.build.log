@@ -1,6 +1,6 @@
-23:45:56 **** Incremental Build of configuration Debug for project crypto ****
+22:18:13 **** Incremental Build of configuration Debug for project crypto ****
 make all 
 make: Nothing to be done for 'all'.
 
-23:45:56 Build Finished (took 229ms)
+22:18:13 Build Finished (took 180ms)
 

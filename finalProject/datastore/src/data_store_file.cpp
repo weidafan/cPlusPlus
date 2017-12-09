@@ -19,10 +19,8 @@ bool DataStore_File::load(std::vector<String_Data> &myVector) {
 	ifstream myfile;
 	myfile.open(myFileName.c_str());
 	if (myfile.is_open()) {
-		string a = "";
-		int b = 0;
-		string &data = a;
-		int &useCount = b;
+		string data;
+		int useCount;
 		bool p;
 		std::string line;
 		while (std::getline(myfile, line)) {

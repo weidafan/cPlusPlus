@@ -1,6 +1,6 @@
-17:47:28 **** Incremental Build of configuration Debug for project thread_simple ****
+17:56:04 **** Incremental Build of configuration Debug for project thread_simple ****
 make all 
 make: Nothing to be done for 'all'.
 
-17:47:28 Build Finished (took 177ms)
+17:56:04 Build Finished (took 124ms)
 
