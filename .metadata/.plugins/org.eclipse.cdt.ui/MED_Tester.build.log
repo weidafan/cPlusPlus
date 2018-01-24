@@ -1,12 +1,6 @@
-22:59:00 **** Incremental Build of configuration Debug for project MED_Tester ****
+15:21:29 **** Incremental Build of configuration Debug for project MED_Tester ****
 make all 
-Building target: MED_Tester
-Invoking: GCC C++ Linker
-g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/workspace/finalProject/crypto/Debug" -L"/home/waida/workspace/finalProject/datastore/Debug" -o "MED_Tester"  ./src/MED_Tester.o   -ldatastore -lpthread -lcrypto -lstringdatabase
-/usr/bin/ld: cannot find -ldatastore
-makefile:50: recipe for target 'MED_Tester' failed
-collect2: error: ld returned 1 exit status
-make: *** [MED_Tester] Error 1
+make: Nothing to be done for 'all'.
 
-22:59:00 Build Finished (took 177ms)
+15:21:29 Build Finished (took 128ms)
 

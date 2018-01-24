@@ -1,0 +1,34 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Jan 15, 2018
+ *      Author: waida
+ */
+#include "utilities.h"
+#include <fstream>
+int main(){
+	//see if we can open, process, sort, and write the file back to disk
+		fstream myfstream;
+		if (!openFile(myfstream, filename))
+			return false;
+
+		if (!processFile(myfstream))
+			return false;
+
+		sortArray(mysortorder);
+		string name = TEST_DATA_FULL_OUT;
+		if ( writeArraytoFile(name)!= SUCCESS)
+			return false;
+
+		//NOTE: C++ does not support try-finally
+		//it expects you to use destructors instead
+		//fine for object oriented programming
+		//very restrictive for structured programming
+		closeFile(myfstream);
+		return true;
+
+
+}
+
+
+

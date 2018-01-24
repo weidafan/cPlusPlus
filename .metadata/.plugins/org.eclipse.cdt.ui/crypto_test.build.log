@@ -1,6 +1,17 @@
-22:43:35 **** Incremental Build of configuration Debug for project crypto_test ****
+15:21:27 **** Incremental Build of configuration Debug for project crypto_test ****
 make all 
-make: Nothing to be done for 'all'.
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+makefile:48: recipe for target 'crypto_test' failed
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+collect2: error: ld returned 1 exit status
+make: *** [crypto_test] Error 1
 
-22:43:35 Build Finished (took 158ms)
+15:21:27 Build Finished (took 288ms)
 

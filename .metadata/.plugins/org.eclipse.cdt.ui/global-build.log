@@ -9808,3 +9808,1851 @@ g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/w
 makefile:50: recipe for target 'MED_Tester' failed
 collect2: error: ld returned 1 exit status
 make: *** [MED_Tester] Error 1
+20:01:18 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:01:19 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+Building file: ../src/HexHelper.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HexHelper.d" -MT"src/HexHelper.o" -o "src/HexHelper.o" "../src/HexHelper.cpp"
+Finished building: ../src/HexHelper.cpp
+ 
+Building file: ../src/crypto.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/crypto.d" -MT"src/crypto.o" -o "src/crypto.o" "../src/crypto.cpp"
+Finished building: ../src/crypto.cpp
+ 
+Building file: ../src/crypto_AES.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/crypto_AES.d" -MT"src/crypto_AES.o" -o "src/crypto_AES.o" "../src/crypto_AES.cpp"
+Finished building: ../src/crypto_AES.cpp
+ 
+Building file: ../COMPLEXITY_TO_AVOID/Reindaal.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"COMPLEXITY_TO_AVOID/Reindaal.d" -MT"COMPLEXITY_TO_AVOID/Reindaal.o" -o "COMPLEXITY_TO_AVOID/Reindaal.o" "../COMPLEXITY_TO_AVOID/Reindaal.cpp"
+Finished building: ../COMPLEXITY_TO_AVOID/Reindaal.cpp
+ 
+Building target: libcrypto.a
+Invoking: GCC Archiver
+ar -r  "libcrypto.a"  ./src/HexHelper.o ./src/crypto.o ./src/crypto_AES.o  ./COMPLEXITY_TO_AVOID/Reindaal.o   
+ar: creating libcrypto.a
+Finished building target: libcrypto.a
+ 
+20:01:23 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+Building file: ../src/data_store.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/crypto" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/data_store.d" -MT"src/data_store.o" -o "src/data_store.o" "../src/data_store.cpp"
+Finished building: ../src/data_store.cpp
+ 
+Building file: ../src/data_store_file.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/crypto" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/data_store_file.d" -MT"src/data_store_file.o" -o "src/data_store_file.o" "../src/data_store_file.cpp"
+Finished building: ../src/data_store_file.cpp
+ 
+Building file: ../src/string_data.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/crypto" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_data.d" -MT"src/string_data.o" -o "src/string_data.o" "../src/string_data.cpp"
+Finished building: ../src/string_data.cpp
+ 
+Building target: libdatastore.a
+Invoking: GCC Archiver
+ar -r  "libdatastore.a"  ./src/data_store.o ./src/data_store_file.o ./src/string_data.o   
+ar: creating libdatastore.a
+Finished building target: libdatastore.a
+ 
+20:01:25 **** Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+In file included from ../utilities.cpp:8:0:
+../utilities.h:26:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int process_number = UNINITIALIZED;
+                       ^
+../utilities.h:27:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int start_time  = UNINITIALIZED;
+                    ^
+../utilities.h:28:18: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int cpu_time  = UNINITIALIZED;
+                  ^
+../utilities.cpp: In function ‘int loadData(const char*)’:
+../utilities.cpp:18:2: error: ‘ifstream’ was not declared in this scope
+  ifstream myfile;
+  ^
+../utilities.cpp:18:2: note: suggested alternative:
+In file included from /usr/include/c++/5/ios:38:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/fstream:38,
+                 from ../utilities.cpp:9:
+/usr/include/c++/5/iosfwd:162:34: note:   ‘std::ifstream’
+subdir.mk:18: recipe for target 'utilities.o' failed
+   typedef basic_ifstream<char>   ifstream;
+                                  ^
+../utilities.cpp:19:2: error: ‘myfile’ was not declared in this scope
+  myfile.open(filename.c_str());
+  ^
+../utilities.cpp:19:23: error: request for member ‘c_str’ in ‘filename’, which is of non-class type ‘const char*’
+  myfile.open(filename.c_str());
+                       ^
+../utilities.cpp:22:3: error: ‘string’ was not declared in this scope
+   string line;
+   ^
+../utilities.cpp:22:3: note: suggested alternatives:
+In file included from /usr/include/c++/5/iosfwd:39:0,
+                 from /usr/include/c++/5/ios:38,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/fstream:38,
+                 from ../utilities.cpp:9:
+/usr/include/c++/5/bits/stringfwd.h:74:33: note:   ‘std::__cxx11::string’
+   typedef basic_string<char>    string;   
+                                 ^
+/usr/include/c++/5/bits/stringfwd.h:74:33: note:   ‘std::__cxx11::string’
+../utilities.cpp:24:19: error: ‘line’ was not declared in this scope
+    getline(myfile,line);
+                   ^
+../utilities.cpp:25:4: error: ‘contents’ was not declared in this scope
+    contents.append(line);
+    ^
+../utilities.cpp:31:10: error: ‘COULD_NOT_OPEN_FILE_TO_READ’ was not declared in this scope
+   return COULD_NOT_OPEN_FILE_TO_READ;
+          ^
+../utilities.cpp: At global scope:
+../utilities.cpp:34:1: error: expected declaration before ‘}’ token
+ }
+ ^
+make: *** [utilities.o] Error 1
+20:01:26 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+Building file: ../src/string_database.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -I"/home/waida/workspace/finalProject/datastore" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_database.d" -MT"src/string_database.o" -o "src/string_database.o" "../src/string_database.cpp"
+Finished building: ../src/string_database.cpp
+ 
+Building target: libstringdatabase.a
+Invoking: GCC Archiver
+ar -r  "libstringdatabase.a"  ./src/string_database.o   
+ar: creating libstringdatabase.a
+Finished building target: libstringdatabase.a
+ 
+20:01:27 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+Building target: MED_Tester
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/stringdatabase/Debug" -L"/home/waida/workspace/finalProject/crypto/Debug" -L"/home/waida/workspace/finalProject/datastore/Debug" -o "MED_Tester"  ./src/MED_Tester.o   -ldatastore -lpthread -lcrypto -lstringdatabase
+Finished building target: MED_Tester
+ 
+20:10:08 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:08 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:09 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:09 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:09 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+Building file: ../src/crypto_test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/waida/workspace/finalProject/crypto" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/crypto_test.d" -MT"src/crypto_test.o" -o "src/crypto_test.o" "../src/crypto_test.cpp"
+Finished building: ../src/crypto_test.cpp
+ 
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+makefile:48: recipe for target 'crypto_test' failed
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+collect2: error: ld returned 1 exit status
+make: *** [crypto_test] Error 1
+20:10:10 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:10 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+In file included from ../utilities.cpp:8:0:
+../utilities.h:26:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int process_number = UNINITIALIZED;
+                       ^
+../utilities.h:27:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int start_time  = UNINITIALIZED;
+                    ^
+../utilities.h:28:18: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int cpu_time  = UNINITIALIZED;
+                  ^
+../utilities.cpp: In function ‘int loadData(const char*)’:
+../utilities.cpp:22:23: error: request for member ‘c_str’ in ‘filename’, which is of non-class type ‘const char*’
+  myfile.open(filename.c_str());
+                       ^
+../utilities.cpp:28:4: error: ‘contents’ was not declared in this scope
+    contents.append(line);
+    ^
+../utilities.cpp:34:10: error: ‘COULD_NOT_OPEN_FILE_TO_READ’ was not declared in this scope
+   return COULD_NOT_OPEN_FILE_TO_READ;
+          ^
+../utilities.cpp: At global scope:
+../utilities.cpp:37:1: error: expected declaration before ‘}’ token
+ }
+ ^
+subdir.mk:18: recipe for target 'utilities.o' failed
+make: *** [utilities.o] Error 1
+20:10:11 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:11 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:21 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:21 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:22 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:22 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:22 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+makefile:48: recipe for target 'crypto_test' failed
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+collect2: error: ld returned 1 exit status
+make: *** [crypto_test] Error 1
+20:10:23 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:23 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+In file included from ../utilities.cpp:8:0:
+../utilities.h:26:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int process_number = UNINITIALIZED;
+                       ^
+../utilities.h:27:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int start_time  = UNINITIALIZED;
+                    ^
+../utilities.h:28:18: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int cpu_time  = UNINITIALIZED;
+                  ^
+../utilities.cpp: In function ‘int loadData(const char*)’:
+../utilities.cpp:22:23: error: request for member ‘c_str’ in ‘filename’, which is of non-class type ‘const char*’
+  myfile.open(filename.c_str());
+                       ^
+../utilities.cpp:28:4: error: ‘contents’ was not declared in this scope
+    contents.append(line);
+    ^
+../utilities.cpp:34:10: error: ‘COULD_NOT_OPEN_FILE_TO_READ’ was not declared in this scope
+   return COULD_NOT_OPEN_FILE_TO_READ;
+          ^
+../utilities.cpp: At global scope:
+../utilities.cpp:37:1: error: expected declaration before ‘}’ token
+ }
+ ^
+subdir.mk:18: recipe for target 'utilities.o' failed
+make: *** [utilities.o] Error 1
+20:10:23 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:24 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:27 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:27 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:28 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:28 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:28 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+makefile:48: recipe for target 'crypto_test' failed
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+collect2: error: ld returned 1 exit status
+make: *** [crypto_test] Error 1
+20:10:28 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:29 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+In file included from ../utilities.cpp:8:0:
+../utilities.h:26:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int process_number = UNINITIALIZED;
+                       ^
+../utilities.h:27:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int start_time  = UNINITIALIZED;
+                    ^
+../utilities.h:28:18: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int cpu_time  = UNINITIALIZED;
+                  ^
+../utilities.cpp: In function ‘int loadData(const char*)’:
+../utilities.cpp:21:23: error: request for member ‘c_str’ in ‘filename’, which is of non-class type ‘const char*’
+  myfile.open(filename.c_str());
+                       ^
+../utilities.cpp:27:4: error: ‘contents’ was not declared in this scope
+    contents.append(line);
+    ^
+../utilities.cpp:33:10: error: ‘COULD_NOT_OPEN_FILE_TO_READ’ was not declared in this scope
+   return COULD_NOT_OPEN_FILE_TO_READ;
+          ^
+../utilities.cpp: At global scope:
+../utilities.cpp:36:1: error: expected declaration before ‘}’ token
+ }
+ ^
+subdir.mk:18: recipe for target 'utilities.o' failed
+make: *** [utilities.o] Error 1
+20:10:29 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:29 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:50 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:50 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:51 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:51 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:51 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+makefile:48: recipe for target 'crypto_test' failed
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+collect2: error: ld returned 1 exit status
+make: *** [crypto_test] Error 1
+20:10:51 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:52 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+In file included from ../utilities.cpp:8:0:
+../utilities.h:26:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int process_number = UNINITIALIZED;
+                       ^
+../utilities.h:27:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int start_time  = UNINITIALIZED;
+                    ^
+../utilities.h:28:18: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int cpu_time  = UNINITIALIZED;
+                  ^
+../utilities.cpp: In function ‘int loadData(const char*)’:
+../utilities.cpp:26:4: error: ‘contents’ was not declared in this scope
+    contents.append(line);
+    ^
+../utilities.cpp:32:10: error: ‘COULD_NOT_OPEN_FILE_TO_READ’ was not declared in this scope
+   return COULD_NOT_OPEN_FILE_TO_READ;
+          ^
+../utilities.cpp: At global scope:
+../utilities.cpp:35:1: error: expected declaration before ‘}’ token
+ }
+ ^
+subdir.mk:18: recipe for target 'utilities.o' failed
+make: *** [utilities.o] Error 1
+20:10:52 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:52 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:21 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:21 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:21 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:22 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+Building file: ../src/Project2.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project2.d" -MT"src/Project2.o" -o "src/Project2.o" "../src/Project2.cpp"
+Finished building: ../src/Project2.cpp
+ 
+Building file: ../src/array_functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_functions.d" -MT"src/array_functions.o" -o "src/array_functions.o" "../src/array_functions.cpp"
+Finished building: ../src/array_functions.cpp
+ 
+Building file: ../src/utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utilities.d" -MT"src/utilities.o" -o "src/utilities.o" "../src/utilities.cpp"
+Finished building: ../src/utilities.cpp
+ 
+Building target: Project2_Starter.exe
+Invoking: GCC C++ Linker
+g++  -o "Project2_Starter.exe"  ./src/Project2.o ./src/array_functions.o ./src/utilities.o   
+Finished building target: Project2_Starter.exe
+ 
+20:48:25 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:25 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+makefile:48: recipe for target 'crypto_test' failed
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+collect2: error: ld returned 1 exit status
+make: *** [crypto_test] Error 1
+20:48:25 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:25 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+In file included from ../utilities.cpp:8:0:
+../utilities.h:26:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int process_number = UNINITIALIZED;
+                       ^
+../utilities.h:27:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int start_time  = UNINITIALIZED;
+                    ^
+../utilities.h:28:18: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int cpu_time  = UNINITIALIZED;
+                  ^
+../utilities.cpp: In function ‘int loadData(const char*)’:
+../utilities.cpp:30:26: error: variable ‘std::istringstream iss’ has initializer but incomplete type
+    istringstream iss(line);
+                          ^
+../utilities.cpp: At global scope:
+../utilities.cpp:48:1: error: expected declaration before ‘}’ token
+ }
+ ^
+subdir.mk:18: recipe for target 'utilities.o' failed
+make: *** [utilities.o] Error 1
+20:48:26 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:26 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:22 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:23 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:23 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:23 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:24 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:24 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+makefile:48: recipe for target 'crypto_test' failed
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+collect2: error: ld returned 1 exit status
+make: *** [crypto_test] Error 1
+21:04:24 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:24 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+In file included from ../utilities.cpp:8:0:
+../utilities.h:26:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int process_number = UNINITIALIZED;
+                       ^
+../utilities.h:27:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int start_time  = UNINITIALIZED;
+                    ^
+../utilities.h:28:18: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int cpu_time  = UNINITIALIZED;
+                  ^
+../utilities.cpp: In function ‘int loadData(const char*)’:
+../utilities.cpp:30:24: error: variable ‘std::stringstream ss’ has initializer but incomplete type
+    stringstream ss(line);
+                        ^
+../utilities.cpp:29:8: warning: unused variable ‘word’ [-Wunused-variable]
+    int word;
+        ^
+../utilities.cpp: At global scope:
+../utilities.cpp:49:1: error: expected declaration before ‘}’ token
+ }
+ ^
+subdir.mk:18: recipe for target 'utilities.o' failed
+make: *** [utilities.o] Error 1
+21:04:25 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:25 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:42 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:42 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:42 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:43 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:43 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:43 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+makefile:48: recipe for target 'crypto_test' failed
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+collect2: error: ld returned 1 exit status
+make: *** [crypto_test] Error 1
+21:05:43 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:44 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+In file included from ../utilities.cpp:8:0:
+../utilities.h:26:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int process_number = UNINITIALIZED;
+                       ^
+../utilities.h:27:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int start_time  = UNINITIALIZED;
+                    ^
+../utilities.h:28:18: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int cpu_time  = UNINITIALIZED;
+                  ^
+../utilities.cpp: In function ‘int loadData(const char*)’:
+../utilities.cpp:33:52: error: no matching function for call to ‘getline(std::stringstream&, int&, const char&)’
+    while (getline(ss, tempToken, CHAR_TO_SEARCH_FOR)) {
+                                                    ^
+In file included from /usr/include/c++/5/cstdio:42:0,
+                 from /usr/include/c++/5/fstream:41,
+                 from ../utilities.cpp:9:
+/usr/include/stdio.h:678:20: note: candidate: __ssize_t getline(char**, size_t*, FILE*) <near match>
+ extern _IO_ssize_t getline (char **__restrict __lineptr,
+                    ^
+/usr/include/stdio.h:678:20: note:   conversion of argument 3 would be ill-formed:
+../utilities.cpp:33:52: error: invalid conversion from ‘char’ to ‘FILE* {aka _IO_FILE*}’ [-fpermissive]
+    while (getline(ss, tempToken, CHAR_TO_SEARCH_FOR)) {
+                                                    ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/fstream:38,
+                 from ../utilities.cpp:9:
+/usr/include/c++/5/bits/basic_string.h:5212:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     getline(basic_istream<_CharT, _Traits>& __is,
+     ^
+/usr/include/c++/5/bits/basic_string.h:5212:5: note:   template argument deduction/substitution failed:
+../utilities.cpp:33:52: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’
+    while (getline(ss, tempToken, CHAR_TO_SEARCH_FOR)) {
+                                                    ^
+In file included from /usr/include/c++/5/string:53:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/fstream:38,
+                 from ../utilities.cpp:9:
+/usr/include/c++/5/bits/basic_string.tcc:1513:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)
+     getline(basic_istream<_CharT, _Traits>& __in,
+     ^
+/usr/include/c++/5/bits/basic_string.tcc:1513:5: note:   template argument deduction/substitution failed:
+../utilities.cpp:33:52: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’
+    while (getline(ss, tempToken, CHAR_TO_SEARCH_FOR)) {
+                                                    ^
+../utilities.cpp: At global scope:
+../utilities.cpp:50:1: error: expected declaration before ‘}’ token
+ }
+ ^
+subdir.mk:18: recipe for target 'utilities.o' failed
+make: *** [utilities.o] Error 1
+21:05:44 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:44 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:04 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:04 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:04 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:04 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:05 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:05 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+makefile:48: recipe for target 'crypto_test' failed
+collect2: error: ld returned 1 exit status
+make: *** [crypto_test] Error 1
+21:06:05 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:05 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+In file included from ../utilities.cpp:8:0:
+../utilities.h:26:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int process_number = UNINITIALIZED;
+                       ^
+../utilities.h:27:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int start_time  = UNINITIALIZED;
+                    ^
+../utilities.h:28:18: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int cpu_time  = UNINITIALIZED;
+                  ^
+../utilities.cpp: In function ‘int loadData(const char*)’:
+../utilities.cpp:33:26: error: no matching function for call to ‘std::vector<int>::push_back(std::__cxx11::string&)’
+     v.push_back(tempToken);
+                          ^
+In file included from /usr/include/c++/5/vector:64:0,
+                 from ../utilities.cpp:11:
+/usr/include/c++/5/bits/stl_vector.h:913:7: note: candidate: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::value_type = int]
+       push_back(const value_type& __x)
+       ^
+/usr/include/c++/5/bits/stl_vector.h:913:7: note:   no known conversion for argument 1 from ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ to ‘const value_type& {aka const int&}’
+../utilities.cpp: At global scope:
+../utilities.cpp:49:1: error: expected declaration before ‘}’ token
+ }
+ ^
+subdir.mk:18: recipe for target 'utilities.o' failed
+make: *** [utilities.o] Error 1
+21:06:06 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:06 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:18 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:18 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:18 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:19 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:19 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:19 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+makefile:48: recipe for target 'crypto_test' failed
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+collect2: error: ld returned 1 exit status
+make: *** [crypto_test] Error 1
+21:06:20 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:20 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+In file included from ../utilities.cpp:8:0:
+../utilities.h:26:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int process_number = UNINITIALIZED;
+                       ^
+../utilities.h:27:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int start_time  = UNINITIALIZED;
+                    ^
+../utilities.h:28:18: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int cpu_time  = UNINITIALIZED;
+                  ^
+../utilities.cpp: In function ‘int loadData(const char*)’:
+../utilities.cpp:33:30: error: invalid cast from type ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ to type ‘int’
+     v.push_back(int(tempToken));
+                              ^
+../utilities.cpp: At global scope:
+../utilities.cpp:49:1: error: expected declaration before ‘}’ token
+ }
+ ^
+subdir.mk:18: recipe for target 'utilities.o' failed
+make: *** [utilities.o] Error 1
+21:06:20 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:20 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:33 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:33 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:33 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:33 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:34 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:34 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+makefile:48: recipe for target 'crypto_test' failed
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+collect2: error: ld returned 1 exit status
+make: *** [crypto_test] Error 1
+21:08:34 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:34 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+In file included from ../utilities.cpp:8:0:
+../utilities.h:26:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int process_number = UNINITIALIZED;
+                       ^
+../utilities.h:27:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int start_time  = UNINITIALIZED;
+                    ^
+../utilities.h:28:18: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int cpu_time  = UNINITIALIZED;
+                  ^
+../utilities.cpp:52:1: error: expected declaration before ‘}’ token
+ }
+ ^
+subdir.mk:18: recipe for target 'utilities.o' failed
+make: *** [utilities.o] Error 1
+21:08:35 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:35 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:07 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:07 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:08 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:08 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:08 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:08 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+collect2: error: ld returned 1 exit status
+makefile:48: recipe for target 'crypto_test' failed
+make: *** [crypto_test] Error 1
+21:09:09 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:09 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+In file included from ../utilities.cpp:8:0:
+../utilities.h:26:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int process_number = UNINITIALIZED;
+                       ^
+../utilities.h:27:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int start_time  = UNINITIALIZED;
+                    ^
+../utilities.h:28:18: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int cpu_time  = UNINITIALIZED;
+                  ^
+../utilities.cpp:52:1: error: expected declaration before ‘}’ token
+ }
+ ^
+make: *** [utilities.o] Error 1
+subdir.mk:18: recipe for target 'utilities.o' failed
+21:09:09 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:10 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:38 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:39 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:39 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:39 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:40 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:40 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+makefile:48: recipe for target 'crypto_test' failed
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+collect2: error: ld returned 1 exit status
+make: *** [crypto_test] Error 1
+15:19:41 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:41 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+In file included from ../utilities.cpp:8:0:
+../utilities.h:26:23: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int process_number = UNINITIALIZED;
+                       ^
+../utilities.h:27:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int start_time  = UNINITIALIZED;
+                    ^
+../utilities.h:28:18: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int cpu_time  = UNINITIALIZED;
+                  ^
+../utilities.cpp: In function ‘int saveData(const char*)’:
+../utilities.cpp:63:24: warning: range-based ‘for’ loops only available with -std=c++11 or -std=gnu++11
+   for(process_stats s: myVector){
+                        ^
+Finished building: ../utilities.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./utilities.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:44: recipe for target 'project1' failed
+collect2: error: ld returned 1 exit status
+make: *** [project1] Error 1
+15:19:44 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:44 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+15:21:26 **** Incremental Build of configuration Debug for project 327_proj3_fileIO ****
+make all 
+make: Nothing to be done for 'all'.
+15:21:26 **** Incremental Build of configuration Debug for project 327_proj3_stringparser ****
+make all 
+make: Nothing to be done for 'all'.
+15:21:26 **** Incremental Build of configuration Debug for project 327_proj3_test ****
+make all 
+make: Nothing to be done for 'all'.
+15:21:26 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+15:21:27 **** Incremental Build of configuration Debug for project crypto ****
+make all 
+make: Nothing to be done for 'all'.
+15:21:27 **** Incremental Build of configuration Debug for project crypto_test ****
+make all 
+Building target: crypto_test
+Invoking: GCC C++ Linker
+g++ -L"/home/waida/workspace/finalProject/crypto/Debug" -o "crypto_test"  ./src/crypto_test.o   
+./src/crypto_test.o: In function `main':
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::Crypto_AES(char*)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:30: undefined reference to `Crypto_AES::encrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:34: undefined reference to `Crypto_AES::decrypt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+makefile:48: recipe for target 'crypto_test' failed
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+/home/waida/workspace/finalProject/crypto_test/Debug/../src/crypto_test.cpp:23: undefined reference to `Crypto_AES::~Crypto_AES()'
+collect2: error: ld returned 1 exit status
+make: *** [crypto_test] Error 1
+15:21:27 **** Incremental Build of configuration Debug for project datastore ****
+make all 
+make: Nothing to be done for 'all'.
+15:21:28 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+Finished building: ../utilities.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./utilities.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+makefile:44: recipe for target 'project1' failed
+make: *** [project1] Error 1
+15:21:29 **** Incremental Build of configuration Debug for project stringdatabase ****
+make all 
+make: Nothing to be done for 'all'.
+15:21:29 **** Incremental Build of configuration Debug for project MED_Tester ****
+make all 
+make: Nothing to be done for 'all'.
+15:22:04 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./utilities.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:44: recipe for target 'project1' failed
+collect2: error: ld returned 1 exit status
+make: *** [project1] Error 1
+15:22:09 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./utilities.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+makefile:44: recipe for target 'project1' failed
+make: *** [project1] Error 1
+15:25:11 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+09:27:36 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+09:45:50 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+../utilities.cpp: In function ‘void sortData(SORT_ORDER)’:
+../utilities.cpp:88:3: error: ‘sort’ is not a member of ‘std’
+   std::sort(myVector.begin(), myVector.end(), CPU_Cmp);
+   ^
+subdir.mk:21: recipe for target 'utilities.o' failed
+make: *** [utilities.o] Error 1
+09:46:55 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+Finished building: ../utilities.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+09:49:38 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+Finished building: ../utilities.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+10:54:32 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+10:54:33 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:10:10: error: ‘utilities’ has not been declared
+  int i = utilities::LoadData("TextData");
+          ^
+../main.cpp:10:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i = utilities::LoadData("TextData");
+      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+11:00:34 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:10:10: error: ‘utilities’ has not been declared
+  int i = utilities::LoadData("TextData");
+          ^
+../main.cpp:10:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i = utilities::LoadData("TextData");
+subdir.mk:21: recipe for target 'main.o' failed
+      ^
+make: *** [main.o] Error 1
+11:34:15 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:10:10: error: ‘utilities’ has not been declared
+  int i = utilities::LoadData("TextData");
+          ^
+../main.cpp:10:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i = utilities::LoadData("TextData");
+      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+11:34:31 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:10:10: error: ‘utilities’ has not been declared
+subdir.mk:21: recipe for target 'main.o' failed
+  int i = utilities::LoadData("TextData");
+          ^
+../main.cpp:10:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i = utilities::LoadData("TextData");
+      ^
+make: *** [main.o] Error 1
+11:34:34 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:10:10: error: ‘utilities’ has not been declared
+  int i = utilities::loadData("TextData");
+          ^
+../main.cpp:10:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i = utilities::loadData("TextData");
+      ^
+make: *** [main.o] Error 1
+subdir.mk:21: recipe for target 'main.o' failed
+11:45:07 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:10:10: error: ‘utilities’ has not been declared
+  int i = utilities::loadData("TextData");
+          ^
+../main.cpp:10:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i = utilities::loadData("TextData");
+      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+11:48:05 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:10:10: error: ‘utilities’ has not been declared
+  int i = utilities::loadData("TextData");
+          ^
+../main.cpp:10:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i = utilities::loadData("TextData");
+      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+11:48:39 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:11:3: error: ‘fstream’ was not declared in this scope
+   fstream myfstream;
+   ^
+../main.cpp:11:3: note: suggested alternative:
+In file included from /usr/include/c++/5/ios:38:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/fstream:38,
+                 from ../main.cpp:8:
+/usr/include/c++/5/iosfwd:168:33: note:   ‘std::fstream’
+   typedef basic_fstream<char>   fstream;
+                                 ^
+../main.cpp:12:17: error: ‘myfstream’ was not declared in this scope
+   if (!openFile(myfstream, filename))
+                 ^
+../main.cpp:12:28: error: ‘filename’ was not declared in this scope
+   if (!openFile(myfstream, filename))
+                            ^
+../main.cpp:12:36: error: ‘openFile’ was not declared in this scope
+   if (!openFile(myfstream, filename))
+                                    ^
+../main.cpp:15:20: error: ‘myfstream’ was not declared in this scope
+   if (!processFile(myfstream))
+                    ^
+../main.cpp:15:29: error: ‘processFile’ was not declared in this scope
+   if (!processFile(myfstream))
+                             ^
+../main.cpp:18:13: error: ‘mysortorder’ was not declared in this scope
+   sortArray(mysortorder);
+             ^
+../main.cpp:18:24: error: ‘sortArray’ was not declared in this scope
+   sortArray(mysortorder);
+                        ^
+../main.cpp:19:3: error: ‘string’ was not declared in this scope
+   string name = TEST_DATA_FULL_OUT;
+   ^
+../main.cpp:19:3: note: suggested alternatives:
+In file included from /usr/include/c++/5/iosfwd:39:0,
+                 from /usr/include/c++/5/ios:38,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/fstream:38,
+                 from ../main.cpp:8:
+/usr/include/c++/5/bits/stringfwd.h:74:33: note:   ‘std::__cxx11::string’
+   typedef basic_string<char>    string;   
+                                 ^
+/usr/include/c++/5/bits/stringfwd.h:74:33: note:   ‘std::__cxx11::string’
+../main.cpp:20:25: error: ‘name’ was not declared in this scope
+   if ( writeArraytoFile(name)!= SUCCESS)
+                         ^
+../main.cpp:20:29: error: ‘writeArraytoFile’ was not declared in this scope
+   if ( writeArraytoFile(name)!= SUCCESS)
+                             ^
+../main.cpp:27:13: error: ‘myfstream’ was not declared in this scope
+   closeFile(myfstream);
+subdir.mk:21: recipe for target 'main.o' failed
+             ^
+../main.cpp:27:22: error: ‘closeFile’ was not declared in this scope
+   closeFile(myfstream);
+                      ^
+make: *** [main.o] Error 1
+11:48:59 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:13:28: error: ‘filename’ was not declared in this scope
+   if (!openFile(myfstream, filename))
+                            ^
+../main.cpp:13:36: error: ‘openFile’ was not declared in this scope
+   if (!openFile(myfstream, filename))
+                                    ^
+../main.cpp:16:29: error: ‘processFile’ was not declared in this scope
+   if (!processFile(myfstream))
+                             ^
+../main.cpp:19:13: error: ‘mysortorder’ was not declared in this scope
+   sortArray(mysortorder);
+             ^
+../main.cpp:19:24: error: ‘sortArray’ was not declared in this scope
+   sortArray(mysortorder);
+                        ^
+../main.cpp:20:17: error: ‘TEST_DATA_FULL_OUT’ was not declared in this scope
+   string name = TEST_DATA_FULL_OUT;
+                 ^
+../main.cpp:21:29: error: ‘writeArraytoFile’ was not declared in this scope
+   if ( writeArraytoFile(name)!= SUCCESS)
+                             ^
+../main.cpp:28:22: error: ‘closeFile’ was not declared in this scope
+   closeFile(myfstream);
+                      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+20:26:19 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+20:26:19 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:13:38: error: ‘openFile’ was not declared in this scope
+   if (!openFile(myfstream, "TestData"))
+                                      ^
+../main.cpp:16:29: error: ‘processFile’ was not declared in this scope
+   if (!processFile(myfstream))
+                             ^
+../main.cpp:19:13: error: ‘mysortorder’ was not declared in this scope
+   sortArray(mysortorder);
+             ^
+../main.cpp:19:24: error: ‘sortArray’ was not declared in this scope
+   sortArray(mysortorder);
+                        ^
+../main.cpp:20:17: error: ‘TEST_DATA_FULL_OUT’ was not declared in this scope
+   string name = TEST_DATA_FULL_OUT;
+                 ^
+../main.cpp:21:29: error: ‘writeArraytoFile’ was not declared in this scope
+   if ( writeArraytoFile(name)!= SUCCESS)
+                             ^
+../main.cpp:28:22: error: ‘closeFile’ was not declared in this scope
+   closeFile(myfstream);
+                      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+20:26:29 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:13:38: error: ‘openFile’ was not declared in this scope
+   if (!openFile(myfstream, "TestData"))
+                                      ^
+../main.cpp:16:29: error: ‘processFile’ was not declared in this scope
+   if (!processFile(myfstream))
+                             ^
+../main.cpp:19:13: error: ‘mysortorder’ was not declared in this scope
+   sortArray(mysortorder);
+             ^
+../main.cpp:19:24: error: ‘sortArray’ was not declared in this scope
+   sortArray(mysortorder);
+                        ^
+../main.cpp:20:17: error: ‘TEST_DATA_FULL_OUT’ was not declared in this scope
+   string name = TEST_DATA_FULL_OUT;
+                 ^
+../main.cpp:21:29: error: ‘writeArraytoFile’ was not declared in this scope
+   if ( writeArraytoFile(name)!= SUCCESS)
+                             ^
+../main.cpp:28:22: error: ‘closeFile’ was not declared in this scope
+   closeFile(myfstream);
+                      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+20:30:39 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:40 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:13:7: warning: unused variable ‘i’ [-Wunused-variable]
+   int i = loadData("TestData.txt");
+       ^
+Finished building: ../main.cpp
+ 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+Finished building: ../utilities.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+20:34:00 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:01 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:14:3: error: ‘cout’ was not declared in this scope
+   cout<<"load"<<i;
+   ^
+make: *** [main.o] Error 1
+subdir.mk:21: recipe for target 'main.o' failed
+20:34:42 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:43 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+20:35:00 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:15 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:39:33 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+20:40:27 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:40:42 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+20:40:46 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:44 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+Finished building: ../utilities.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+20:45:00 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:45:14 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:57 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+20:47:40 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:49:11 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+Finished building: ../utilities.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+20:49:15 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:49:36 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+20:49:39 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:56:10 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+20:58:51 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:24:15: error: ‘myVector’ was not declared in this scope
+   int count = myVector.size();
+               ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+20:58:58 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:24:15: error: ‘myVector’ was not declared in this scope
+   int count = myVector.size();
+               ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:00:20 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:24:15: error: ‘myVector’ was not declared in this scope
+   int count = myVector.size();
+               ^
+make: *** [main.o] Error 1
+subdir.mk:21: recipe for target 'main.o' failed
+21:02:28 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:24:15: error: ‘myVector’ was not declared in this scope
+   int count = myVector.size();
+               ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:04:20 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:24:15: error: ‘myVector’ was not declared in this scope
+   int count = myVector.size();
+               ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:05:10 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+Finished building: ../utilities.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+./utilities.o: In function `__gnu_cxx::new_allocator<int>::new_allocator()':
+/home/waida/workspace/project1/Debug/../utilities.cpp:22: multiple definition of `loadData(char const*)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:22: first defined here
+makefile:44: recipe for target 'project1' failed
+./utilities.o: In function `saveData(char const*)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:60: multiple definition of `saveData(char const*)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:60: first defined here
+./utilities.o: In function `CPU_Cmp(process_stats const&, process_stats const&)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:74: multiple definition of `CPU_Cmp(process_stats const&, process_stats const&)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:74: first defined here
+./utilities.o: In function `process_number_Cmp(process_stats const&, process_stats const&)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:78: multiple definition of `process_number_Cmp(process_stats const&, process_stats const&)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:78: first defined here
+./utilities.o: In function `start_time_Cmp(process_stats const&, process_stats const&)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:82: multiple definition of `start_time_Cmp(process_stats const&, process_stats const&)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:82: first defined here
+./utilities.o: In function `sortData(SORT_ORDER)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:87: multiple definition of `sortData(SORT_ORDER)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:87: first defined here
+./utilities.o: In function `getNext()':
+/home/waida/workspace/project1/Debug/../utilities.cpp:101: multiple definition of `getNext()'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:101: first defined here
+./main.o: In function `loadData(char const*)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:23: undefined reference to `myVector'
+/home/waida/workspace/project1/Debug/../utilities.cpp:43: undefined reference to `myVector'
+./main.o: In function `saveData(char const*)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:64: undefined reference to `myVector'
+./main.o: In function `sortData(SORT_ORDER)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:89: undefined reference to `myVector'
+/home/waida/workspace/project1/Debug/../utilities.cpp:89: undefined reference to `myVector'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:92: more undefined references to `myVector' follow
+collect2: error: ld returned 1 exit status
+make: *** [project1] Error 1
+21:05:15 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+Finished building: ../utilities.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+./utilities.o:(.bss+0x0): multiple definition of `myVector'
+makefile:44: recipe for target 'project1' failed
+./main.o:(.bss+0x0): first defined here
+./utilities.o: In function `__gnu_cxx::new_allocator<int>::new_allocator()':
+/home/waida/workspace/project1/Debug/../utilities.cpp:22: multiple definition of `loadData(char const*)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:22: first defined here
+./utilities.o: In function `saveData(char const*)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:60: multiple definition of `saveData(char const*)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:60: first defined here
+./utilities.o: In function `CPU_Cmp(process_stats const&, process_stats const&)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:74: multiple definition of `CPU_Cmp(process_stats const&, process_stats const&)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:74: first defined here
+./utilities.o: In function `process_number_Cmp(process_stats const&, process_stats const&)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:78: multiple definition of `process_number_Cmp(process_stats const&, process_stats const&)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:78: first defined here
+./utilities.o: In function `start_time_Cmp(process_stats const&, process_stats const&)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:82: multiple definition of `start_time_Cmp(process_stats const&, process_stats const&)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:82: first defined here
+./utilities.o: In function `sortData(SORT_ORDER)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:87: multiple definition of `sortData(SORT_ORDER)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:87: first defined here
+./utilities.o: In function `getNext()':
+/home/waida/workspace/project1/Debug/../utilities.cpp:101: multiple definition of `getNext()'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:101: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [project1] Error 1
+21:06:28 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:24:15: error: ‘myVector’ was not declared in this scope
+   int count = myVector.size();
+               ^
+make: *** [main.o] Error 1
+subdir.mk:21: recipe for target 'main.o' failed
+21:08:10 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+./utilities.o:(.bss+0x0): multiple definition of `myVector'
+./main.o:(.bss+0x0): first defined here
+./utilities.o: In function `__gnu_cxx::new_allocator<int>::new_allocator()':
+/home/waida/workspace/project1/Debug/../utilities.cpp:22: multiple definition of `loadData(char const*)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:22: first defined here
+./utilities.o: In function `saveData(char const*)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:60: multiple definition of `saveData(char const*)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:60: first defined here
+makefile:44: recipe for target 'project1' failed
+./utilities.o: In function `CPU_Cmp(process_stats const&, process_stats const&)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:74: multiple definition of `CPU_Cmp(process_stats const&, process_stats const&)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:74: first defined here
+./utilities.o: In function `process_number_Cmp(process_stats const&, process_stats const&)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:78: multiple definition of `process_number_Cmp(process_stats const&, process_stats const&)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:78: first defined here
+./utilities.o: In function `start_time_Cmp(process_stats const&, process_stats const&)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:82: multiple definition of `start_time_Cmp(process_stats const&, process_stats const&)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:82: first defined here
+./utilities.o: In function `sortData(SORT_ORDER)':
+/home/waida/workspace/project1/Debug/../utilities.cpp:87: multiple definition of `sortData(SORT_ORDER)'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:87: first defined here
+./utilities.o: In function `getNext()':
+/home/waida/workspace/project1/Debug/../utilities.cpp:101: multiple definition of `getNext()'
+./main.o:/home/waida/workspace/project1/Debug/../utilities.cpp:101: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [project1] Error 1
+21:09:16 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:24:15: error: ‘myVector’ was not declared in this scope
+   int count = myVector.size();
+               ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:11:40 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+21:11:47 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+21:11:54 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:13:14 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+21:13:20 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:14:02 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+21:14:07 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:17:59 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities.d" -MT"utilities.o" -o "utilities.o" "../utilities.cpp"
+Finished building: ../utilities.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+21:18:05 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:19:34 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:23:04 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+21:23:20 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:25:51 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+21:25:55 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:26:04 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:32:40 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+21:38:52 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: project1
+Invoking: GCC C++ Linker
+g++  -o "project1"  ./main.o ./utilities.o   
+Finished building target: project1
+ 
+21:38:57 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
