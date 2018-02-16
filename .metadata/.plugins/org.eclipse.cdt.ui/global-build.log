@@ -11656,3 +11656,498 @@ Finished building target: project1
 21:38:57 **** Incremental Build of configuration Debug for project project1 ****
 make all 
 make: Nothing to be done for 'all'.
+10:19:45 **** Clean-only build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make clean 
+rm -rf  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o  ./src/Proj2_410_Queues_Solution.d  ./logger/logger_single_thread.d  ./joblist/joblist.d  ./file_io/file_io.d  ./dispatcher/dispatcher.d  Proj2_410_queues_SKELETON
+ 
+10:19:45 **** Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+../src/Proj2_410_Queues_Solution.cpp:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../logger/logger_single_thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger_single_thread.d" -MT"logger/logger_single_thread.o" -o "logger/logger_single_thread.o" "../logger/logger_single_thread.cpp"
+Finished building: ../logger/logger_single_thread.cpp
+ 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../file_io/file_io.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"file_io/file_io.d" -MT"file_io/file_io.o" -o "file_io/file_io.o" "../file_io/file_io.cpp"
+Finished building: ../file_io/file_io.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+10:48:42 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+12:06:36 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:26:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+../joblist/joblist.cpp:29:25: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+  if(peekNextStartTime== currentTick){
+                         ^
+make: *** [joblist/joblist.o] Error 1
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+12:09:02 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:26:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+../joblist/joblist.cpp:29:25: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+  if(peekNextStartTime== currentTick){
+                         ^
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+make: *** [joblist/joblist.o] Error 1
+12:09:11 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:26:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+../joblist/joblist.cpp:29:25: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+  if(peekNextStartTime== currentTick){
+                         ^
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+make: *** [joblist/joblist.o] Error 1
+12:26:35 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:26:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+../joblist/joblist.cpp:29:25: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+  if(peekNextStartTime== currentTick){
+                         ^
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+make: *** [joblist/joblist.o] Error 1
+15:43:10 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:26:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+../joblist/joblist.cpp:29:25: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+  if(peekNextStartTime== currentTick){
+                         ^
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+make: *** [joblist/joblist.o] Error 1
+08:14:37 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:26:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+../joblist/joblist.cpp:29:25: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+  if(peekNextStartTime== currentTick){
+                         ^
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+make: *** [joblist/joblist.o] Error 1
+08:16:39 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:26:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+../joblist/joblist.cpp:29:25: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+  if(peekNextStartTime== currentTick){
+                         ^
+make: *** [joblist/joblist.o] Error 1
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+08:18:29 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:26:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+../joblist/joblist.cpp:29:25: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+  if(peekNextStartTime== 3){
+                         ^
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+make: *** [joblist/joblist.o] Error 1
+08:18:40 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:26:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::processInterrupt(int)’:
+../dispatcher/dispatcher.cpp:47:15: error: no match for ‘operator=’ (operand types are ‘PCB’ and ‘void’)
+    runningPCB = ready_Q.pop();
+               ^
+In file included from ../dispatcher/dispatcher.cpp:1:0:
+../dispatcher/../includes_usr/constants.h:59:8: note: candidate: PCB& PCB::operator=(const PCB&)
+ struct PCB {
+        ^
+../dispatcher/../includes_usr/constants.h:59:8: note:   no known conversion for argument 1 from ‘void’ to ‘const PCB&’
+../dispatcher/../includes_usr/constants.h:59:8: note: candidate: PCB& PCB::operator=(PCB&&)
+../dispatcher/../includes_usr/constants.h:59:8: note:   no known conversion for argument 1 from ‘void’ to ‘PCB&&’
+../dispatcher/dispatcher.cpp:54:29: error: conversion from ‘void’ to non-scalar type ‘PCB’ requested
+     PCB temp = blocked_Q.pop();
+                             ^
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:66:15: error: could not convert ‘runningPCB’ from ‘PCB’ to ‘bool’
+  if(runningPCB){
+               ^
+make: *** [dispatcher/dispatcher.o] Error 1
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+08:19:11 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:26:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+../joblist/joblist.cpp:29:25: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+  if(peekNextStartTime== currentTick){
+                         ^
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+make: *** [joblist/joblist.o] Error 1
+08:20:06 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:26:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::processInterrupt(int)’:
+../dispatcher/dispatcher.cpp:47:15: error: no match for ‘operator=’ (operand types are ‘PCB’ and ‘void’)
+    runningPCB = ready_Q.pop();
+               ^
+In file included from ../dispatcher/dispatcher.cpp:1:0:
+../dispatcher/../includes_usr/constants.h:59:8: note: candidate: PCB& PCB::operator=(const PCB&)
+ struct PCB {
+        ^
+../dispatcher/../includes_usr/constants.h:59:8: note:   no known conversion for argument 1 from ‘void’ to ‘const PCB&’
+../dispatcher/../includes_usr/constants.h:59:8: note: candidate: PCB& PCB::operator=(PCB&&)
+../dispatcher/../includes_usr/constants.h:59:8: note:   no known conversion for argument 1 from ‘void’ to ‘PCB&&’
+../dispatcher/dispatcher.cpp:54:29: error: conversion from ‘void’ to non-scalar type ‘PCB’ requested
+     PCB temp = blocked_Q.pop();
+                             ^
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:66:15: error: could not convert ‘runningPCB’ from ‘PCB’ to ‘bool’
+  if(runningPCB){
+               ^
+make: *** [dispatcher/dispatcher.o] Error 1
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+08:24:06 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::processInterrupt(int)’:
+../dispatcher/dispatcher.cpp:56:29: error: conversion from ‘void’ to non-scalar type ‘PCB’ requested
+     PCB temp = blocked_Q.pop();
+                             ^
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:68:15: error: could not convert ‘runningPCB’ from ‘PCB’ to ‘bool’
+  if(runningPCB){
+               ^
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+make: *** [dispatcher/dispatcher.o] Error 1
+08:24:35 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:70:15: error: could not convert ‘runningPCB’ from ‘PCB’ to ‘bool’
+  if(runningPCB){
+               ^
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+make: *** [dispatcher/dispatcher.o] Error 1
+08:24:56 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:70:19: error: ‘null’ was not declared in this scope
+  if(runningPCB != null){
+                   ^
+make: *** [dispatcher/dispatcher.o] Error 1
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+08:25:01 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:70:16: error: no match for ‘operator!=’ (operand types are ‘PCB’ and ‘int’)
+  if(runningPCB != 0){
+                ^
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+make: *** [dispatcher/dispatcher.o] Error 1
+08:27:02 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:70:16: error: no match for ‘operator!=’ (operand types are ‘PCB’ and ‘long int’)
+  if(runningPCB != NULL){
+                ^
+make: *** [dispatcher/dispatcher.o] Error 1
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+08:28:30 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:70:15: error: could not convert ‘runningPCB’ from ‘PCB’ to ‘bool’
+  if(runningPCB){
+               ^
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+make: *** [dispatcher/dispatcher.o] Error 1
+08:30:00 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:70:5: error: no match for ‘operator!’ (operand type is ‘PCB’)
+  if(!runningPCB){
+     ^
+../dispatcher/dispatcher.cpp:70:5: note: candidate: operator!(bool) <built-in>
+../dispatcher/dispatcher.cpp:70:5: note:   no known conversion for argument 1 from ‘PCB’ to ‘bool’
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+make: *** [dispatcher/dispatcher.o] Error 1
+08:30:50 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+08:37:10 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:73:29: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+    if(runningPCB.io_time = 0){
+                             ^
+../dispatcher/dispatcher.cpp:74:5: error: ‘runnningPCB’ was not declared in this scope
+     runnningPCB = 0;
+     ^
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+make: *** [dispatcher/dispatcher.o] Error 1
+08:37:21 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:73:29: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+    if(runningPCB.io_time = 0){
+                             ^
+../dispatcher/dispatcher.cpp:74:5: error: ‘runnningPCB’ was not declared in this scope
+     runnningPCB = null;
+     ^
+../dispatcher/dispatcher.cpp:74:19: error: ‘null’ was not declared in this scope
+     runnningPCB = null;
+                   ^
+make: *** [dispatcher/dispatcher.o] Error 1
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+08:42:20 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:73:29: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+    if(runningPCB.io_time = 0){
+                             ^
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+08:42:49 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+08:43:50 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+08:50:00 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:98:8: warning: variable ‘runningPCB’ set but not used [-Wunused-but-set-variable]
+    PCB runningPCB = f;
+        ^
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+09:19:05 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:98:8: warning: variable ‘runningPCB’ set but not used [-Wunused-but-set-variable]
+    PCB runningPCB = f;
+        ^
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+09:23:30 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+09:23:46 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+09:29:28 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+09:37:43 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../includes_usr/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"includes_usr/main.d" -MT"includes_usr/main.o" -o "includes_usr/main.o" "../includes_usr/main.cpp"
+Finished building: ../includes_usr/main.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./includes_usr/main.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+./includes_usr/main.o: In function `main':
+/home/waida/git/Proj2_410_queues_SKELETON/Debug/../includes_usr/main.cpp:13: multiple definition of `main'
+makefile:50: recipe for target 'Proj2_410_queues_SKELETON' failed
+./src/Proj2_410_Queues_Solution.o:/home/waida/git/Proj2_410_queues_SKELETON/Debug/../src/Proj2_410_Queues_Solution.cpp:139: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [Proj2_410_queues_SKELETON] Error 1
+09:37:45 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+09:39:47 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../includes_usr/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"includes_usr/main.d" -MT"includes_usr/main.o" -o "includes_usr/main.o" "../includes_usr/main.cpp"
+Finished building: ../includes_usr/main.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./includes_usr/main.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+./includes_usr/main.o: In function `main':
+/home/waida/git/Proj2_410_queues_SKELETON/Debug/../includes_usr/main.cpp:13: multiple definition of `main'
+makefile:50: recipe for target 'Proj2_410_queues_SKELETON' failed
+./src/Proj2_410_Queues_Solution.o:/home/waida/git/Proj2_410_queues_SKELETON/Debug/../src/Proj2_410_Queues_Solution.cpp:139: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [Proj2_410_queues_SKELETON] Error 1
+09:39:48 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+09:41:20 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+09:41:21 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
