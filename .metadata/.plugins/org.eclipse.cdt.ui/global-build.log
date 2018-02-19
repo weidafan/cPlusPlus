@@ -12151,3 +12151,1285 @@ Finished building target: Proj2_410_queues_SKELETON
 09:41:21 **** Incremental Build of configuration Debug for project Project2_Starter ****
 make all 
 make: Nothing to be done for 'all'.
+09:48:57 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+09:52:12 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+../src/Proj2_410_Queues_Solution.cpp:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../logger/logger_single_thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger_single_thread.d" -MT"logger/logger_single_thread.o" -o "logger/logger_single_thread.o" "../logger/logger_single_thread.cpp"
+Finished building: ../logger/logger_single_thread.cpp
+ 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:26:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../file_io/file_io.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"file_io/file_io.d" -MT"file_io/file_io.o" -o "file_io/file_io.o" "../file_io/file_io.cpp"
+Finished building: ../file_io/file_io.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:98:8: warning: variable ‘runningPCB’ set but not used [-Wunused-but-set-variable]
+    PCB runningPCB = f;
+        ^
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+09:52:26 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+09:54:17 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+09:54:18 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+Building file: ../src/Project2.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project2.d" -MT"src/Project2.o" -o "src/Project2.o" "../src/Project2.cpp"
+Finished building: ../src/Project2.cpp
+ 
+Building file: ../src/array_functions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_functions.d" -MT"src/array_functions.o" -o "src/array_functions.o" "../src/array_functions.cpp"
+Finished building: ../src/array_functions.cpp
+ 
+Building file: ../src/utilities.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utilities.d" -MT"src/utilities.o" -o "src/utilities.o" "../src/utilities.cpp"
+Finished building: ../src/utilities.cpp
+ 
+Building target: Project2_Starter.exe
+Invoking: GCC C++ Linker
+g++  -o "Project2_Starter.exe"  ./src/Project2.o ./src/array_functions.o ./src/utilities.o   
+Finished building target: Project2_Starter.exe
+ 
+09:55:01 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+09:55:05 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+09:55:37 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../logger/logger_single_thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger_single_thread.d" -MT"logger/logger_single_thread.o" -o "logger/logger_single_thread.o" "../logger/logger_single_thread.cpp"
+Finished building: ../logger/logger_single_thread.cpp
+ 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:26:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../file_io/file_io.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"file_io/file_io.d" -MT"file_io/file_io.o" -o "file_io/file_io.o" "../file_io/file_io.cpp"
+Finished building: ../file_io/file_io.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:98:8: warning: variable ‘runningPCB’ set but not used [-Wunused-but-set-variable]
+    PCB runningPCB = f;
+        ^
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+09:55:40 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+09:56:23 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+09:57:20 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+../src/Proj2_410_Queues_Solution.cpp:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+09:57:21 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+09:58:25 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+10:23:10 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+10:23:14 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+10:24:32 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+10:28:27 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+10:28:28 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+10:28:34 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+10:40:53 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:32:13: warning: the address of ‘int size()’ will never be NULL [-Waddress]
+  if(size == 0){
+             ^
+Finished building: ../joblist/joblist.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+10:40:54 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+10:44:28 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:32:11: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+  if(size==1){
+           ^
+make: *** [joblist/joblist.o] Error 1
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+10:44:29 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+10:45:51 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+10:45:53 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+10:45:57 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+10:45:58 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+10:46:06 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+10:46:21 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+10:47:25 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+10:48:04 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+10:49:06 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+10:51:42 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+10:52:22 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+10:57:27 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+10:58:37 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../logger/logger_single_thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger_single_thread.d" -MT"logger/logger_single_thread.o" -o "logger/logger_single_thread.o" "../logger/logger_single_thread.cpp"
+Finished building: ../logger/logger_single_thread.cpp
+ 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../file_io/file_io.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"file_io/file_io.d" -MT"file_io/file_io.o" -o "file_io/file_io.o" "../file_io/file_io.cpp"
+Finished building: ../file_io/file_io.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+10:58:45 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:04:08 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../logger/logger_single_thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger_single_thread.d" -MT"logger/logger_single_thread.o" -o "logger/logger_single_thread.o" "../logger/logger_single_thread.cpp"
+Finished building: ../logger/logger_single_thread.cpp
+ 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../file_io/file_io.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"file_io/file_io.d" -MT"file_io/file_io.o" -o "file_io/file_io.o" "../file_io/file_io.cpp"
+Finished building: ../file_io/file_io.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+11:04:32 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:08:47 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../logger/logger_single_thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger_single_thread.d" -MT"logger/logger_single_thread.o" -o "logger/logger_single_thread.o" "../logger/logger_single_thread.cpp"
+Finished building: ../logger/logger_single_thread.cpp
+ 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../file_io/file_io.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"file_io/file_io.d" -MT"file_io/file_io.o" -o "file_io/file_io.o" "../file_io/file_io.cpp"
+Finished building: ../file_io/file_io.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+11:09:29 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:09:49 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:10:36 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:03 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:13:07 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../logger/logger_single_thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger_single_thread.d" -MT"logger/logger_single_thread.o" -o "logger/logger_single_thread.o" "../logger/logger_single_thread.cpp"
+Finished building: ../logger/logger_single_thread.cpp
+ 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../file_io/file_io.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"file_io/file_io.d" -MT"file_io/file_io.o" -o "file_io/file_io.o" "../file_io/file_io.cpp"
+Finished building: ../file_io/file_io.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+11:14:24 **** Clean-only build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make clean 
+rm -rf  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o  ./src/Proj2_410_Queues_Solution.d  ./logger/logger_single_thread.d  ./joblist/joblist.d  ./file_io/file_io.d  ./dispatcher/dispatcher.d  Proj2_410_queues_SKELETON
+ 
+11:14:24 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../logger/logger_single_thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger_single_thread.d" -MT"logger/logger_single_thread.o" -o "logger/logger_single_thread.o" "../logger/logger_single_thread.cpp"
+Finished building: ../logger/logger_single_thread.cpp
+ 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../file_io/file_io.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"file_io/file_io.d" -MT"file_io/file_io.o" -o "file_io/file_io.o" "../file_io/file_io.cpp"
+Finished building: ../file_io/file_io.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+11:18:11 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../logger/logger_single_thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger_single_thread.d" -MT"logger/logger_single_thread.o" -o "logger/logger_single_thread.o" "../logger/logger_single_thread.cpp"
+Finished building: ../logger/logger_single_thread.cpp
+ 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../file_io/file_io.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"file_io/file_io.d" -MT"file_io/file_io.o" -o "file_io/file_io.o" "../file_io/file_io.cpp"
+Finished building: ../file_io/file_io.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+11:18:17 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:48 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:22:26 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../logger/logger_single_thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger_single_thread.d" -MT"logger/logger_single_thread.o" -o "logger/logger_single_thread.o" "../logger/logger_single_thread.cpp"
+Finished building: ../logger/logger_single_thread.cpp
+ 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../file_io/file_io.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"file_io/file_io.d" -MT"file_io/file_io.o" -o "file_io/file_io.o" "../file_io/file_io.cpp"
+Finished building: ../file_io/file_io.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+11:22:33 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:22:44 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:32:28 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../logger/logger_single_thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger_single_thread.d" -MT"logger/logger_single_thread.o" -o "logger/logger_single_thread.o" "../logger/logger_single_thread.cpp"
+Finished building: ../logger/logger_single_thread.cpp
+ 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../file_io/file_io.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"file_io/file_io.d" -MT"file_io/file_io.o" -o "file_io/file_io.o" "../file_io/file_io.cpp"
+Finished building: ../file_io/file_io.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+11:33:30 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../logger/logger_single_thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger_single_thread.d" -MT"logger/logger_single_thread.o" -o "logger/logger_single_thread.o" "../logger/logger_single_thread.cpp"
+Finished building: ../logger/logger_single_thread.cpp
+ 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../file_io/file_io.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"file_io/file_io.d" -MT"file_io/file_io.o" -o "file_io/file_io.o" "../file_io/file_io.cpp"
+Finished building: ../file_io/file_io.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+11:33:57 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:34:21 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:39:13 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:43:33 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:45:35 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../logger/logger_single_thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger_single_thread.d" -MT"logger/logger_single_thread.o" -o "logger/logger_single_thread.o" "../logger/logger_single_thread.cpp"
+Finished building: ../logger/logger_single_thread.cpp
+ 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../file_io/file_io.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"file_io/file_io.d" -MT"file_io/file_io.o" -o "file_io/file_io.o" "../file_io/file_io.cpp"
+Finished building: ../file_io/file_io.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+11:45:43 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+16:18:19 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:36:3: error: ‘runningPCB’ was not declared in this scope
+   runningPCB = myVector.begin();
+   ^
+../joblist/joblist.cpp:36:16: error: ‘myVector’ was not declared in this scope
+   runningPCB = myVector.begin();
+                ^
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+make: *** [joblist/joblist.o] Error 1
+16:18:28 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:36:3: error: ‘runningPCB’ was not declared in this scope
+   runningPCB = myVector.begin();
+   ^
+../joblist/joblist.cpp:36:16: error: ‘myVector’ was not declared in this scope
+   runningPCB = myVector.begin();
+                ^
+make: *** [joblist/joblist.o] Error 1
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+16:19:52 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:36:3: error: ‘runningPCB’ was not declared in this scope
+   runningPCB = getNext();
+   ^
+../joblist/joblist.cpp:37:3: error: ‘myVector’ was not declared in this scope
+   myVector.erase(myVector.begin());
+   ^
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+make: *** [joblist/joblist.o] Error 1
+16:20:13 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:36:3: error: ‘runningPCB’ was not declared in this scope
+   runningPCB = getNext();
+   ^
+../joblist/joblist.cpp:37:3: error: ‘myVector’ was not declared in this scope
+   myVector.erase(myVector.begin());
+   ^
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+make: *** [joblist/joblist.o] Error 1
+16:21:23 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:36:3: error: ‘runningPCB’ was not declared in this scope
+   runningPCB = getNextJob();
+   ^
+../joblist/joblist.cpp:37:3: error: ‘myVector’ was not declared in this scope
+   myVector.erase(myVector.begin());
+   ^
+make: *** [joblist/joblist.o] Error 1
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+16:30:06 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:38:22: error: ‘fle_io’ has not been declared
+   dispatcher::addJob(fle_io::getNext());
+                      ^
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+make: *** [joblist/joblist.o] Error 1
+16:31:20 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+../joblist/joblist.cpp: In function ‘int joblist::doTick(int)’:
+../joblist/joblist.cpp:39:22: error: ‘fle_io’ has not been declared
+   dispatcher::addJob(fle_io::getNext());
+                      ^
+make: *** [joblist/joblist.o] Error 1
+joblist/subdir.mk:18: recipe for target 'joblist/joblist.o' failed
+16:31:27 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+16:32:00 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+16:32:21 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+16:44:28 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../joblist/joblist.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"joblist/joblist.d" -MT"joblist/joblist.o" -o "joblist/joblist.o" "../joblist/joblist.cpp"
+Finished building: ../joblist/joblist.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+16:54:55 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+17:35:31 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+17:36:06 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+17:41:56 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+17:59:29 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+18:01:39 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:03 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:74:16: error: no match for ‘operator=’ (operand types are ‘PCB’ and ‘int’)
+     runningPCB = 0;
+                ^
+In file included from ../dispatcher/dispatcher.cpp:1:0:
+../dispatcher/../includes_usr/constants.h:59:8: note: candidate: PCB& PCB::operator=(const PCB&)
+ struct PCB {
+        ^
+../dispatcher/../includes_usr/constants.h:59:8: note:   no known conversion for argument 1 from ‘int’ to ‘const PCB&’
+../dispatcher/../includes_usr/constants.h:59:8: note: candidate: PCB& PCB::operator=(PCB&&)
+../dispatcher/../includes_usr/constants.h:59:8: note:   no known conversion for argument 1 from ‘int’ to ‘PCB&&’
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+make: *** [dispatcher/dispatcher.o] Error 1
+18:19:28 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:74:16: error: no match for ‘operator=’ (operand types are ‘PCB’ and ‘long int’)
+     runningPCB = NULL;
+                ^
+In file included from ../dispatcher/dispatcher.cpp:1:0:
+../dispatcher/../includes_usr/constants.h:59:8: note: candidate: PCB& PCB::operator=(const PCB&)
+ struct PCB {
+        ^
+../dispatcher/../includes_usr/constants.h:59:8: note:   no known conversion for argument 1 from ‘long int’ to ‘const PCB&’
+../dispatcher/../includes_usr/constants.h:59:8: note: candidate: PCB& PCB::operator=(PCB&&)
+../dispatcher/../includes_usr/constants.h:59:8: note:   no known conversion for argument 1 from ‘long int’ to ‘PCB&&’
+make: *** [dispatcher/dispatcher.o] Error 1
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+18:19:58 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:74:16: error: no match for ‘operator=’ (operand types are ‘PCB’ and ‘PCB*’)
+     runningPCB = new PCB();
+                ^
+In file included from ../dispatcher/dispatcher.cpp:1:0:
+../dispatcher/../includes_usr/constants.h:59:8: note: candidate: PCB& PCB::operator=(const PCB&)
+ struct PCB {
+        ^
+../dispatcher/../includes_usr/constants.h:59:8: note:   no known conversion for argument 1 from ‘PCB*’ to ‘const PCB&’
+../dispatcher/../includes_usr/constants.h:59:8: note: candidate: PCB& PCB::operator=(PCB&&)
+../dispatcher/../includes_usr/constants.h:59:8: note:   no known conversion for argument 1 from ‘PCB*’ to ‘PCB&&’
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+make: *** [dispatcher/dispatcher.o] Error 1
+18:20:12 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:74:16: error: no match for ‘operator=’ (operand types are ‘PCB’ and ‘PCB*’)
+     runningPCB = new PCB;
+                ^
+In file included from ../dispatcher/dispatcher.cpp:1:0:
+../dispatcher/../includes_usr/constants.h:59:8: note: candidate: PCB& PCB::operator=(const PCB&)
+ struct PCB {
+        ^
+../dispatcher/../includes_usr/constants.h:59:8: note:   no known conversion for argument 1 from ‘PCB*’ to ‘const PCB&’
+../dispatcher/../includes_usr/constants.h:59:8: note: candidate: PCB& PCB::operator=(PCB&&)
+../dispatcher/../includes_usr/constants.h:59:8: note:   no known conversion for argument 1 from ‘PCB*’ to ‘PCB&&’
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+make: *** [dispatcher/dispatcher.o] Error 1
+19:38:28 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+19:38:35 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+19:47:57 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+19:48:46 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+19:49:28 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:65:11: error: no match for ‘operator>>’ (operand types are ‘std::ostream {aka std::basic_ostream<char>}’ and ‘const char [9]’)
+  std::cout>>"cpu time"<<runningPCB.cpu_time>>std::endl;
+           ^
+In file included from /usr/include/c++/5/iostream:40:0,
+                 from ../dispatcher/../includes_usr/constants.h:2,
+                 from ../dispatcher/dispatcher.cpp:1:
+/usr/include/c++/5/istream:924:5: note: candidate: template<class _CharT, class _Traits, class _Tp> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&)
+     operator>>(basic_istream<_CharT, _Traits>&& __is, _Tp& __x)
+     ^
+/usr/include/c++/5/istream:924:5: note:   template argument deduction/substitution failed:
+../dispatcher/dispatcher.cpp:65:13: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘std::basic_istream<_CharT, _Traits>’
+  std::cout>>"cpu time"<<runningPCB.cpu_time>>std::endl;
+             ^
+In file included from /usr/include/c++/5/iostream:40:0,
+                 from ../dispatcher/../includes_usr/constants.h:2,
+                 from ../dispatcher/dispatcher.cpp:1:
+/usr/include/c++/5/istream:808:5: note: candidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)
+     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
+     ^
+/usr/include/c++/5/istream:808:5: note:   template argument deduction/substitution failed:
+../dispatcher/dispatcher.cpp:65:13: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘std::basic_istream<char, _Traits>’
+  std::cout>>"cpu time"<<runningPCB.cpu_time>>std::endl;
+             ^
+In file included from /usr/include/c++/5/iostream:40:0,
+                 from ../dispatcher/../includes_usr/constants.h:2,
+                 from ../dispatcher/dispatcher.cpp:1:
+/usr/include/c++/5/istream:803:5: note: candidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+     ^
+/usr/include/c++/5/istream:803:5: note:   template argument deduction/substitution failed:
+../dispatcher/dispatcher.cpp:65:13: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘std::basic_istream<char, _Traits>’
+  std::cout>>"cpu time"<<runningPCB.cpu_time>>std::endl;
+             ^
+In file included from /usr/include/c++/5/iostream:40:0,
+                 from ../dispatcher/../includes_usr/constants.h:2,
+                 from ../dispatcher/dispatcher.cpp:1:
+/usr/include/c++/5/istream:761:5: note: candidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)
+     operator>>(basic_istream<char, _Traits>& __in, signed char& __c)
+     ^
+/usr/include/c++/5/istream:761:5: note:   template argument deduction/substitution failed:
+../dispatcher/dispatcher.cpp:65:13: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘std::basic_istream<char, _Traits>’
+  std::cout>>"cpu time"<<runningPCB.cpu_time>>std::endl;
+             ^
+In file included from /usr/include/c++/5/iostream:40:0,
+                 from ../dispatcher/../includes_usr/constants.h:2,
+                 from ../dispatcher/dispatcher.cpp:1:
+/usr/include/c++/5/istream:756:5: note: candidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char& __c)
+     ^
+/usr/include/c++/5/istream:756:5: note:   template argument deduction/substitution failed:
+../dispatcher/dispatcher.cpp:65:13: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘std::basic_istream<char, _Traits>’
+  std::cout>>"cpu time"<<runningPCB.cpu_time>>std::endl;
+             ^
+In file included from /usr/include/c++/5/istream:934:0,
+                 from /usr/include/c++/5/iostream:40,
+                 from ../dispatcher/../includes_usr/constants.h:2,
+                 from ../dispatcher/dispatcher.cpp:1:
+/usr/include/c++/5/bits/istream.tcc:923:5: note: candidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)
+     ^
+/usr/include/c++/5/bits/istream.tcc:923:5: note:   template argument deduction/substitution failed:
+../dispatcher/dispatcher.cpp:65:13: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘std::basic_istream<_CharT, _Traits>’
+  std::cout>>"cpu time"<<runningPCB.cpu_time>>std::endl;
+             ^
+In file included from /usr/include/c++/5/istream:934:0,
+                 from /usr/include/c++/5/iostream:40,
+                 from ../dispatcher/../includes_usr/constants.h:2,
+                 from ../dispatcher/dispatcher.cpp:1:
+/usr/include/c++/5/bits/istream.tcc:955:5: note: candidate: template<class _CharT2, class _Traits2> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT2*)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)
+     ^
+/usr/include/c++/5/bits/istream.tcc:955:5: note:   template argument deduction/substitution failed:
+../dispatcher/dispatcher.cpp:65:13: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘std::basic_istream<_CharT, _Traits>’
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+  std::cout>>"cpu time"<<runningPCB.cpu_time>>std::endl;
+             ^
+In file included from /usr/include/c++/5/string:53:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../dispatcher/../includes_usr/constants.h:2,
+                 from ../dispatcher/dispatcher.cpp:1:
+/usr/include/c++/5/bits/basic_string.tcc:1441:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator>>(basic_istream<_CharT, _Traits>& __in,
+     ^
+/usr/include/c++/5/bits/basic_string.tcc:1441:5: note:   template argument deduction/substitution failed:
+../dispatcher/dispatcher.cpp:65:13: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘std::basic_istream<_CharT, _Traits>’
+  std::cout>>"cpu time"<<runningPCB.cpu_time>>std::endl;
+             ^
+make: *** [dispatcher/dispatcher.o] Error 1
+19:49:36 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+19:50:06 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:22 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:29 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+20:15:55 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+20:16:00 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+20:39:18 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+20:39:23 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:03:01 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+21:04:29 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+21:06:37 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:28:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+21:30:02 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:98:12: error: ‘class std::queue<PCB>’ has no member named ‘dequeue’
+    ready_Q.dequeue();
+            ^
+make: *** [dispatcher/dispatcher.o] Error 1
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+21:33:25 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+21:34:56 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:98:12: error: ‘class std::queue<PCB>’ has no member named ‘pop_back’
+    ready_Q.pop_back();
+            ^
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+make: *** [dispatcher/dispatcher.o] Error 1
+21:35:04 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+../dispatcher/dispatcher.cpp: In function ‘int dispatcher::doTick()’:
+../dispatcher/dispatcher.cpp:98:12: error: ‘class std::queue<PCB>’ has no member named ‘pop_’
+    ready_Q.pop_();
+            ^
+make: *** [dispatcher/dispatcher.o] Error 1
+dispatcher/subdir.mk:18: recipe for target 'dispatcher/dispatcher.o' failed
+21:35:20 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 

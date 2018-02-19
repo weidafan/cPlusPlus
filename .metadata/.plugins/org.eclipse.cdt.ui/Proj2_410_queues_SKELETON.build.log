@@ -1,10 +1,15 @@
-09:41:20 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+21:35:20 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
 make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
 Building target: Proj2_410_queues_SKELETON
 Invoking: GCC C++ Linker
 g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
 Finished building target: Proj2_410_queues_SKELETON
  
 
-09:41:21 Build Finished (took 619ms)
+21:35:21 Build Finished (took 1s.139ms)
 
