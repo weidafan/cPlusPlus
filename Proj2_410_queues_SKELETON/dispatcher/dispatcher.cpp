@@ -13,7 +13,7 @@ void dispatcher::init() {
 	while (!ready_Q.empty()) {
 		ready_Q.pop();
 	}
-	while (!ready_Q.empty()) {
+	while (!blocked_Q.empty()) {
 		blocked_Q.pop();
 	}
 	runningPCB.process_number = UNINITIALIZED;
@@ -36,27 +36,22 @@ void dispatcher::addJob(PCB &myPCB) {
 //or PCB_BLOCKED_QUEUE_EMPTY if there were none.
 int dispatcher::processInterrupt(int interrupt) {
 	if (interrupt == SWITCH_PROCESS) {
-		if(ready_Q.empty() || blocked_Q.empty()){
+		if (ready_Q.empty() && blocked_Q.empty()) {
 			return NO_JOBS;
-		}
-		else if(ready_Q.empty() || !blocked_Q.empty()){
+		} else if (ready_Q.empty() && !blocked_Q.empty()) {
 			return BLOCKED_JOBS;
-		}
-		else{
+		} else {
 			ready_Q.push(runningPCB);
-			PCB f = ready_Q.front();
+			runningPCB = ready_Q.front();
 			ready_Q.pop();
-			runningPCB =  f;
-		return PCB_SWITCHED_PROCESSES;
+			return PCB_SWITCHED_PROCESSES;
 		}
 	}
 	if (interrupt == IO_COMPLETE) {
 		if (!blocked_Q.empty()) {
-			while(!blocked_Q.empty()){
-				PCB f = ready_Q.front();
+			while (!blocked_Q.empty()) {
+				ready_Q.push(blocked_Q.front());
 				blocked_Q.pop();
-				PCB temp = f;
-				ready_Q.push(temp);
 			}
 			return PCB_MOVED_FROM_BLOCKED_TO_READY;
 		} else {
@@ -67,35 +62,40 @@ int dispatcher::processInterrupt(int interrupt) {
 }
 //see flowchart
 int dispatcher::doTick() {
-	if(runningPCB.start_time != 0){
-		runningPCB.cpu_time-=1;
-		if(runningPCB.cpu_time==0){
-			if(runningPCB.io_time == 0){
-				dispatcher::init() ;
+//	std::cout << "cpu time" << runningPCB.cpu_time << std::endl;
+	if (runningPCB.start_time != UNINITIALIZED) {
+		if (runningPCB.cpu_time != 0) {
+			runningPCB.cpu_time -= 1;
+		}
+		if (runningPCB.cpu_time == 0) {
+			if (runningPCB.io_time == 0) {
+				runningPCB.process_number = UNINITIALIZED;
+				runningPCB.start_time = UNINITIALIZED;
+				runningPCB.cpu_time = UNINITIALIZED;
+				runningPCB.io_time = UNINITIALIZED;
 				return PCB_FINISHED;
-			}
-			else{
+			} else {
+				runningPCB.io_time = 0;
 				blocked_Q.push(runningPCB);
+				runningPCB.process_number = UNINITIALIZED;
+				runningPCB.start_time = UNINITIALIZED;
+				runningPCB.cpu_time = UNINITIALIZED;
+				runningPCB.io_time = UNINITIALIZED;
 				return PCB_ADDED_TO_BLOCKED_QUEUE;
 			}
-		}
-		else{
+		} else {
 			return PCB_CPUTIME_DECREMENTED;
 		}
-	}
-	else{
-		if(ready_Q.empty()){
-			if(blocked_Q.empty()){
+	} else {
+		if (ready_Q.empty()) {
+			if (blocked_Q.empty()) {
 				return NO_JOBS;
-			}
-			else{
+			} else {
 				return BLOCKED_JOBS;
 			}
-		}
-		else{
-			PCB f= ready_Q.front();
+		} else {
+			runningPCB = ready_Q.front();
 			ready_Q.pop();
-			PCB runningPCB = f;
 			return PCB_MOVED_FROM_READY_TO_RUNNING;
 		}
 	}

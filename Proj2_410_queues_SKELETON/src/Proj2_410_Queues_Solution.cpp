@@ -134,26 +134,27 @@ const int	NUMBER_CYCLES_BETWEEN_IO_INTERRUPTS = 10;
 	} while (iRetJobs != NO_JOBS || iRetDispatcher != NO_JOBS);
 
 	ST_LOG::save(pLogfile);
+	return 0;
 }
 
 int main() {
-	std::remove(LOG_FILE_1_NO_IO);
-	runTest(SOURCE_FILE_1_NO_IO, LOG_FILE_1_NO_IO);
+//	std::remove(LOG_FILE_1_NO_IO);
+//	runTest(SOURCE_FILE_1_NO_IO, LOG_FILE_1_NO_IO);
 
-	std::remove(LOG_FILE_1_IO);
-	runTest(SOURCE_FILE_1_IO, LOG_FILE_1_IO);
-
+//	std::remove(LOG_FILE_1_IO);
+//	runTest(SOURCE_FILE_1_IO, LOG_FILE_1_IO);
+//
 	std::remove(LOG_FILE_2_IO);
 	runTest(SOURCE_FILE_2_IO, LOG_FILE_2_IO);
-
-	std::remove(LOG_FILE_2_noIO);
-	runTest(SOURCE_FILE_2_noIO, LOG_FILE_2_noIO);
-
-	std::remove(LOG_FILE_2_MIXED);
-	runTest(SOURCE_FILE_2_MIXED, LOG_FILE_2_MIXED);
-
-	std::remove(LOG_FILE_MANY_MIXED);
-	runTest(SOURCE_FILE_MANY_MIXED, LOG_FILE_MANY_MIXED);
+//
+//	std::remove(LOG_FILE_2_noIO);
+//	runTest(SOURCE_FILE_2_noIO, LOG_FILE_2_noIO);
+//
+//	std::remove(LOG_FILE_2_MIXED);
+//	runTest(SOURCE_FILE_2_MIXED, LOG_FILE_2_MIXED);
+//
+//	std::remove(LOG_FILE_MANY_MIXED);
+//	runTest(SOURCE_FILE_MANY_MIXED, LOG_FILE_MANY_MIXED);
 
 	return SUCCESS;
 }

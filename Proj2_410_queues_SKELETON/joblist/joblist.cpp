@@ -10,7 +10,13 @@ bool joblistHasJobs = false;
 //it by job start time
 int joblist::init(const char* filename) {
 	int l = loadData(filename);
+	if(l==SUCCESS){
 	sortData(START_TIME);
+	joblistHasJobs = true;
+	}
+	else{
+		joblistHasJobs = false;
+	}
 	return l;
 }
 //gets next job from file_IO
@@ -23,7 +29,7 @@ PCB joblist::getNextJob() {
 //If its time to load return ADD_JOB_TO_DISPATCHER
 //if not return WAITING_TO_ADD_JOB_TO_DISPATCHER
 int joblist::doTick(int currentTick) {
-	if(size == 0){
+	if(size()==0){
 	return NO_JOBS;
 	}
 	if(peekNextStartTime()== currentTick){

@@ -11,7 +11,6 @@ RM := rm -rf
 -include src/subdir.mk
 -include logger/subdir.mk
 -include joblist/subdir.mk
--include includes_usr/subdir.mk
 -include file_io/subdir.mk
 -include dispatcher/subdir.mk
 -include subdir.mk
