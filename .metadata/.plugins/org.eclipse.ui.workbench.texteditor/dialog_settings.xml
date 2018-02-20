@@ -2,17 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="temp" key="selection"/>
+		<item value="ADD_JOB_TO_DISPATCHER" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="ADD_JOB_TO_DISPATCHER"/>
+			<item value="PCB_MOVED_FROM_READY_TO_RUNNING"/>
+			<item value="PCB_FINISHED"/>
+			<item value="is now running"/>
+			<item value="timeslice_time_used"/>
+			<item value="runningPCB"/>
+			<item value="pLogfile"/>
 			<item value="myPro"/>
-			<item value="// smalltalk_VirtualAbstractVector.cpp : Defines the entry point for the console application."/>
-			<item value="/*"/>
-			<item value="TS_FIRST_NONCE"/>
-			<item value="3"/>
 		</list>
 		<list key="replacehistory">
 			<item value="temp"/>
@@ -22,7 +25,7 @@
 		<item value="318" key="DIALOG_WIDTH"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		<item value="386" key="DIALOG_HEIGHT"/>
-		<item value="481" key="DIALOG_X_ORIGIN"/>
-		<item value="97" key="DIALOG_Y_ORIGIN"/>
+		<item value="751" key="DIALOG_X_ORIGIN"/>
+		<item value="71" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

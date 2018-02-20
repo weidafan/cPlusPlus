@@ -3224,3 +3224,176 @@ java.io.IOException: Exec_tty error:Cannot run program "/home/waida/workspace/Pr
 
 !ENTRY org.eclipse.cdt.dsf.ui 2 0 2018-02-18 20:20:08.013
 !MESSAGE Unable to locate file: /build/glibc-Cl5G7W/glibc-2.23/csu/../csu/libc-start.c
+!SESSION 2018-02-19 16:55:10.091 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-02-19 16:56:42.413
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-02-19 16:56:42.442
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.447
+!MESSAGE Resource '/12_Make_Me_Threadsafe' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.448
+!MESSAGE Resource '/327_Proj4' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.448
+!MESSAGE Resource '/327_Proj4_Lib' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.448
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.448
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.449
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.449
+!MESSAGE Resource '/MED_Tester' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.449
+!MESSAGE Resource '/Project2_Starter' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.449
+!MESSAGE Resource '/crypto' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.450
+!MESSAGE Resource '/crypto_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.450
+!MESSAGE Resource '/datastore' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.450
+!MESSAGE Resource '/project1' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.451
+!MESSAGE Resource '/stringdatabase' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-19 16:56:42.451
+!MESSAGE Resource '/thread_simple' is not open.
+!SESSION 2018-02-20 10:14:55.862 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-02-20 10:16:57.151
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-02-20 10:16:57.214
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.217
+!MESSAGE Resource '/12_Make_Me_Threadsafe' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.218
+!MESSAGE Resource '/327_Proj4' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.218
+!MESSAGE Resource '/327_Proj4_Lib' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.218
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.219
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.219
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.219
+!MESSAGE Resource '/MED_Tester' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.220
+!MESSAGE Resource '/Project2_Starter' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.220
+!MESSAGE Resource '/crypto' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.220
+!MESSAGE Resource '/crypto_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.221
+!MESSAGE Resource '/datastore' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.221
+!MESSAGE Resource '/project1' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.221
+!MESSAGE Resource '/stringdatabase' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 10:16:57.222
+!MESSAGE Resource '/thread_simple' is not open.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2018-02-20 17:19:18.266
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@42560e17): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2018-02-20 17:19:18.266
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-02-20 17:19:19.428
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2018-02-20 17:21:02.710 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-02-20 17:22:36.404
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-02-20 17:22:36.411
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.415
+!MESSAGE Resource '/12_Make_Me_Threadsafe' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.416
+!MESSAGE Resource '/327_Proj4' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.416
+!MESSAGE Resource '/327_Proj4_Lib' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.416
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.417
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.417
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.417
+!MESSAGE Resource '/MED_Tester' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.418
+!MESSAGE Resource '/Project2_Starter' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.418
+!MESSAGE Resource '/crypto' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.418
+!MESSAGE Resource '/crypto_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.419
+!MESSAGE Resource '/datastore' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.419
+!MESSAGE Resource '/project1' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.419
+!MESSAGE Resource '/stringdatabase' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-02-20 17:22:36.420
+!MESSAGE Resource '/thread_simple' is not open.
