@@ -5,7 +5,11 @@
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
 //============================================================================
-
+/*
+ * 2IOtest tickcount 9 process 2 to block q and clock 10 IO complete
+ * interrupt and push back to ready q before load process 1 to ready q. clock 10 should
+ * run process 2 instead of 1.
+ */
 #include <string>
 #include <cstdio>
 
@@ -138,23 +142,23 @@ const int	NUMBER_CYCLES_BETWEEN_IO_INTERRUPTS = 10;
 }
 
 int main() {
-//	std::remove(LOG_FILE_1_NO_IO);
-//	runTest(SOURCE_FILE_1_NO_IO, LOG_FILE_1_NO_IO);
+	std::remove(LOG_FILE_1_NO_IO);
+	runTest(SOURCE_FILE_1_NO_IO, LOG_FILE_1_NO_IO);
 
-//	std::remove(LOG_FILE_1_IO);
-//	runTest(SOURCE_FILE_1_IO, LOG_FILE_1_IO);
-//
+	std::remove(LOG_FILE_1_IO);
+	runTest(SOURCE_FILE_1_IO, LOG_FILE_1_IO);
+
 	std::remove(LOG_FILE_2_IO);
 	runTest(SOURCE_FILE_2_IO, LOG_FILE_2_IO);
-//
-//	std::remove(LOG_FILE_2_noIO);
-//	runTest(SOURCE_FILE_2_noIO, LOG_FILE_2_noIO);
-//
-//	std::remove(LOG_FILE_2_MIXED);
-//	runTest(SOURCE_FILE_2_MIXED, LOG_FILE_2_MIXED);
-//
-//	std::remove(LOG_FILE_MANY_MIXED);
-//	runTest(SOURCE_FILE_MANY_MIXED, LOG_FILE_MANY_MIXED);
+
+	std::remove(LOG_FILE_2_noIO);
+	runTest(SOURCE_FILE_2_noIO, LOG_FILE_2_noIO);
+
+	std::remove(LOG_FILE_2_MIXED);
+	runTest(SOURCE_FILE_2_MIXED, LOG_FILE_2_MIXED);
+
+	std::remove(LOG_FILE_MANY_MIXED);
+	runTest(SOURCE_FILE_MANY_MIXED, LOG_FILE_MANY_MIXED);
 
 	return SUCCESS;
 }
