@@ -41,7 +41,9 @@ int dispatcher::processInterrupt(int interrupt) {
 		} else if (ready_Q.empty() && !blocked_Q.empty()) {
 			return BLOCKED_JOBS;
 		} else {
-			ready_Q.push(runningPCB);
+			if (runningPCB.process_number != UNINITIALIZED) {
+				ready_Q.push(runningPCB);
+			}
 			runningPCB = ready_Q.front();
 			ready_Q.pop();
 			return PCB_SWITCHED_PROCESSES;
@@ -62,7 +64,7 @@ int dispatcher::processInterrupt(int interrupt) {
 }
 //see flowchart
 int dispatcher::doTick() {
-//	std::cout << "cpu time" << runningPCB.cpu_time << std::endl;
+	//	std::cout << "cpu time" << runningPCB.cpu_time << std::endl;
 	if (runningPCB.start_time != UNINITIALIZED) {
 		if (runningPCB.cpu_time != 0) {
 			runningPCB.cpu_time -= 1;
