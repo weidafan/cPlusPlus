@@ -13897,3 +13897,94 @@ make: Nothing to be done for 'all'.
 17:35:44 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
 make all 
 make: Nothing to be done for 'all'.
+20:25:20 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:32:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+20:32:46 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+20:33:07 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:32:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+20:33:51 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:32:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+20:34:24 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../src/Proj2_410_Queues_Solution.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proj2_410_Queues_Solution.d" -MT"src/Proj2_410_Queues_Solution.o" -o "src/Proj2_410_Queues_Solution.o" "../src/Proj2_410_Queues_Solution.cpp"
+../src/Proj2_410_Queues_Solution.cpp: In function ‘int runTest(const char*, const char*)’:
+../src/Proj2_410_Queues_Solution.cpp:32:7: warning: unused variable ‘switchProcess’ [-Wunused-variable]
+  bool switchProcess  = false;    //when true the dispatcher will switch the running process for another
+       ^
+Finished building: ../src/Proj2_410_Queues_Solution.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+20:34:30 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:57 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+20:56:46 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+Building file: ../dispatcher/dispatcher.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dispatcher/dispatcher.d" -MT"dispatcher/dispatcher.o" -o "dispatcher/dispatcher.o" "../dispatcher/dispatcher.cpp"
+Finished building: ../dispatcher/dispatcher.cpp
+ 
+Building target: Proj2_410_queues_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "Proj2_410_queues_SKELETON"  ./src/Proj2_410_Queues_Solution.o  ./logger/logger_single_thread.o  ./joblist/joblist.o  ./file_io/file_io.o  ./dispatcher/dispatcher.o   
+Finished building target: Proj2_410_queues_SKELETON
+ 
+20:58:20 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+20:58:22 **** Incremental Build of configuration Debug for project Proj2_410_queues_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
