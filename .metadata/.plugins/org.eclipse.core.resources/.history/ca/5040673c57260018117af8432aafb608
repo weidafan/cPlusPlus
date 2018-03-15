@@ -1,0 +1,17 @@
+/*
+ * tester.h
+ *
+ *  Created on: Mar 12, 2018
+ *      Author: waida
+ */
+
+#ifndef TESTER_H_
+#define TESTER_H_
+
+class tester {
+public:
+	tester();
+	virtual ~tester();
+};
+
+#endif /* TESTER_H_ */

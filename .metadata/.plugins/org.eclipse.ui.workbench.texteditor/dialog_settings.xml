@@ -8,6 +8,7 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="/*"/>
 			<item value="ADD_JOB_TO_DISPATCHER"/>
 			<item value="PCB_MOVED_FROM_READY_TO_RUNNING"/>
 			<item value="PCB_FINISHED"/>
@@ -15,7 +16,6 @@
 			<item value="timeslice_time_used"/>
 			<item value="runningPCB"/>
 			<item value="pLogfile"/>
-			<item value="myPro"/>
 		</list>
 		<list key="replacehistory">
 			<item value="temp"/>

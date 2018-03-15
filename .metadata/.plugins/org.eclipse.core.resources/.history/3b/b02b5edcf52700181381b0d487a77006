@@ -1,0 +1,25 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Mar 12, 2018
+ *      Author: waida
+ */
+#include "tester.h"
+#include <string>
+#include <chrono>
+#include<thread>
+#include<iostream>
+using namespace std;
+int main() {
+	string s = "hello world!!!!";
+	int numThreads = 2;
+	WHICH_PRINT wp = P2;
+	int numTimesToPrint = 2;
+	int millisecond_delay = 1000;
+	startThreads(s, numThreads, wp, numTimesToPrint, millisecond_delay);
+	std::this_thread::sleep_for(std::chrono::milliseconds(900));
+	setCancelThreads(false);
+	cout << "All threads done!" << endl;
+	return 0;
+}
+

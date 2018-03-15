@@ -1,0 +1,16 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Mar 12, 2018
+ *      Author: waida
+ */
+#include "tester.cpp"
+int main(){
+	string s = "hello world!!!!";
+	int numThreads = 4;
+	WHICH_PRINT wp = P3;
+	startThreads( s, int numThreads, WHICH_PRINT wp,
+			int numTimesToPrint, int millisecond_delay)
+}
+
+

@@ -1,0 +1,17 @@
+/*
+ * print_ts.h
+ *
+ *  Created on: Mar 12, 2018
+ *      Author: waida
+ */
+
+#ifndef PRINT_TS_H_
+#define PRINT_TS_H_
+
+class print_ts {
+public:
+	print_ts();
+	virtual ~print_ts();
+};
+
+#endif /* PRINT_TS_H_ */

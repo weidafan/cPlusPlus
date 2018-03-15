@@ -1,0 +1,22 @@
+20:36:42 **** Incremental Build of configuration Debug for project osPro3 ****
+make all 
+Building file: ../print_ts.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"print_ts.d" -MT"print_ts.o" -o "print_ts.o" "../print_ts.cpp"
+../print_ts.cpp:8:20: warning: extra tokens at end of #include directive
+ #include <iostream>;
+                    ^
+Finished building: ../print_ts.cpp
+ 
+Building file: ../tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tester.d" -MT"tester.o" -o "tester.o" "../tester.cpp"
+../tester.cpp: In function ‘void startThreads(std::__cxx11::string, int, WHICH_PRINT, int, int)’:
+../tester.cpp:19:2: error: ‘cout’ is not a member of ‘std’
+  std::cout<<"kdsj";
+  ^
+make: *** [tester.o] Error 1
+subdir.mk:24: recipe for target 'tester.o' failed
+
+20:36:43 Build Finished (took 1s.524ms)
+

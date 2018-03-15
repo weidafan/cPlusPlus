@@ -1,0 +1,18 @@
+/*
+ * print_ts.cpp
+ *
+ *  Created on: Mar 12, 2018
+ *      Author: waida
+ */
+
+#include "print_ts.h"
+
+print_ts::print_ts() {
+	// TODO Auto-generated constructor stub
+
+}
+
+print_ts::~print_ts() {
+	// TODO Auto-generated destructor stub
+}
+
