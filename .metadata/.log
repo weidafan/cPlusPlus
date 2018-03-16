@@ -3516,3 +3516,58 @@ java.lang.OutOfMemoryError: unable to create new native thread
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+!SESSION 2018-03-15 10:52:19.673 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-03-15 10:58:50.441
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-03-15 10:58:50.462
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.465
+!MESSAGE Resource '/12_Make_Me_Threadsafe' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.466
+!MESSAGE Resource '/327_Proj4' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.466
+!MESSAGE Resource '/327_Proj4_Lib' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.467
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.467
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.467
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.467
+!MESSAGE Resource '/MED_Tester' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.468
+!MESSAGE Resource '/Proj2_410_queues_SKELETON' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.468
+!MESSAGE Resource '/crypto' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.468
+!MESSAGE Resource '/crypto_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.469
+!MESSAGE Resource '/datastore' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.469
+!MESSAGE Resource '/project1' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.469
+!MESSAGE Resource '/stringdatabase' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-03-15 10:58:50.469
+!MESSAGE Resource '/thread_simple' is not open.

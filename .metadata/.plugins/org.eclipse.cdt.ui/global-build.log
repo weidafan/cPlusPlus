@@ -1495,3 +1495,305 @@ Invoking: GCC C++ Linker
 g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
 Finished building target: OsPro3_thread
  
+10:58:14 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+Finished building: ../src/tester.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+10:58:50 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+10:59:12 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+11:02:17 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+11:02:37 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+11:04:42 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+Finished building: ../src/tester.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+11:34:06 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+Finished building: ../src/tester.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+11:37:45 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+Finished building: ../src/tester.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+11:44:20 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+Finished building: ../src/tester.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+11:44:34 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+make: Nothing to be done for 'all'.
+12:07:26 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+../src/tester.cpp:55:1: error: expected declaration before ‘}’ token
+ }
+ ^
+src/subdir.mk:24: recipe for target 'src/tester.o' failed
+make: *** [src/tester.o] Error 1
+12:07:27 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+12:08:02 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+In file included from /usr/include/c++/5/thread:39:0,
+                 from ../src/tester.cpp:10:
+/usr/include/c++/5/functional: In instantiation of ‘struct std::_Bind_check_arity<void (*)(std::__cxx11::basic_string<char>, WHICH_PRINT, int, int, int), std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, WHICH_PRINT&, int&, int&>’:
+/usr/include/c++/5/functional:1538:12:   required from ‘struct std::_Bind_simple_helper<void (&)(std::__cxx11::basic_string<char>, WHICH_PRINT, int, int, int), std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, WHICH_PRINT&, int&, int&>’
+/usr/include/c++/5/functional:1552:5:   required by substitution of ‘template<class _Callable, class ... _Args> typename std::_Bind_simple_helper<_Func, _BoundArgs>::__type std::__bind_simple(_Callable&&, _Args&& ...) [with _Callable = void (&)(std::__cxx11::basic_string<char>, WHICH_PRINT, int, int, int); _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, WHICH_PRINT&, int&, int&}]’
+/usr/include/c++/5/thread:137:59:   required from ‘std::thread::thread(_Callable&&, _Args&& ...) [with _Callable = void (&)(std::__cxx11::basic_string<char>, WHICH_PRINT, int, int, int); _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, WHICH_PRINT&, int&, int&}]’
+../src/tester.cpp:74:24:   required from here
+/usr/include/c++/5/functional:1410:7: error: static assertion failed: Wrong number of arguments for function
+       static_assert(sizeof...(_BoundArgs) == sizeof...(_Args),
+       ^
+/usr/include/c++/5/functional: In instantiation of ‘struct std::_Bind_simple<void (*(std::__cxx11::basic_string<char>, WHICH_PRINT, int, int))(std::__cxx11::basic_string<char>, WHICH_PRINT, int, int, int)>’:
+/usr/include/c++/5/thread:137:59:   required from ‘std::thread::thread(_Callable&&, _Args&& ...) [with _Callable = void (&)(std::__cxx11::basic_string<char>, WHICH_PRINT, int, int, int); _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, WHICH_PRINT&, int&, int&}]’
+../src/tester.cpp:74:24:   required from here
+/usr/include/c++/5/functional:1505:61: error: no type named ‘type’ in ‘class std::result_of<void (*(std::__cxx11::basic_string<char>, WHICH_PRINT, int, int))(std::__cxx11::basic_string<char>, WHICH_PRINT, int, int, int)>’
+       typedef typename result_of<_Callable(_Args...)>::type result_type;
+                                                             ^
+/usr/include/c++/5/functional:1526:9: error: no type named ‘type’ in ‘class std::result_of<void (*(std::__cxx11::basic_string<char>, WHICH_PRINT, int, int))(std::__cxx11::basic_string<char>, WHICH_PRINT, int, int, int)>’
+         _M_invoke(_Index_tuple<_Indices...>)
+         ^
+make: *** [src/tester.o] Error 1
+src/subdir.mk:24: recipe for target 'src/tester.o' failed
+12:08:04 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+12:09:10 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+../src/tester.cpp: In function ‘void startThreads(std::__cxx11::string, int, WHICH_PRINT, int, int)’:
+../src/tester.cpp:74:27: error: expected ‘)’ before ‘;’ token
+       millisecond_delay,0);
+                           ^
+src/subdir.mk:24: recipe for target 'src/tester.o' failed
+make: *** [src/tester.o] Error 1
+12:09:11 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+12:09:40 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+../src/tester.cpp: In function ‘void startThreads(std::__cxx11::string, int, WHICH_PRINT, int, int)’:
+../src/tester.cpp:74:34: error: expected ‘)’ before ‘;’ token
+       millisecond_delay,isCancel);
+                                  ^
+src/subdir.mk:24: recipe for target 'src/tester.o' failed
+make: *** [src/tester.o] Error 1
+12:09:41 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:53 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+Finished building: ../src/tester.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+12:11:55 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+12:12:04 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+make: Nothing to be done for 'all'.
+12:12:08 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+make: Nothing to be done for 'all'.
+12:13:40 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+Finished building: ../src/tester.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+12:13:58 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+19:54:14 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+Finished building: ../src/tester.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+19:54:15 **** Incremental Build of configuration Debug for project Project2_Starter ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:07 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:19 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+19:56:07 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+19:57:15 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+Finished building: ../src/tester.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+19:57:31 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/tester.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tester.d" -MT"src/tester.o" -o "src/tester.o" "../src/tester.cpp"
+Finished building: ../src/tester.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 

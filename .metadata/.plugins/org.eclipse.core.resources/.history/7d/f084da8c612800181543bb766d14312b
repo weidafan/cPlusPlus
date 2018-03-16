@@ -18,9 +18,7 @@ int main() {
 	int millisecond_delay = 100;
 	startThreads(s, numThreads, wp, numTimesToPrint, millisecond_delay);
 	std::this_thread::sleep_for(std::chrono::milliseconds(300));
-
 	setCancelThreads(false);
-
 	cout << "All threads done!" << endl;
 	return 0;
 }

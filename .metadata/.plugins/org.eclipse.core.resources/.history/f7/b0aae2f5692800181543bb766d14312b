@@ -13,12 +13,12 @@
 #include<iostream>
 using namespace std;
 int numThread;
-int isCancel = 0;
+bool isCancel = false;
 std::vector<thread> v;
 void multiprint(std::string s, WHICH_PRINT wp, int numTimesToPrint,
-		int millisecond_delay) {
+		int millisecond_delay,bool isCancel) {
 	std::thread::id this_id = std::this_thread::get_id();
-	while (isCancel == 0) {
+	while (!isCancel) {
 		for (int i = 0; i < numTimesToPrint; i++) {
 			switch (wp) {
 			case (P1):
@@ -40,19 +40,11 @@ void multiprint(std::string s, WHICH_PRINT wp, int numTimesToPrint,
 				PRINT5(s, s, s, s, s);
 				break;
 			}
+		}
 			std::this_thread::sleep_for(
 					std::chrono::milliseconds(millisecond_delay));
-		}
 	}
-	if (isCancel == 1) {
-		cout << USER_CHOSE_TO_CANCEL << endl;
-		std::cout << "Thread:" << this_id << " exiting" << std::endl;
-	}
-	if (isCancel == 2) {
-		cout << "USER CHOSE TO RESET LOGIC" << endl;
-		std::cout << "Thread:" << this_id << " exiting" << std::endl;
-	}
-
+	std::cout<<"Thread:"<<this_id<<" exiting"<<std::endl;
 }
 
 /*
@@ -67,12 +59,13 @@ void multiprint(std::string s, WHICH_PRINT wp, int numTimesToPrint,
  */
 void startThreads(std::string s, int numThreads, WHICH_PRINT wp,
 		int numTimesToPrint, int millisecond_delay) {
-	isCancel = 0;
+
 	for (int i = 0; i < numThreads; ++i) {
 		v.push_back(
 				std::thread(multiprint, s, wp, numTimesToPrint,
 						millisecond_delay));
 	}
+	isCancel = true;
 }
 
 /*
@@ -80,24 +73,23 @@ void startThreads(std::string s, int numThreads, WHICH_PRINT wp,
  * if false then just reset logic used to cancel threads
  */
 void setCancelThreads(bool bCancel) {
-	if (bCancel) {
-//		cout << USER_CHOSE_TO_CANCEL << endl;
-		isCancel = 1;
+if (bCancel) {
+	cout << USER_CHOSE_TO_CANCEL << endl;
+	isCancel = true;
+	joinThreads();
+} else {
+//		std::terminate();
 		joinThreads();
-	} else {
-		isCancel = 2;
-		std::terminate();
-		joinThreads();
-	}
+}
 }
 
 /*
  * waits for all threads to complete
  */
 void joinThreads() {
-	for (auto& thread : v) {
-		thread.join();
-	}
+for (auto& thread : v) {
+	thread.join();
+}
 
 }
 

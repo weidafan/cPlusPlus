@@ -86,8 +86,8 @@ void setCancelThreads(bool bCancel) {
 		joinThreads();
 	} else {
 		isCancel = 2;
-		std::terminate();
 		joinThreads();
+		std::terminate();
 	}
 }
 

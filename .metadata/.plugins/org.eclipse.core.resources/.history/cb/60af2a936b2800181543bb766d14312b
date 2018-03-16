@@ -16,7 +16,7 @@ int numThread;
 int isCancel = 0;
 std::vector<thread> v;
 void multiprint(std::string s, WHICH_PRINT wp, int numTimesToPrint,
-		int millisecond_delay) {
+		int millisecond_delay, int isCancel) {
 	std::thread::id this_id = std::this_thread::get_id();
 	while (isCancel == 0) {
 		for (int i = 0; i < numTimesToPrint; i++) {
@@ -71,7 +71,7 @@ void startThreads(std::string s, int numThreads, WHICH_PRINT wp,
 	for (int i = 0; i < numThreads; ++i) {
 		v.push_back(
 				std::thread(multiprint, s, wp, numTimesToPrint,
-						millisecond_delay));
+						millisecond_delay,isCancel);
 	}
 }
 
@@ -81,12 +81,11 @@ void startThreads(std::string s, int numThreads, WHICH_PRINT wp,
  */
 void setCancelThreads(bool bCancel) {
 	if (bCancel) {
-//		cout << USER_CHOSE_TO_CANCEL << endl;
+		cout << USER_CHOSE_TO_CANCEL << endl;
 		isCancel = 1;
 		joinThreads();
 	} else {
 		isCancel = 2;
-		std::terminate();
 		joinThreads();
 	}
 }
