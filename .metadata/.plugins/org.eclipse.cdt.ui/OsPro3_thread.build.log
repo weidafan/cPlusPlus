@@ -1,15 +1,6 @@
-20:50:12 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+21:30:49 **** Incremental Build of configuration Debug for project OsPro3_thread ****
 make all 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
-Finished building: ../src/main.cpp
- 
-Building target: OsPro3_thread
-Invoking: GCC C++ Linker
-g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
-Finished building target: OsPro3_thread
- 
+make: Nothing to be done for 'all'.
 
-20:50:13 Build Finished (took 1s.121ms)
+21:30:49 Build Finished (took 438ms)
 

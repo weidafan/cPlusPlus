@@ -13,7 +13,7 @@
 #include <mutex>
 #include<iostream>
 using namespace std;
-int numThread=0;
+int numThread;
 int isCancel = 0;
 mutex n;
 std::vector<thread> v;
@@ -58,6 +58,9 @@ void multiprint(std::string s, WHICH_PRINT wp, int numTimesToPrint,
 	if (isCancel == 2) {
 		n.lock();
 		cout << "USER CHOSE TO RESET LOGIC" << endl;
+		isCancel = 0;
+		numTimesToPrint = 0;
+		//		v.clear();
 		std::cout << "Thread:" << this_id << " exiting" << std::endl;
 		n.unlock();
 	}
@@ -90,13 +93,12 @@ void startThreads(std::string s, int numThreads, WHICH_PRINT wp,
  */
 void setCancelThreads(bool bCancel) {
 	if (bCancel) {
+//		cout << USER_CHOSE_TO_CANCEL << endl;
 		isCancel = 1;
 		joinThreads();
 	} else {
 		isCancel = 2;
 		joinThreads();
-		isCancel = 0;
-		numThread = 0;
 	}
 }
 

@@ -96,7 +96,7 @@ void setCancelThreads(bool bCancel) {
 		isCancel = 2;
 		joinThreads();
 		isCancel = 0;
-		numThread = 0;
+		numTimesToPrint = 0;
 	}
 }
 

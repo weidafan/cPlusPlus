@@ -13,7 +13,7 @@
 #include <mutex>
 #include<iostream>
 using namespace std;
-int numThread=0;
+int numThread;
 int isCancel = 0;
 mutex n;
 std::vector<thread> v;
@@ -24,23 +24,23 @@ void multiprint(std::string s, WHICH_PRINT wp, int numTimesToPrint,
 		if (isCancel == 0) {
 			switch (wp) {
 			case (P1):
-						PRINT1(s);
-			break;
+				PRINT1(s);
+				break;
 			case (P2):
-						PRINT2(s, s);
-			break;
+				PRINT2(s, s);
+				break;
 
 			case (P3):
-						PRINT3(s, s, s);
-			break;
+				PRINT3(s, s, s);
+				break;
 
 			case (P4):
-						PRINT4(s, s, s, s);
-			break;
+				PRINT4(s, s, s, s);
+				break;
 
 			case (P5):
-						PRINT5(s, s, s, s, s);
-			break;
+				PRINT5(s, s, s, s, s);
+				break;
 			}
 			std::this_thread::sleep_for(
 					std::chrono::milliseconds(millisecond_delay));
@@ -58,6 +58,9 @@ void multiprint(std::string s, WHICH_PRINT wp, int numTimesToPrint,
 	if (isCancel == 2) {
 		n.lock();
 		cout << "USER CHOSE TO RESET LOGIC" << endl;
+		isCancel = 0;
+		numTimesToPrint = 0;
+//		v.clear();
 		std::cout << "Thread:" << this_id << " exiting" << std::endl;
 		n.unlock();
 	}
@@ -90,13 +93,12 @@ void startThreads(std::string s, int numThreads, WHICH_PRINT wp,
  */
 void setCancelThreads(bool bCancel) {
 	if (bCancel) {
+				cout << USER_CHOSE_TO_CANCEL << endl;
 		isCancel = 1;
 		joinThreads();
 	} else {
 		isCancel = 2;
 		joinThreads();
-		isCancel = 0;
-		numThread = 0;
 	}
 }
 

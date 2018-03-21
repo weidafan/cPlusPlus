@@ -13,7 +13,7 @@
 #include <mutex>
 #include<iostream>
 using namespace std;
-int numThread=0;
+int numThread;
 int isCancel = 0;
 mutex n;
 std::vector<thread> v;
@@ -96,7 +96,7 @@ void setCancelThreads(bool bCancel) {
 		isCancel = 2;
 		joinThreads();
 		isCancel = 0;
-		numThread = 0;
+		numTimesToPrint = 0;
 	}
 }
 
