@@ -61,7 +61,7 @@ void multiprint(std::string s, WHICH_PRINT wp, int numTimesToPrint,
 		isCancel = 0;
 		numTimesToPrint = 0;
 //		v.clear();
-		std::cout << "Thread:" << this_id << " exiting" << std::endl;
+//		std::cout << "Thread:" << this_id << " exiting" << std::endl;
 		n.unlock();
 	}
 

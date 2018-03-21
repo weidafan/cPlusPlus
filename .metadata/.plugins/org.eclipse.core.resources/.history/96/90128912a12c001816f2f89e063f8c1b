@@ -59,8 +59,7 @@ void multiprint(std::string s, WHICH_PRINT wp, int numTimesToPrint,
 		n.lock();
 		cout << "USER CHOSE TO RESET LOGIC" << endl;
 		isCancel = 0;
-		numTimesToPrint = 0;
-//		v.clear();
+		numTimesToPrint = 0
 		std::cout << "Thread:" << this_id << " exiting" << std::endl;
 		n.unlock();
 	}

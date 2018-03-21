@@ -10,7 +10,6 @@
 #include <thread>
 #include <vector>
 #include <chrono>
-#include <mutex>
 #include<iostream>
 using namespace std;
 int numThread;
@@ -45,9 +44,6 @@ void multiprint(std::string s, WHICH_PRINT wp, int numTimesToPrint,
 			std::this_thread::sleep_for(
 					std::chrono::milliseconds(millisecond_delay));
 		}
-		else{
-			break;
-		}
 	}
 	if (isCancel == 1) {
 		n.lock();
@@ -58,9 +54,6 @@ void multiprint(std::string s, WHICH_PRINT wp, int numTimesToPrint,
 	if (isCancel == 2) {
 		n.lock();
 		cout << "USER CHOSE TO RESET LOGIC" << endl;
-		isCancel = 0;
-		numTimesToPrint = 0;
-//		v.clear();
 		std::cout << "Thread:" << this_id << " exiting" << std::endl;
 		n.unlock();
 	}
@@ -98,6 +91,7 @@ void setCancelThreads(bool bCancel) {
 		joinThreads();
 	} else {
 		isCancel = 2;
+		std::terminate();
 		joinThreads();
 	}
 }
