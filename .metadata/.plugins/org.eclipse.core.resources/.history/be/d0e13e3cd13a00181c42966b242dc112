@@ -1,0 +1,46 @@
+#include <mutex>
+#include "../includes/externs.h"
+#include "../includes/baker.h"
+#include <math.h>
+using namespace std;
+
+Baker::Baker(int id):id(id)
+{
+}
+
+Baker::~Baker()
+{
+}
+//bake, box and append to anOrder.boxes vector
+//if order has 13 donuts there should be 2 boxes
+//1 with 12 donuts, 1 with 1 donut
+void Baker::bake_and_box(ORDER &anOrder) {
+	ORDER newOrder = order_in_Q.front();
+	order_in_Q.pop();
+	int num_donut = newOrder.number_donuts;
+	int num_box = ceil(num_donut/12);
+	while(num_donut>=12){
+		while(box.addDonut(aDonut)){
+			num_donut--;
+		}
+	}
+	for(int i = 0 ; i< num_donut; i++){
+		Box box;
+		DONUT aDonut;
+		if(box.addDonut(aDonut));
+
+	}
+}
+//as long as there are orders in order_in_Q then
+//for each order:
+//	create box(es) filled with number of donuts in the order
+//  then place finished order on order_outvector
+//  if waiter is finished (b_WaiterIsFinished) then
+//  finish up remaining orders in order_in_Q and exit
+//
+//You will use cv_order_inQ to be notified by waiter
+//when either order_in_Q.size() > 0 or b_WaiterIsFinished == true
+//hint: wait for something to be in order_in_Q or b_WaiterIsFinished == true
+void Baker::beBaker() {
+
+}

@@ -1,0 +1,22 @@
+#include <mutex>
+
+#include "../includes/baker.h"
+using namespace std;
+
+Baker::Baker(int id):id(id)
+{
+}
+
+Baker::~Baker()
+{
+}
+//bake, box and append to anOrder.boxes vector
+//if order has 13 donuts there should be 2 boxes
+//1 with 12 donuts, 1 with 1 donut
+void Baker::bake_and_box(ORDER &anOrder) {
+	
+}
+
+void Baker::beBaker() {
+	
+}

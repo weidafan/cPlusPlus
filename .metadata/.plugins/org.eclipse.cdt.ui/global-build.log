@@ -2560,3 +2560,842 @@ Finished building target: OsPro3_thread
 21:30:49 **** Incremental Build of configuration Debug for project OsPro3_thread ****
 make all 
 make: Nothing to be done for 'all'.
+21:41:14 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+21:42:07 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+21:42:34 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+21:42:52 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+21:44:46 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+21:45:08 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+21:46:23 **** Incremental Build of configuration Debug for project OsPro3_thread ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: OsPro3_thread
+Invoking: GCC C++ Linker
+g++  -o "OsPro3_thread"  ./src/main.o ./src/print_ts.o ./src/tester.o   -lpthread
+Finished building target: OsPro3_thread
+ 
+22:37:14 **** Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/file_IO.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/file_IO.d" -MT"waiter/file_IO.o" -o "waiter/file_IO.o" "../waiter/file_IO.cpp"
+Finished building: ../waiter/file_IO.cpp
+ 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building file: ../logger/logger.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger.d" -MT"logger/logger.o" -o "logger/logger.o" "../logger/logger.cpp"
+Finished building: ../logger/logger.cpp
+ 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building file: ../baker/box.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/box.d" -MT"baker/box.o" -o "baker/box.o" "../baker/box.cpp"
+Finished building: ../baker/box.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+17:42:20 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+../waiter/waiter.cpp: In member function ‘void Waiter::beWaiter()’:
+../waiter/waiter.cpp:28:9: error: ‘anOrder’ declared as reference but not initialized
+  ORDER &anOrder;
+         ^
+../waiter/waiter.cpp:32:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../waiter/waiter.cpp:32:2: warning: statement has no effect [-Wunused-value]
+waiter/subdir.mk:21: recipe for target 'waiter/waiter.o' failed
+make: *** [waiter/waiter.o] Error 1
+17:47:46 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+../waiter/waiter.cpp: In member function ‘void Waiter::beWaiter()’:
+../waiter/waiter.cpp:28:17: error: invalid initialization of non-const reference of type ‘ORDER&’ from an rvalue of type ‘int’
+  ORDER &anOrder=0;
+                 ^
+../waiter/waiter.cpp:32:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../waiter/waiter.cpp:32:2: warning: statement has no effect [-Wunused-value]
+waiter/subdir.mk:21: recipe for target 'waiter/waiter.o' failed
+make: *** [waiter/waiter.o] Error 1
+17:47:56 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+../waiter/waiter.cpp: In member function ‘void Waiter::beWaiter()’:
+../waiter/waiter.cpp:29:31: error: no matching function for call to ‘Waiter::getNext(ORDER& (&)())’
+  while(Waiter::getNext(anOrder)==SUCCESS){
+                               ^
+../waiter/waiter.cpp:18:5: note: candidate: int Waiter::getNext(ORDER&)
+ int Waiter::getNext(ORDER &anOrder){
+     ^
+../waiter/waiter.cpp:18:5: note:   no known conversion for argument 1 from ‘ORDER&()’ to ‘ORDER&’
+../waiter/waiter.cpp:30:26: error: no matching function for call to ‘std::queue<ORDER>::push(ORDER& (&)())’
+   order_in_Q.push(anOrder);
+                          ^
+In file included from /usr/include/c++/5/queue:64:0,
+                 from ../waiter/../includes/externs.h:2,
+                 from ../waiter/waiter.cpp:3:
+/usr/include/c++/5/bits/stl_queue.h:215:7: note: candidate: void std::queue<_Tp, _Sequence>::push(const value_type&) [with _Tp = ORDER; _Sequence = std::deque<ORDER, std::allocator<ORDER> >; std::queue<_Tp, _Sequence>::value_type = ORDER]
+       push(const value_type& __x)
+       ^
+/usr/include/c++/5/bits/stl_queue.h:215:7: note:   no known conversion for argument 1 from ‘ORDER&()’ to ‘const value_type& {aka const ORDER&}’
+/usr/include/c++/5/bits/stl_queue.h:220:7: note: candidate: void std::queue<_Tp, _Sequence>::push(std::queue<_Tp, _Sequence>::value_type&&) [with _Tp = ORDER; _Sequence = std::deque<ORDER, std::allocator<ORDER> >; std::queue<_Tp, _Sequence>::value_type = ORDER]
+       push(value_type&& __x)
+       ^
+/usr/include/c++/5/bits/stl_queue.h:220:7: note:   no known conversion for argument 1 from ‘ORDER&()’ to ‘std::queue<ORDER>::value_type&& {aka ORDER&&}’
+../waiter/waiter.cpp:32:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../waiter/waiter.cpp:32:2: warning: statement has no effect [-Wunused-value]
+waiter/subdir.mk:21: recipe for target 'waiter/waiter.o' failed
+make: *** [waiter/waiter.o] Error 1
+17:48:22 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+../waiter/waiter.cpp: In member function ‘void Waiter::beWaiter()’:
+../waiter/waiter.cpp:28:28: error: invalid initialization of non-const reference of type ‘ORDER&’ from an rvalue of type ‘ORDER*’
+  ORDER &anOrder= new ORDER();
+                            ^
+../waiter/waiter.cpp:32:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../waiter/waiter.cpp:32:2: warning: statement has no effect [-Wunused-value]
+waiter/subdir.mk:21: recipe for target 'waiter/waiter.o' failed
+make: *** [waiter/waiter.o] Error 1
+17:49:57 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+../waiter/waiter.cpp: In member function ‘void Waiter::beWaiter()’:
+../waiter/waiter.cpp:28:18: error: invalid initialization of non-const reference of type ‘ORDER&’ from an rvalue of type ‘ORDER’
+  ORDER &anOrder={};
+                  ^
+In file included from ../waiter/../includes/externs.h:6:0,
+                 from ../waiter/waiter.cpp:3:
+../waiter/../includes/datastructs.h:8:8: note:   after user-defined conversion: ORDER::ORDER()
+ struct ORDER {
+        ^
+../waiter/waiter.cpp:32:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../waiter/waiter.cpp:32:2: warning: statement has no effect [-Wunused-value]
+make: *** [waiter/waiter.o] Error 1
+waiter/subdir.mk:21: recipe for target 'waiter/waiter.o' failed
+17:50:37 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+../waiter/waiter.cpp: In member function ‘void Waiter::beWaiter()’:
+../waiter/waiter.cpp:32:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../waiter/waiter.cpp:32:2: warning: statement has no effect [-Wunused-value]
+waiter/subdir.mk:21: recipe for target 'waiter/waiter.o' failed
+make: *** [waiter/waiter.o] Error 1
+17:50:43 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+../waiter/waiter.cpp: In member function ‘void Waiter::beWaiter()’:
+../waiter/waiter.cpp:29:32: error: no matching function for call to ‘Waiter::getNext(ORDER*)’
+  while(Waiter::getNext(&anOrder)==SUCCESS){
+                                ^
+../waiter/waiter.cpp:18:5: note: candidate: int Waiter::getNext(ORDER&)
+ int Waiter::getNext(ORDER &anOrder){
+     ^
+../waiter/waiter.cpp:18:5: note:   no known conversion for argument 1 from ‘ORDER*’ to ‘ORDER&’
+../waiter/waiter.cpp:32:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../waiter/waiter.cpp:32:2: warning: statement has no effect [-Wunused-value]
+waiter/subdir.mk:21: recipe for target 'waiter/waiter.o' failed
+make: *** [waiter/waiter.o] Error 1
+17:50:47 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+../waiter/waiter.cpp: In member function ‘void Waiter::beWaiter()’:
+../waiter/waiter.cpp:32:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../waiter/waiter.cpp:32:2: warning: statement has no effect [-Wunused-value]
+make: *** [waiter/waiter.o] Error 1
+waiter/subdir.mk:21: recipe for target 'waiter/waiter.o' failed
+17:54:15 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+../waiter/waiter.cpp: In member function ‘void Waiter::beWaiter()’:
+../waiter/waiter.cpp:28:19: error: missing template arguments before ‘lk’
+  std::unique_lock lk(mutex_order_inQ);
+                   ^
+waiter/subdir.mk:21: recipe for target 'waiter/waiter.o' failed
+make: *** [waiter/waiter.o] Error 1
+17:54:31 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:33:34 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:17:19: error: ‘order_in_Q’ was not declared in this scope
+  ORDER newOrder = order_in_Q.pop();
+                   ^
+../baker/Baker.cpp:19:16: error: conversion from ‘Box*’ to non-scalar type ‘Box’ requested
+  Box box = new Box;
+                ^
+../baker/Baker.cpp:20:32: error: no matching function for call to ‘Box::addDonut(DONUT*)’
+  while(box.addDonut(new DONUT())){
+                                ^
+In file included from ../baker/../includes/datastructs.h:5:0,
+                 from ../baker/../includes/baker.h:3,
+                 from ../baker/Baker.cpp:3:
+../baker/../includes/box.h:23:7: note: candidate: bool Box::addDonut(DONUT&)
+  bool addDonut(DONUT &adonut);
+       ^
+../baker/../includes/box.h:23:7: note:   no known conversion for argument 1 from ‘DONUT*’ to ‘DONUT&’
+../baker/Baker.cpp:18:6: warning: unused variable ‘num_donut’ [-Wunused-variable]
+  int num_donut = newOrder.number_donuts;
+      ^
+make: *** [baker/Baker.o] Error 1
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+21:34:20 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:17:33: error: conversion from ‘void’ to non-scalar type ‘ORDER’ requested
+  ORDER newOrder = order_in_Q.pop();
+                                 ^
+../baker/Baker.cpp:19:16: error: conversion from ‘Box*’ to non-scalar type ‘Box’ requested
+  Box box = new Box;
+                ^
+../baker/Baker.cpp:20:32: error: no matching function for call to ‘Box::addDonut(DONUT*)’
+  while(box.addDonut(new DONUT())){
+                                ^
+In file included from ../baker/../includes/datastructs.h:5:0,
+                 from ../baker/../includes/externs.h:6,
+                 from ../baker/Baker.cpp:2:
+../baker/../includes/box.h:23:7: note: candidate: bool Box::addDonut(DONUT&)
+  bool addDonut(DONUT &adonut);
+       ^
+../baker/../includes/box.h:23:7: note:   no known conversion for argument 1 from ‘DONUT*’ to ‘DONUT&’
+../baker/Baker.cpp:18:6: warning: unused variable ‘num_donut’ [-Wunused-variable]
+  int num_donut = newOrder.number_donuts;
+      ^
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+make: *** [baker/Baker.o] Error 1
+21:37:29 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:17:30: error: ‘class std::queue<ORDER>’ has no member named ‘pop_back’
+  ORDER newOrder = order_in_Q.pop_back();
+                              ^
+../baker/Baker.cpp:19:16: error: conversion from ‘Box*’ to non-scalar type ‘Box’ requested
+  Box box = new Box;
+                ^
+../baker/Baker.cpp:20:32: error: no matching function for call to ‘Box::addDonut(DONUT*)’
+  while(box.addDonut(new DONUT())){
+                                ^
+In file included from ../baker/../includes/datastructs.h:5:0,
+                 from ../baker/../includes/externs.h:6,
+                 from ../baker/Baker.cpp:2:
+../baker/../includes/box.h:23:7: note: candidate: bool Box::addDonut(DONUT&)
+  bool addDonut(DONUT &adonut);
+       ^
+../baker/../includes/box.h:23:7: note:   no known conversion for argument 1 from ‘DONUT*’ to ‘DONUT&’
+../baker/Baker.cpp:18:6: warning: unused variable ‘num_donut’ [-Wunused-variable]
+  int num_donut = newOrder.number_donuts;
+      ^
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+make: *** [baker/Baker.o] Error 1
+21:38:59 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:17:30: error: ‘class std::queue<ORDER>’ has no member named ‘deque’
+  ORDER newOrder = order_in_Q.deque();
+                              ^
+../baker/Baker.cpp:19:16: error: conversion from ‘Box*’ to non-scalar type ‘Box’ requested
+  Box box = new Box;
+                ^
+../baker/Baker.cpp:20:32: error: no matching function for call to ‘Box::addDonut(DONUT*)’
+  while(box.addDonut(new DONUT())){
+                                ^
+In file included from ../baker/../includes/datastructs.h:5:0,
+                 from ../baker/../includes/externs.h:6,
+                 from ../baker/Baker.cpp:2:
+../baker/../includes/box.h:23:7: note: candidate: bool Box::addDonut(DONUT&)
+  bool addDonut(DONUT &adonut);
+       ^
+../baker/../includes/box.h:23:7: note:   no known conversion for argument 1 from ‘DONUT*’ to ‘DONUT&’
+../baker/Baker.cpp:18:6: warning: unused variable ‘num_donut’ [-Wunused-variable]
+  int num_donut = newOrder.number_donuts;
+      ^
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+make: *** [baker/Baker.o] Error 1
+21:41:52 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:17:29: error: no match for ‘operator[]’ (operand types are ‘std::queue<ORDER>’ and ‘int’)
+  ORDER newOrder = order_in_Q[0];
+                             ^
+../baker/Baker.cpp:20:16: error: conversion from ‘Box*’ to non-scalar type ‘Box’ requested
+  Box box = new Box;
+                ^
+../baker/Baker.cpp:21:32: error: no matching function for call to ‘Box::addDonut(DONUT*)’
+  while(box.addDonut(new DONUT())){
+                                ^
+In file included from ../baker/../includes/datastructs.h:5:0,
+                 from ../baker/../includes/externs.h:6,
+                 from ../baker/Baker.cpp:2:
+../baker/../includes/box.h:23:7: note: candidate: bool Box::addDonut(DONUT&)
+  bool addDonut(DONUT &adonut);
+       ^
+../baker/../includes/box.h:23:7: note:   no known conversion for argument 1 from ‘DONUT*’ to ‘DONUT&’
+../baker/Baker.cpp:19:6: warning: unused variable ‘num_donut’ [-Wunused-variable]
+  int num_donut = newOrder.number_donuts;
+      ^
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+make: *** [baker/Baker.o] Error 1
+21:43:23 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:20:16: error: conversion from ‘Box*’ to non-scalar type ‘Box’ requested
+  Box box = new Box;
+                ^
+../baker/Baker.cpp:21:32: error: no matching function for call to ‘Box::addDonut(DONUT*)’
+  while(box.addDonut(new DONUT())){
+                                ^
+In file included from ../baker/../includes/datastructs.h:5:0,
+                 from ../baker/../includes/externs.h:6,
+                 from ../baker/Baker.cpp:2:
+../baker/../includes/box.h:23:7: note: candidate: bool Box::addDonut(DONUT&)
+  bool addDonut(DONUT &adonut);
+       ^
+../baker/../includes/box.h:23:7: note:   no known conversion for argument 1 from ‘DONUT*’ to ‘DONUT&’
+../baker/Baker.cpp:19:6: warning: unused variable ‘num_donut’ [-Wunused-variable]
+  int num_donut = newOrder.number_donuts;
+      ^
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+make: *** [baker/Baker.o] Error 1
+21:43:54 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:20:20: error: conversion from ‘Box*’ to non-scalar type ‘Box’ requested
+  Box box = new Box();
+                    ^
+../baker/Baker.cpp:21:32: error: no matching function for call to ‘Box::addDonut(DONUT*)’
+  while(box.addDonut(new DONUT())){
+                                ^
+In file included from ../baker/../includes/datastructs.h:5:0,
+                 from ../baker/../includes/externs.h:6,
+                 from ../baker/Baker.cpp:2:
+../baker/../includes/box.h:23:7: note: candidate: bool Box::addDonut(DONUT&)
+  bool addDonut(DONUT &adonut);
+       ^
+../baker/../includes/box.h:23:7: note:   no known conversion for argument 1 from ‘DONUT*’ to ‘DONUT&’
+../baker/Baker.cpp:19:6: warning: unused variable ‘num_donut’ [-Wunused-variable]
+  int num_donut = newOrder.number_donuts;
+      ^
+make: *** [baker/Baker.o] Error 1
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+21:44:31 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:20:21: error: conversion from ‘Box*’ to non-scalar type ‘Box’ requested
+  Box box1 = new Box();
+                     ^
+../baker/Baker.cpp:21:8: error: ‘box’ was not declared in this scope
+  while(box.addDonut(new DONUT())){
+        ^
+../baker/Baker.cpp:19:6: warning: unused variable ‘num_donut’ [-Wunused-variable]
+  int num_donut = newOrder.number_donuts;
+      ^
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+make: *** [baker/Baker.o] Error 1
+21:44:47 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:21:32: error: no matching function for call to ‘Box::addDonut(DONUT*)’
+  while(box.addDonut(new DONUT())){
+                                ^
+In file included from ../baker/../includes/datastructs.h:5:0,
+                 from ../baker/../includes/externs.h:6,
+                 from ../baker/Baker.cpp:2:
+../baker/../includes/box.h:23:7: note: candidate: bool Box::addDonut(DONUT&)
+  bool addDonut(DONUT &adonut);
+       ^
+../baker/../includes/box.h:23:7: note:   no known conversion for argument 1 from ‘DONUT*’ to ‘DONUT&’
+../baker/Baker.cpp:19:6: warning: unused variable ‘num_donut’ [-Wunused-variable]
+  int num_donut = newOrder.number_donuts;
+      ^
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+make: *** [baker/Baker.o] Error 1
+21:46:58 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:22:32: error: no matching function for call to ‘Box::addDonut(DONUT*)’
+  while(box.addDonut(new DONUT())){
+                                ^
+In file included from ../baker/../includes/datastructs.h:5:0,
+                 from ../baker/../includes/externs.h:6,
+                 from ../baker/Baker.cpp:2:
+../baker/../includes/box.h:23:7: note: candidate: bool Box::addDonut(DONUT&)
+  bool addDonut(DONUT &adonut);
+       ^
+../baker/../includes/box.h:23:7: note:   no known conversion for argument 1 from ‘DONUT*’ to ‘DONUT&’
+../baker/Baker.cpp:23:28: error: conversion from ‘DONUT*’ to non-scalar type ‘DONUT’ requested
+   DONUT aDonut = new DONUT();
+                            ^
+../baker/Baker.cpp:24:29: error: ‘aDONUT’ was not declared in this scope
+   while(box.addDonut(aDONUT()));
+                             ^
+../baker/Baker.cpp:19:6: warning: unused variable ‘num_donut’ [-Wunused-variable]
+  int num_donut = newOrder.number_donuts;
+      ^
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+make: *** [baker/Baker.o] Error 1
+21:48:09 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:23:28: error: conversion from ‘DONUT*’ to non-scalar type ‘DONUT’ requested
+   DONUT aDonut = new DONUT();
+                            ^
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+make: *** [baker/Baker.o] Error 1
+21:48:28 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:51:32 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:55:51 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:20:33: error: ‘ceil’ was not declared in this scope
+  int num_box = ceil(num_donut/12);
+                                 ^
+../baker/Baker.cpp:20:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut/12);
+      ^
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+make: *** [baker/Baker.o] Error 1
+21:56:53 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:21:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut/12);
+      ^
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+22:17:29 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:21:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut/12);
+      ^
+../baker/Baker.cpp: In member function ‘void Baker::beBaker()’:
+../baker/Baker.cpp:50:19: error: missing template arguments before ‘lk’
+  std::unique_lock lk(mutex_order_inQ);
+                   ^
+../baker/Baker.cpp:52:21: error: ‘lk’ was not declared in this scope
+   cv_order_inQ.wait(lk);
+                     ^
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+make: *** [baker/Baker.o] Error 1
+22:17:41 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:21:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut/12);
+      ^
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+22:18:38 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:21:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut/12);
+      ^
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+22:19:22 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:21:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut/12);
+      ^
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+22:45:03 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:21:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut/12);
+      ^
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+22:54:14 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:21:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut/12);
+      ^
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+23:10:22 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+../src/410_proj4.cpp: In function ‘int main()’:
+../src/410_proj4.cpp:90:57: error: conversion from ‘std::thread*’ to non-scalar type ‘std::thread’ requested
+  std::thread waiter = new thread(doWaiter,1,"../in1.txt");
+                                                         ^
+../src/410_proj4.cpp:91:42: error: conversion from ‘std::thread*’ to non-scalar type ‘std::thread’ requested
+  std::thread baker = new thread(doBaker,1);
+                                          ^
+make: *** [src/410_proj4.o] Error 1
+src/subdir.mk:18: recipe for target 'src/410_proj4.o' failed
+23:12:45 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+../src/410_proj4.cpp: In function ‘int main()’:
+../src/410_proj4.cpp:90:57: error: conversion from ‘std::thread*’ to non-scalar type ‘std::thread’ requested
+  std::thread waiter = new thread(doWaiter,1,"../in1.txt");
+                                                         ^
+../src/410_proj4.cpp:93:2: error: ‘baker’ was not declared in this scope
+  baker.join();
+  ^
+src/subdir.mk:18: recipe for target 'src/410_proj4.o' failed
+make: *** [src/410_proj4.o] Error 1
+23:12:52 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+../src/410_proj4.cpp: In function ‘int main()’:
+../src/410_proj4.cpp:92:2: error: ‘waiter’ was not declared in this scope
+  waiter.join();
+  ^
+../src/410_proj4.cpp:93:2: error: ‘baker’ was not declared in this scope
+  baker.join();
+  ^
+make: *** [src/410_proj4.o] Error 1
+src/subdir.mk:18: recipe for target 'src/410_proj4.o' failed
+23:13:42 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building file: ../logger/logger.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger.d" -MT"logger/logger.o" -o "logger/logger.o" "../logger/logger.cpp"
+../logger/logger.cpp: In member function ‘void Logger::clearlogfile()’:
+../logger/logger.cpp:13:17: error: missing template arguments before ‘(’ token
+  std::lock_guard(m);
+                 ^
+../logger/logger.cpp: In member function ‘void Logger::log(std::__cxx11::string)’:
+../logger/logger.cpp:22:17: error: missing template arguments before ‘(’ token
+  std::lock_guard(m);
+                 ^
+make: *** [logger/logger.o] Error 1
+logger/subdir.mk:18: recipe for target 'logger/logger.o' failed
+23:14:07 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../logger/logger.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger.d" -MT"logger/logger.o" -o "logger/logger.o" "../logger/logger.cpp"
+../logger/logger.cpp: In member function ‘void Logger::log(std::__cxx11::string)’:
+../logger/logger.cpp:22:17: error: missing template arguments before ‘(’ token
+  std::lock_guard(m);
+                 ^
+make: *** [logger/logger.o] Error 1
+logger/subdir.mk:18: recipe for target 'logger/logger.o' failed
+23:14:19 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../logger/logger.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"logger/logger.d" -MT"logger/logger.o" -o "logger/logger.o" "../logger/logger.cpp"
+Finished building: ../logger/logger.cpp
+ 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:21:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut/12);
+      ^
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+23:15:11 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+23:16:10 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+23:19:46 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+23:31:39 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+23:31:46 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+23:33:20 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+23:34:24 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.

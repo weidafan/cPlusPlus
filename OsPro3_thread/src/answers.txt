@@ -1,0 +1,8 @@
+1. how do you determine the number of threads you should launch to realistically test your application?
+	if you run all  asynchrounous threads then just use random number of threads.
+if you run synchrounous threads then use as many as you can, because the more threads you test the more chance you catch a crash.But The number of contention points is likely to be the number of threads sharing a core, since a core can either run one or two logical threads,so The optimal number of threads is likely to be either the number of cores in your machine. 	
+
+
+2. if you are lunching several threads, under what circumstances would these threads not run in parellel on a modern processor?
+	These threads are running in different processes. Multithreading is not equal to parallelism. If all threads run in one core, then you are not doing parallelism.
+

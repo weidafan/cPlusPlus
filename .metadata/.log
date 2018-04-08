@@ -3653,3 +3653,77 @@ java.io.FileNotFoundException: /home/waida/workspace/OsPro3_thread/Debug/OsPro3_
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2018-04-01 21:22:05.628 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-01 21:23:59.607
+!MESSAGE Indexed '410_proj4_SKELETON' (6 sources, 291 headers) in 20 sec: 44,753 declarations; 88,757 references; 0 unresolved inclusions; 0 syntax errors; 12 unresolved names (0.009%)
+!SESSION 2018-04-07 17:40:02.407 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-07 23:16:10.188
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-07 23:16:10.231
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.246
+!MESSAGE Resource '/12_Make_Me_Threadsafe' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.246
+!MESSAGE Resource '/327_Proj4' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.246
+!MESSAGE Resource '/327_Proj4_Lib' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.246
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.247
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.247
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.248
+!MESSAGE Resource '/MED_Tester' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.248
+!MESSAGE Resource '/OsPro3_thread' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.248
+!MESSAGE Resource '/Proj2_410_queues_SKELETON' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.249
+!MESSAGE Resource '/Project2_Starter' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.249
+!MESSAGE Resource '/crypto' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.249
+!MESSAGE Resource '/crypto_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.249
+!MESSAGE Resource '/datastore' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.250
+!MESSAGE Resource '/project1' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.267
+!MESSAGE Resource '/stringdatabase' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-07 23:16:10.267
+!MESSAGE Resource '/thread_simple' is not open.
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2018-04-07 23:35:40.181
+!MESSAGE Unable to locate file: /build/glibc-Cl5G7W/glibc-2.23/nptl/pthread_join.c

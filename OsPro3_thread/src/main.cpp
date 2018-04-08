@@ -12,14 +12,14 @@
 using namespace std;
 int main() {
 	string s = "hello world!!!!";
-	int numThreads = 3;
+	int numThreads = 10000;
 	WHICH_PRINT wp = P1;
 	int numTimesToPrint = 4;
-	int millisecond_delay = 100;
+	int millisecond_delay = 1000;
 	startThreads(s, numThreads, wp, numTimesToPrint, millisecond_delay);
-	std::this_thread::sleep_for(std::chrono::milliseconds(100));
+	std::this_thread::sleep_for(std::chrono::milliseconds(3000));
 
-	setCancelThreads(false);
+	setCancelThreads(true);
 
 	cout << "All threads done!" << endl;
 	return 0;
