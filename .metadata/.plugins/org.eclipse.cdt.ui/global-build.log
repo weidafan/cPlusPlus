@@ -3399,3 +3399,871 @@ Finished building target: 410_proj4_SKELETON
 23:34:24 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
 make all 
 make: Nothing to be done for 'all'.
+08:19:10 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:20:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut / 12);
+      ^
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+08:19:19 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+10:57:26 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+10:57:37 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+10:47:19 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+10:47:32 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:00:44 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:44 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:12:04 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:23:14 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:23:25 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:34:11 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+11:35:04 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+11:35:26 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+11:35:36 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:35:53 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:35:56 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+11:36:13 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+11:36:28 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+11:45:54 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/file_IO.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/file_IO.d" -MT"waiter/file_IO.o" -o "waiter/file_IO.o" "../waiter/file_IO.cpp"
+Finished building: ../waiter/file_IO.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+11:47:04 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+11:48:54 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+11:56:34 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+11:57:15 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/file_IO.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/file_IO.d" -MT"waiter/file_IO.o" -o "waiter/file_IO.o" "../waiter/file_IO.cpp"
+Finished building: ../waiter/file_IO.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+12:04:40 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:20:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut / 12);
+      ^
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+19:56:30 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/file_IO.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/file_IO.d" -MT"waiter/file_IO.o" -o "waiter/file_IO.o" "../waiter/file_IO.cpp"
+Finished building: ../waiter/file_IO.cpp
+ 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:20:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut / 12);
+      ^
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:04:31 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+../waiter/waiter.cpp: In member function ‘void Waiter::beWaiter()’:
+../waiter/waiter.cpp:32:15: error: invalid use of ‘std::queue<ORDER>::queue’
+    order_in_Q.queue(anOrder);
+               ^
+make: *** [waiter/waiter.o] Error 1
+waiter/subdir.mk:21: recipe for target 'waiter/waiter.o' failed
+20:05:14 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:07:42 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+20:11:28 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:12:58 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+20:13:24 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+20:23:51 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:24:58 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:27:09 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:20:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut / 12);
+      ^
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:27:31 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp: In member function ‘void Baker::bake_and_box(ORDER&)’:
+../baker/Baker.cpp:20:6: warning: unused variable ‘num_box’ [-Wunused-variable]
+  int num_box = ceil(num_donut / 12);
+      ^
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:33:53 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:36:00 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:36:35 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:37:10 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../waiter/waiter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"waiter/waiter.d" -MT"waiter/waiter.o" -o "waiter/waiter.o" "../waiter/waiter.cpp"
+Finished building: ../waiter/waiter.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:53:39 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:54:54 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:56:05 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:57:10 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:57:31 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+20:59:06 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:02:09 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:02:18 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:02:52 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:03:37 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:04:41 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+../src/410_proj4.cpp: In function ‘int main()’:
+../src/410_proj4.cpp:92:20: error: redeclaration of ‘std::thread baker’
+  std::thread baker(doBaker,2);
+                    ^
+../src/410_proj4.cpp:91:14: note: ‘std::thread baker’ previously declared here
+  std::thread baker(doBaker,1);
+              ^
+src/subdir.mk:18: recipe for target 'src/410_proj4.o' failed
+make: *** [src/410_proj4.o] Error 1
+21:05:19 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:05:23 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:37 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:10:33 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:12:24 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:18:44 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:19:24 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+../baker/Baker.cpp:71:34: warning: missing terminating " character
+   cout << "  Baker <<id<<"exiting" << endl;
+                                  ^
+../baker/Baker.cpp:71:3: error: missing terminating " character
+   cout << "  Baker <<id<<"exiting" << endl;
+   ^
+../baker/Baker.cpp: In member function ‘void Baker::beBaker()’:
+../baker/Baker.cpp:71:11: error: unable to find string literal operator ‘operator""exiting’ with ‘const char [15]’, ‘long unsigned int’ arguments
+   cout << "  Baker <<id<<"exiting" << endl;
+           ^
+baker/subdir.mk:21: recipe for target 'baker/Baker.o' failed
+make: *** [baker/Baker.o] Error 1
+21:19:43 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:20:04 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:20:16 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:22:11 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:23:04 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:23:20 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:23:43 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:25:42 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:26:21 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:28:08 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:28:13 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:28:17 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:22 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:31:04 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:32:18 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:34:42 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:34:48 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:35:03 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:36:07 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:36:11 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:37:27 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:37:34 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:38:19 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:38:31 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:39:28 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:40:46 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:41:37 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../baker/Baker.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"baker/Baker.d" -MT"baker/Baker.o" -o "baker/Baker.o" "../baker/Baker.cpp"
+Finished building: ../baker/Baker.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:41:52 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:41:56 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:45 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:42:50 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:59 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
+21:43:04 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:37 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+../src/410_proj4.cpp: In function ‘int main()’:
+../src/410_proj4.cpp:91:22: error: redeclaration of ‘std::thread waiter’
+  std::thread waiter (doWaiter,1,"./in1.txt");
+                      ^
+../src/410_proj4.cpp:90:14: note: ‘std::thread waiter’ previously declared here
+  std::thread waiter (doWaiter,1,"./in3.txt");
+              ^
+src/subdir.mk:18: recipe for target 'src/410_proj4.o' failed
+make: *** [src/410_proj4.o] Error 1
+21:43:52 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+make all 
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 

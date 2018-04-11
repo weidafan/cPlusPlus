@@ -9,7 +9,7 @@ org.eclipse.launchbar.core.descriptorType.default\:327_Proj4\ [Memcheck]/activeL
 org.eclipse.launchbar.core.descriptorType.default\:327_Proj4/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:327_proj3_test/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:327_proj3_test/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
-org.eclipse.launchbar.core.descriptorType.default\:410_proj4_SKELETON\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:410_proj4_SKELETON\ Debug/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:MED_Tester\ (1)/activeLaunchMode=linuxtools
 org.eclipse.launchbar.core.descriptorType.default\:MED_Tester/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:OSpro3\ Debug/activeLaunchMode=run

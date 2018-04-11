@@ -1,6 +1,15 @@
-23:34:24 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+21:43:52 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/410_proj4.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/410_proj4.d" -MT"src/410_proj4.o" -o "src/410_proj4.o" "../src/410_proj4.cpp"
+Finished building: ../src/410_proj4.cpp
+ 
+Building target: 410_proj4_SKELETON
+Invoking: GCC C++ Linker
+g++  -o "410_proj4_SKELETON"  ./waiter/file_IO.o ./waiter/waiter.o  ./src/410_proj4.o  ./logger/logger.o  ./baker/Baker.o ./baker/box.o   -lpthread
+Finished building target: 410_proj4_SKELETON
+ 
 
-23:34:24 Build Finished (took 425ms)
+21:43:54 Build Finished (took 1s.586ms)
 

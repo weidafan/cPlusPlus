@@ -3727,3 +3727,300 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.cdt.dsf.ui 2 0 2018-04-07 23:35:40.181
 !MESSAGE Unable to locate file: /build/glibc-Cl5G7W/glibc-2.23/nptl/pthread_join.c
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-04-07 23:38:52.587
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2018-04-10 10:46:06.590 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-04-10 10:47:03.243
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: dev.eclipse.org: Temporary failure in name resolution. ; version: 2.0.4.v20170307-1435
+!STACK 0
+java.net.UnknownHostException: dev.eclipse.org: Temporary failure in name resolution
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-10 10:47:31.619
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-10 10:47:31.621
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.624
+!MESSAGE Resource '/12_Make_Me_Threadsafe' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.625
+!MESSAGE Resource '/327_Proj4' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.625
+!MESSAGE Resource '/327_Proj4_Lib' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.626
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.626
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.626
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.627
+!MESSAGE Resource '/MED_Tester' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.627
+!MESSAGE Resource '/OsPro3_thread' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.627
+!MESSAGE Resource '/Proj2_410_queues_SKELETON' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.628
+!MESSAGE Resource '/Project2_Starter' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.628
+!MESSAGE Resource '/crypto' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.628
+!MESSAGE Resource '/crypto_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.629
+!MESSAGE Resource '/datastore' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.630
+!MESSAGE Resource '/project1' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.632
+!MESSAGE Resource '/stringdatabase' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 10:47:31.633
+!MESSAGE Resource '/thread_simple' is not open.
+!SESSION 2018-04-10 10:59:40.777 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-10 10:59:51.183
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-10 11:00:43.799
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-10 11:00:43.804
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.807
+!MESSAGE Resource '/12_Make_Me_Threadsafe' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.808
+!MESSAGE Resource '/327_Proj4' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.808
+!MESSAGE Resource '/327_Proj4_Lib' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.808
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.809
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.809
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.810
+!MESSAGE Resource '/MED_Tester' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.810
+!MESSAGE Resource '/OsPro3_thread' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.810
+!MESSAGE Resource '/Proj2_410_queues_SKELETON' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.810
+!MESSAGE Resource '/Project2_Starter' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.811
+!MESSAGE Resource '/crypto' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.811
+!MESSAGE Resource '/crypto_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.811
+!MESSAGE Resource '/datastore' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.812
+!MESSAGE Resource '/project1' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.813
+!MESSAGE Resource '/stringdatabase' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 11:00:43.813
+!MESSAGE Resource '/thread_simple' is not open.
+!SESSION 2018-04-10 19:55:29.022 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-10 19:55:54.766
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-10 20:04:31.267
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-10 20:04:31.273
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.277
+!MESSAGE Resource '/12_Make_Me_Threadsafe' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.277
+!MESSAGE Resource '/327_Proj4' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.278
+!MESSAGE Resource '/327_Proj4_Lib' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.278
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.278
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.279
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.279
+!MESSAGE Resource '/MED_Tester' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.279
+!MESSAGE Resource '/OsPro3_thread' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.279
+!MESSAGE Resource '/Proj2_410_queues_SKELETON' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.280
+!MESSAGE Resource '/Project2_Starter' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.280
+!MESSAGE Resource '/crypto' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.280
+!MESSAGE Resource '/crypto_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.280
+!MESSAGE Resource '/datastore' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.281
+!MESSAGE Resource '/project1' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.282
+!MESSAGE Resource '/stringdatabase' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:04:31.282
+!MESSAGE Resource '/thread_simple' is not open.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2018-04-10 20:21:29.120
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.debug.ui.viewmodel.SteppingController$3@69313ea6): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function java.lang.Exception: Cannot find bounds of current function' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2018-04-10 20:21:29.120
+!MESSAGE Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function
+!STACK 0
+java.lang.Exception: Cannot find bounds of current function
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+!SESSION 2018-04-10 20:21:52.519 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-10 20:24:57.812
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-10 20:24:57.819
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.823
+!MESSAGE Resource '/12_Make_Me_Threadsafe' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.824
+!MESSAGE Resource '/327_Proj4' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.824
+!MESSAGE Resource '/327_Proj4_Lib' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.825
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.825
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.825
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.826
+!MESSAGE Resource '/MED_Tester' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.826
+!MESSAGE Resource '/OsPro3_thread' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.827
+!MESSAGE Resource '/Proj2_410_queues_SKELETON' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.827
+!MESSAGE Resource '/Project2_Starter' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.827
+!MESSAGE Resource '/crypto' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.828
+!MESSAGE Resource '/crypto_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.828
+!MESSAGE Resource '/datastore' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.828
+!MESSAGE Resource '/project1' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.830
+!MESSAGE Resource '/stringdatabase' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-10 20:24:57.830
+!MESSAGE Resource '/thread_simple' is not open.

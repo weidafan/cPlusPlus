@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="ADD_JOB_TO_DISPATCHER" key="selection"/>
+		<item value="anOrder" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="anOrder"/>
 			<item value="/*"/>
 			<item value="ADD_JOB_TO_DISPATCHER"/>
 			<item value="PCB_MOVED_FROM_READY_TO_RUNNING"/>
@@ -15,7 +16,6 @@
 			<item value="is now running"/>
 			<item value="timeslice_time_used"/>
 			<item value="runningPCB"/>
-			<item value="pLogfile"/>
 		</list>
 		<list key="replacehistory">
 			<item value="temp"/>
