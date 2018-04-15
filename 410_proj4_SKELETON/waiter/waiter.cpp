@@ -25,24 +25,24 @@ int Waiter::getNext(ORDER &anOrder) {
 //when finished exits loop and signals baker(s) using cv_order_inQ that
 //it is done using b_WaiterIsFinished
 void Waiter::beWaiter() {
-	{
-		std::unique_lock<mutex> lk(mutex_order_inQ);
-		ORDER anOrder = { };
-		while (Waiter::getNext(anOrder) == SUCCESS) {
+	ORDER anOrder = { };
+	while (Waiter::getNext(anOrder) == SUCCESS) {
+		{
+			std::unique_lock<mutex> lk(mutex_order_inQ);
+			cout<< "waiter make order: "<< anOrder.order_number<<"# donuts: "<<anOrder.number_donuts<< endl;
 			order_in_Q.push(anOrder);
-			cout<< "The size of order inQ: "<<order_in_Q.size()<<endl;
 		}
-//		while(!order_in_Q.empty()){
-//			cout<<"pop the order: "<< order_in_Q.front().order_number<<" #donut" <<order_in_Q.front().number_donuts<<endl ;
-//			order_in_Q.pop();
-//		}
+			cv_order_inQ.notify_all();
+		//		while(!order_in_Q.empty()){
+		//			cout<<"pop the order: "<< order_in_Q.front().order_number<<" #donut" <<order_in_Q.front().number_donuts<<endl ;
+		//			order_in_Q.pop();
+		//		}
 	}
-	cout<<"waiter has put the order in Q call baker!!!"<<endl;
-	cv_order_inQ.notify_all();
+
 	{
-		std::unique_lock<mutex> lk(mutex_order_inQ);
+		std::unique_lock<mutex> lk(mutex_order_outQ);
 		b_WaiterIsFinished = true;
-		cout<<"Waiter has no more order!!"<<endl;
+		cout << "Waiter has no more order!!" << endl;
 	}
 	cv_order_inQ.notify_all();
 }

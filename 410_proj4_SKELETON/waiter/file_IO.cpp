@@ -105,7 +105,6 @@ int File_IO::getNext(ORDER &anOrder) {
 	//return the next one
 	anOrder = myOrders[0];
 	myOrders.erase(myOrders.begin());
-	cout<< "make order: "<< anOrder.order_number<<"# donuts: "<<anOrder.number_donuts<< endl;
 	return SUCCESS;
 }
 

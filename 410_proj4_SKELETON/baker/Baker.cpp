@@ -45,31 +45,27 @@ void Baker::bake_and_box(ORDER &anOrder) {
 //when either order_in_Q.size() > 0 or b_WaiterIsFinished == true
 //hint: wait for something to be in order_in_Q or b_WaiterIsFinished == true
 void Baker::beBaker() {
-	{
+	while (!b_WaiterIsFinished) {
 		std::unique_lock<mutex> lk(mutex_order_inQ);
-		while (order_in_Q.size() == 0) {
+		while (order_in_Q.size() == 0 && !b_WaiterIsFinished) {
 			cv_order_inQ.wait(lk);
 		}
-	}
-	while (order_in_Q.size() != 0) {
-		//		{
-		//		std::lock_guard<mutex> lk(mutex_order_outQ);
-		ORDER anOrder;
-		bake_and_box(anOrder);
-		order_out_Vector.push_back(anOrder);
-		m.lock();
-		cout << "baker " << id << " made order: id: " << anOrder.order_number
-				<< " #box:" << anOrder.boxes.size() << " #donut: "
-				<< anOrder.number_donuts << endl;
-		m.unlock();
-	}
-	{
-		std::unique_lock<mutex> lk(mutex_order_inQ);
-		while (!b_WaiterIsFinished) {
-			cv_order_inQ.wait(lk);
+
+		//	std::unique_lock<mutex> lk(mutex_order_inQ);
+		if (order_in_Q.size() != 0) {
+			ORDER anOrder;
+			bake_and_box(anOrder);
+			order_out_Vector.push_back(anOrder);
+			cout << "baker " << id << " made order: id: "
+					<< anOrder.order_number << " #box:" << anOrder.boxes.size()
+					<< " #donut: " << anOrder.number_donuts << endl;
 		}
 	}
-	m.lock();
-	cout << "  Baker " << id << " exiting" << endl;
-	m.unlock();
+	{
+		std::unique_lock<mutex> lk(mutex_order_outQ);
+//		while (!b_WaiterIsFinished) {
+//			cv_order_inQ.wait(lk);
+//		}
+		cout << "  Baker " << id << " exiting" << endl;
+	}
 }
