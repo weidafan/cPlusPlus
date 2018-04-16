@@ -17,7 +17,6 @@ Waiter::~Waiter() {
 //otherwise return contains error
 int Waiter::getNext(ORDER &anOrder) {
 	return myIO.getNext(anOrder);
-	//	return SUCCESS;
 }
 //contains a loop that will get orders from filename one at a time
 //then puts them in order_in_Q then signals baker(s) using cv_order_inQ
@@ -29,20 +28,16 @@ void Waiter::beWaiter() {
 	while (Waiter::getNext(anOrder) == SUCCESS) {
 		{
 			std::unique_lock<mutex> lk(mutex_order_inQ);
-			cout<< "waiter make order: "<< anOrder.order_number<<"# donuts: "<<anOrder.number_donuts<< endl;
+			cout<< "waiter made order: "<< anOrder.order_number<<" #donuts: "<<anOrder.number_donuts<< endl;
 			order_in_Q.push(anOrder);
 		}
 			cv_order_inQ.notify_all();
-		//		while(!order_in_Q.empty()){
-		//			cout<<"pop the order: "<< order_in_Q.front().order_number<<" #donut" <<order_in_Q.front().number_donuts<<endl ;
-		//			order_in_Q.pop();
-		//		}
 	}
 
 	{
-		std::unique_lock<mutex> lk(mutex_order_outQ);
+		std::unique_lock<mutex> lk(mutex_order_inQ);
 		b_WaiterIsFinished = true;
-		cout << "Waiter has no more order!!" << endl;
+		cout << "Waiter has no more order!! waiter exiting!" << endl;
 	}
 	cv_order_inQ.notify_all();
 }

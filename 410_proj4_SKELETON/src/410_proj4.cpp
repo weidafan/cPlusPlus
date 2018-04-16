@@ -92,11 +92,13 @@ int main()
 	std::thread baker2(doBaker,2);
 	std::thread baker3(doBaker,3);
 	std::thread baker4(doBaker,4);
+	std::thread baker5(doBaker,5);
 	waiter.join();
 	baker1.join();
 	baker2.join();
 	baker3.join();
 	baker4.join();
+	baker5.join();
 
 	audit_results();
 	return SUCCESS;

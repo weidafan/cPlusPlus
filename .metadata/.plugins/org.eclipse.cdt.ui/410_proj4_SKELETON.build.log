@@ -1,6 +1,6 @@
-00:53:08 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
+20:11:13 **** Incremental Build of configuration Debug for project 410_proj4_SKELETON ****
 make all 
 make: Nothing to be done for 'all'.
 
-00:53:08 Build Finished (took 431ms)
+20:11:14 Build Finished (took 421ms)
 

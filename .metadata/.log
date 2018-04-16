@@ -4267,3 +4267,64 @@ java.io.FileNotFoundException: /home/waida/workspace/410_proj4_SKELETON/Debug/41
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2018-04-15 19:20:04.545 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-15 19:28:38.769
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-15 19:28:38.787
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.798
+!MESSAGE Resource '/12_Make_Me_Threadsafe' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.799
+!MESSAGE Resource '/327_Proj4' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.800
+!MESSAGE Resource '/327_Proj4_Lib' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.800
+!MESSAGE Resource '/327_proj3_fileIO' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.800
+!MESSAGE Resource '/327_proj3_stringparser' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.801
+!MESSAGE Resource '/327_proj3_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.801
+!MESSAGE Resource '/MED_Tester' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.802
+!MESSAGE Resource '/OsPro3_thread' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.803
+!MESSAGE Resource '/Proj2_410_queues_SKELETON' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.804
+!MESSAGE Resource '/Project2_Starter' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.805
+!MESSAGE Resource '/crypto' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.806
+!MESSAGE Resource '/crypto_test' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.806
+!MESSAGE Resource '/datastore' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.807
+!MESSAGE Resource '/project1' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.808
+!MESSAGE Resource '/stringdatabase' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2018-04-15 19:28:38.808
+!MESSAGE Resource '/thread_simple' is not open.
